@@ -1,0 +1,543 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1
+Pbldaq_package
+Z0 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 w1628928901
+Z4 dC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/simu/FourFrameReceiver
+Z5 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/BLDAQ_Package.vhd
+Z6 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/BLDAQ_Package.vhd
+l0
+L6
+VB9nbNjH;_aha;N`l=M^:@2
+!s100 mH4G5EN6_2YP[fE06?7nd1
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1628969358
+!i10b 1
+Z9 !s108 1628969357.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/BLDAQ_Package.vhd|
+Z11 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/BLDAQ_Package.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Bbody
+Z14 DPx4 work 13 bldaq_package 0 22 B9nbNjH;_aha;N`l=M^:@2
+R0
+R1
+R2
+l0
+L36
+V1E_Pz7iU?E37N0[8L:_753
+!s100 W]lhfBdOa3TiM[Jbo8<A[0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eclockgen
+Z15 w1495695990
+R1
+R2
+R4
+Z16 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/simu/clockgen.vhd
+Z17 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/simu/clockgen.vhd
+l0
+L18
+V]7e3eFMdP4bNehWmAcg291
+!s100 j2Xk0f?G_NJTRjCM0<68f3
+R7
+32
+Z18 !s110 1628969357
+!i10b 1
+R9
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/simu/clockgen.vhd|
+Z20 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/simu/clockgen.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+DEx4 work 8 clockgen 0 22 ]7e3eFMdP4bNehWmAcg291
+l26
+L25
+VIB=F_W>37?@<EDPA:BX^W0
+!s100 EBNBF;@X>GdLK0LonB>JL3
+R7
+32
+R18
+!i10b 1
+R9
+R19
+R20
+!i113 1
+R12
+R13
+Ecounter_nbit
+Z21 w1628635188
+R0
+R1
+R2
+R4
+Z22 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Counter_nbit.vhd
+Z23 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Counter_nbit.vhd
+l0
+L5
+VVf`:4j:G6P89B^;kj8j:n1
+!s100 k?3E325hXMPDeXbl^OfOa3
+R7
+32
+R8
+!i10b 1
+Z24 !s108 1628969358.000000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Counter_nbit.vhd|
+Z26 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Counter_nbit.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R0
+R1
+R2
+DEx4 work 12 counter_nbit 0 22 Vf`:4j:G6P89B^;kj8j:n1
+l19
+L15
+VffoL0XmM<V1_2ADMZQBci2
+!s100 ;_@iWPHA>YH1GLIP;=PVk1
+R7
+32
+R8
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R12
+R13
+Edetectorsimulator
+Z27 w1628928840
+R14
+R0
+R1
+R2
+R4
+Z28 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/DetectorSimulator.vhd
+Z29 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/DetectorSimulator.vhd
+l0
+L13
+VnoNLR11zZ=bNcFOFgo^`53
+!s100 a^UZGN];6?adedjE2bX:[1
+R7
+32
+Z30 !s110 1628969359
+!i10b 1
+Z31 !s108 1628969359.000000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/DetectorSimulator.vhd|
+Z33 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/DetectorSimulator.vhd|
+!i113 1
+R12
+R13
+Aalgorithm
+R14
+R0
+R1
+R2
+DEx4 work 17 detectorsimulator 0 22 noNLR11zZ=bNcFOFgo^`53
+l53
+L27
+VOEbS@M5jW0jWioDz@8?>R1
+!s100 @j:SBMA4M5o4PA2G[hZjU3
+R7
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R12
+R13
+Efourframereceiver
+Z34 w1628971495
+R14
+R0
+R1
+R2
+R4
+Z35 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FourFrameReceiver.vhd
+Z36 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FourFrameReceiver.vhd
+l0
+L6
+V6l95JTj>m>NJ?ZzjTT^On1
+!s100 JOZem=PkmQ2I_61Pzid]m0
+R7
+32
+Z37 !s110 1628971503
+!i10b 1
+Z38 !s108 1628971503.000000
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FourFrameReceiver.vhd|
+Z40 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FourFrameReceiver.vhd|
+!i113 1
+R12
+R13
+Astructural
+R14
+R0
+R1
+R2
+DEx4 work 17 fourframereceiver 0 22 6l95JTj>m>NJ?ZzjTT^On1
+l110
+L39
+V<g<FTKV]HmJkP9OBlQI090
+!s100 >6P^]UE^OYkn_2C8]FiUb2
+R7
+32
+R37
+!i10b 1
+R38
+R39
+R40
+!i113 1
+R12
+R13
+Eframefifo
+Z41 w1628840092
+R1
+R2
+R4
+Z42 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FrameFifo.vhd
+Z43 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FrameFifo.vhd
+l0
+L42
+V28KBHL`7ZaI@c>JQ@m7X22
+!s100 mW_;AiZ>mF2X>Vc@VQiNH2
+R7
+32
+R8
+!i10b 1
+R24
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FrameFifo.vhd|
+Z45 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FrameFifo.vhd|
+!i113 1
+R12
+R13
+Asyn
+R1
+R2
+DEx4 work 9 framefifo 0 22 28KBHL`7ZaI@c>JQ@m7X22
+l97
+L59
+V_O2Ane_ZPKcDVn[Q4mMD^0
+!s100 Fi2WQ?GUAW3^fKJ]O6d4M1
+R7
+32
+R8
+!i10b 1
+R24
+R44
+R45
+!i113 1
+R12
+R13
+Eframereceiver
+Z46 w1628972315
+R0
+R1
+R2
+R4
+Z47 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FrameReceiver.vhd
+Z48 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FrameReceiver.vhd
+l0
+L6
+V4dXE5UIJ[0[X]eEScR3Xj3
+!s100 2E?lKKKdN0L[NK1K@>W9@0
+R7
+32
+Z49 !s110 1628972324
+!i10b 1
+Z50 !s108 1628972324.000000
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FrameReceiver.vhd|
+Z52 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FrameReceiver.vhd|
+!i113 1
+R12
+R13
+Aalgorithm
+R0
+R1
+R2
+Z53 DEx4 work 13 framereceiver 0 22 4dXE5UIJ[0[X]eEScR3Xj3
+l94
+L37
+VD@8K>Q1]BO]YGVTKc^g_31
+!s100 fVBH80HPjh7@=B=;8LNnD1
+R7
+32
+R49
+!i10b 1
+R50
+R51
+R52
+!i113 1
+R12
+R13
+Eframesimulator
+Z54 w1628635580
+R0
+R1
+R2
+R4
+Z55 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FrameSimulator.vhd
+Z56 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FrameSimulator.vhd
+l0
+L12
+VJn3I[NQ8DNZSFYQ0Vc<OE0
+!s100 31RRV<IIHo[[MAMC]URoV2
+R7
+32
+R30
+!i10b 1
+R31
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FrameSimulator.vhd|
+Z58 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FrameSimulator.vhd|
+!i113 1
+R12
+R13
+Aalgorithm
+R0
+R1
+R2
+DEx4 work 14 framesimulator 0 22 Jn3I[NQ8DNZSFYQ0Vc<OE0
+l84
+L34
+VeGf>e:<<K[9Tnha>N11XX0
+!s100 >^1>LKFfH32H_AhhG4n4]3
+R7
+32
+R30
+!i10b 1
+R31
+R57
+R58
+!i113 1
+R12
+R13
+Eframesizefifo
+Z59 w1628840263
+R1
+R2
+R4
+Z60 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FrameSizeFifo.vhd
+Z61 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FrameSizeFifo.vhd
+l0
+L42
+VKC8TH`9gL2S<HU3`6M;[F3
+!s100 E13=WSVP=WnFocFGF:6@a2
+R7
+32
+R8
+!i10b 1
+R24
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FrameSizeFifo.vhd|
+Z63 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FrameSizeFifo.vhd|
+!i113 1
+R12
+R13
+Asyn
+R1
+R2
+DEx4 work 13 framesizefifo 0 22 KC8TH`9gL2S<HU3`6M;[F3
+l93
+L58
+V1P8D:<<T7NY`1f@<WD4c?0
+!s100 7EbPFKTo>PT6ALa4GLdZM2
+R7
+32
+R8
+!i10b 1
+R24
+R62
+R63
+!i113 1
+R12
+R13
+Erandom_generator
+Z64 w1628635060
+R0
+R1
+R2
+R4
+Z65 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Random_generator.vhd
+Z66 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Random_generator.vhd
+l0
+L5
+Vz4`D=Dg>2n>GUTA=J]R9U1
+!s100 1bEA]A^CGN2QZa2DoTc`o1
+R7
+32
+R18
+!i10b 1
+R9
+Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Random_generator.vhd|
+Z68 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Random_generator.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R0
+R1
+R2
+DEx4 work 16 random_generator 0 22 z4`D=Dg>2n>GUTA=J]R9U1
+l18
+L17
+V185e>kJ:SaKji0VGV>bhh3
+!s100 J70Z^OTZ[P5Cj;Jig[5>C1
+R7
+32
+R18
+!i10b 1
+R9
+R67
+R68
+!i113 1
+R12
+R13
+Erisingedge_counter
+Z69 w1628590011
+R0
+R1
+R2
+R4
+Z70 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/RisingEdge_Counter.vhd
+Z71 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/RisingEdge_Counter.vhd
+l0
+L8
+VhHQZj;TWiDdi?[MPBCc?d2
+!s100 WF]4jYkBL1hiGAO<AK6KW0
+R7
+32
+R30
+!i10b 1
+R24
+Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/RisingEdge_Counter.vhd|
+Z73 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/RisingEdge_Counter.vhd|
+!i113 1
+R12
+R13
+Abehave
+R0
+R1
+R2
+DEx4 work 18 risingedge_counter 0 22 hHQZj;TWiDdi?[MPBCc?d2
+l28
+L21
+VWk7F4FEKXV1?LD0Mn1XEN1
+!s100 AaUd`JN6Q>SR=EGB64TfC2
+R7
+32
+R30
+!i10b 1
+R24
+R72
+R73
+!i113 1
+R12
+R13
+Estreamselector
+Z74 w1628930530
+R0
+R1
+R2
+R4
+Z75 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/StreamSelector.vhd
+Z76 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/StreamSelector.vhd
+l0
+L5
+V=:>oZTK_zKe;B>L_nYC9n0
+!s100 g8TH?7]O:Aj0?MPd6N9jK3
+R7
+32
+R8
+!i10b 1
+R24
+Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/StreamSelector.vhd|
+Z78 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/StreamSelector.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R0
+R1
+R2
+DEx4 work 14 streamselector 0 22 =:>oZTK_zKe;B>L_nYC9n0
+l29
+L23
+VkQXY]5<@dZl>7OZo4N>4`2
+!s100 ^gW<E=2X=U;3ec5hG5QR[0
+R7
+32
+R8
+!i10b 1
+R24
+R77
+R78
+!i113 1
+R12
+R13
+Etb
+Z79 w1628970509
+R14
+R0
+R1
+R2
+R4
+Z80 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/simu/FourFrameReceiver/TBFourFrameReceiver.vhd
+Z81 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/simu/FourFrameReceiver/TBFourFrameReceiver.vhd
+l0
+L10
+VZL0KkWGMV`_Vj:iKHSb`21
+!s100 O>4>0O3@5XP@eR^Q3;aTV3
+R7
+32
+Z82 !s110 1628970522
+!i10b 1
+Z83 !s108 1628970522.000000
+Z84 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/simu/FourFrameReceiver/TBFourFrameReceiver.vhd|
+Z85 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/simu/FourFrameReceiver/TBFourFrameReceiver.vhd|
+!i113 1
+R12
+R13
+Abench
+R14
+R0
+R1
+R2
+DEx4 work 2 tb 0 22 ZL0KkWGMV`_Vj:iKHSb`21
+l118
+L13
+Vd]hPi9cOZJZ85KmAO]hC_1
+!s100 KSHOm^89R^QYUhXSQfAW?1
+R7
+32
+R82
+!i10b 1
+R83
+R84
+R85
+!i113 1
+R12
+R13

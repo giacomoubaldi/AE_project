@@ -1,0 +1,128 @@
+{/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/Counter_nbit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/Counter_nbit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Counter_nbit
+-- Compiling architecture behavior of Counter_nbit
+
+} {} {}} {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/StreamSelector.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/StreamSelector.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity StreamSelector
+-- Compiling architecture behavior of StreamSelector
+
+} {} {}} {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/simu/FourFrameSimulator/TBFourSimulator.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/simu/FourFrameSimulator/TBFourSimulator.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package BLDAQ_Package
+-- Compiling entity TB
+-- Compiling architecture bench of TB
+
+} {} {}} {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/Random_generator.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/Random_generator.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Random_generator
+-- Compiling architecture behavior of Random_generator
+
+} {} {}} {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/Trigger_Candidate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/Trigger_Candidate.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Trigger_Candidate
+-- Compiling architecture algo of Trigger_Candidate
+
+} {} {}} {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameReceiver.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameReceiver.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity FrameReceiver
+-- Compiling architecture algorithm of FrameReceiver
+
+} {} {}} {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FourFrameReceiver.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FourFrameReceiver.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package BLDAQ_Package
+-- Compiling entity FourFrameReceiver
+-- Compiling architecture structural of FourFrameReceiver
+
+} {} {}} {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/simu/clockgen.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/simu/clockgen.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity clockgen
+-- Compiling architecture behavioral of clockgen
+
+} {} {}} {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/BLDAQ_Package.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/BLDAQ_Package.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package BLDAQ_Package
+-- Compiling package body BLDAQ_Package
+-- Loading package BLDAQ_Package
+
+} {} {}} {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameFifo.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameFifo.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FrameFifo
+-- Compiling architecture SYN of framefifo
+
+} {} {}} {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/RisingEdge_Counter.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/RisingEdge_Counter.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity RisingEdge_Counter
+-- Compiling architecture behave of RisingEdge_Counter
+
+} {} {}} {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/RandomBit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/RandomBit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity RandomBit
+-- Compiling architecture a of RandomBit
+
+} {} {}} {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameSizeFifo.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameSizeFifo.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FrameSizeFifo
+-- Compiling architecture SYN of framesizefifo
+
+} {} {}} {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/DetectorSimulator.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/DetectorSimulator.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package BLDAQ_Package
+-- Compiling entity DetectorSimulator
+-- Compiling architecture algorithm of DetectorSimulator
+
+} {} {}}

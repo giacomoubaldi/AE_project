@@ -1,0 +1,342 @@
+
+State Machine - |DE10BLDAQ_TOP|BLDAQ_Module:DUT|EventBuilder:EB|currentState
+Name currentState.ending3 currentState.ending2 currentState.ending1 currentState.reading currentState.waiting currentState.idle 
+currentState.idle 0 0 0 0 0 0 
+currentState.waiting 0 0 0 0 1 1 
+currentState.reading 0 0 0 1 0 1 
+currentState.ending1 0 0 1 0 0 1 
+currentState.ending2 0 1 0 0 0 1 
+currentState.ending3 1 0 0 0 0 1 
+
+State Machine - |DE10BLDAQ_TOP|BLDAQ_Module:DUT|EventBuilder:EB|FramePointerMemory:FPM|currentState
+Name currentState.noData currentState.ending currentState.searchmax currentState.searchmin currentState.idle 
+currentState.idle 0 0 0 0 0 
+currentState.searchmin 0 0 0 1 1 
+currentState.searchmax 0 0 1 0 1 
+currentState.ending 0 1 0 0 1 
+currentState.noData 1 0 0 0 1 
+
+State Machine - |DE10BLDAQ_TOP|BLDAQ_Module:DUT|Main_FSM:Finite_State_Machine|present_state
+Name present_state.WaitingEmptyFifo present_state.EndOfRun present_state.Run present_state.PrepareForRun present_state.Config present_state.Idle 
+present_state.Idle 0 0 0 0 0 0 
+present_state.Config 0 0 0 0 1 1 
+present_state.PrepareForRun 0 0 0 1 0 1 
+present_state.Run 0 0 1 0 0 1 
+present_state.EndOfRun 0 1 0 0 0 1 
+present_state.WaitingEmptyFifo 1 0 0 0 0 1 
+
+State Machine - |DE10BLDAQ_TOP|soc_system:u0|soc_system_mm_interconnect_1:mm_interconnect_1|altera_merlin_burst_adapter:mm_bridge_0_s0_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE10BLDAQ_TOP|soc_system:u0|soc_system_fpga_only_master:fpga_only_master|altera_avalon_packets_to_master:transacto|packets_to_master:p2m|state
+Name state.READ_SEND_WAIT state.READ_SEND_ISSUE state.READ_DATA_WAIT state.READ_CMD_WAIT state.READ_ASSERT state.RETURN_PACKET state.WRITE_WAIT state.GET_WRITE_DATA state.GET_ADDR4 state.GET_ADDR3 state.GET_ADDR2 state.GET_ADDR1 state.GET_SIZE2 state.GET_SIZE1 state.GET_EXTRA state.0000 
+state.0000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.GET_EXTRA 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.GET_SIZE1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.GET_SIZE2 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.GET_ADDR1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.GET_ADDR2 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.GET_ADDR3 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.GET_ADDR4 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.GET_WRITE_DATA 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.WRITE_WAIT 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.RETURN_PACKET 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.READ_ASSERT 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_CMD_WAIT 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_DATA_WAIT 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_SEND_ISSUE 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_SEND_WAIT 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |DE10BLDAQ_TOP|DetectorSimulator:DS|FrameSimulator:\Sens:3:FS|present_state
+Name present_state.footer present_state.sequence present_state.frame present_state.header present_state.lengthDeclaration present_state.idle 
+present_state.idle 0 0 0 0 0 0 
+present_state.lengthDeclaration 0 0 0 0 1 1 
+present_state.header 0 0 0 1 0 1 
+present_state.frame 0 0 1 0 0 1 
+present_state.sequence 0 1 0 0 0 1 
+present_state.footer 1 0 0 0 0 1 
+
+State Machine - |DE10BLDAQ_TOP|DetectorSimulator:DS|FrameSimulator:\Sens:2:FS|present_state
+Name present_state.footer present_state.sequence present_state.frame present_state.header present_state.lengthDeclaration present_state.idle 
+present_state.idle 0 0 0 0 0 0 
+present_state.lengthDeclaration 0 0 0 0 1 1 
+present_state.header 0 0 0 1 0 1 
+present_state.frame 0 0 1 0 0 1 
+present_state.sequence 0 1 0 0 0 1 
+present_state.footer 1 0 0 0 0 1 
+
+State Machine - |DE10BLDAQ_TOP|DetectorSimulator:DS|FrameSimulator:\Sens:1:FS|present_state
+Name present_state.footer present_state.sequence present_state.frame present_state.header present_state.lengthDeclaration present_state.idle 
+present_state.idle 0 0 0 0 0 0 
+present_state.lengthDeclaration 0 0 0 0 1 1 
+present_state.header 0 0 0 1 0 1 
+present_state.frame 0 0 1 0 0 1 
+present_state.sequence 0 1 0 0 0 1 
+present_state.footer 1 0 0 0 0 1 
+
+State Machine - |DE10BLDAQ_TOP|DetectorSimulator:DS|FrameSimulator:\Sens:0:FS|present_state
+Name present_state.footer present_state.sequence present_state.frame present_state.header present_state.lengthDeclaration present_state.idle 
+present_state.idle 0 0 0 0 0 0 
+present_state.lengthDeclaration 0 0 0 0 1 1 
+present_state.header 0 0 0 1 0 1 
+present_state.frame 0 0 1 0 0 1 
+present_state.sequence 0 1 0 0 0 1 
+present_state.footer 1 0 0 0 0 1 
+
+State Machine - |DE10BLDAQ_TOP|BLDAQ_Module:DUT|EventBuilder:EB|FourFrameReceiver:FR|FrameReceiver:\Sens:3:FS|present_state
+Name present_state.ending present_state.counting present_state.idle 
+present_state.idle 0 0 0 
+present_state.counting 0 1 1 
+present_state.ending 1 0 1 
+
+State Machine - |DE10BLDAQ_TOP|BLDAQ_Module:DUT|EventBuilder:EB|FourFrameReceiver:FR|FrameReceiver:\Sens:2:FS|present_state
+Name present_state.ending present_state.counting present_state.idle 
+present_state.idle 0 0 0 
+present_state.counting 0 1 1 
+present_state.ending 1 0 1 
+
+State Machine - |DE10BLDAQ_TOP|BLDAQ_Module:DUT|EventBuilder:EB|FourFrameReceiver:FR|FrameReceiver:\Sens:1:FS|present_state
+Name present_state.ending present_state.counting present_state.idle 
+present_state.idle 0 0 0 
+present_state.counting 0 1 1 
+present_state.ending 1 0 1 
+
+State Machine - |DE10BLDAQ_TOP|BLDAQ_Module:DUT|EventBuilder:EB|FourFrameReceiver:FR|FrameReceiver:\Sens:0:FS|present_state
+Name present_state.ending present_state.counting present_state.idle 
+present_state.idle 0 0 0 
+present_state.counting 0 1 1 
+present_state.ending 1 0 1 
+
+State Machine - |DE10BLDAQ_TOP|BLDAQ_Module:DUT|DetectorSimulator:DS|FrameSimulator:\Sens:3:FS|present_state
+Name present_state.footer present_state.sequence present_state.frame present_state.header present_state.lengthDeclaration present_state.idle 
+present_state.idle 0 0 0 0 0 0 
+present_state.lengthDeclaration 0 0 0 0 1 1 
+present_state.header 0 0 0 1 0 1 
+present_state.frame 0 0 1 0 0 1 
+present_state.sequence 0 1 0 0 0 1 
+present_state.footer 1 0 0 0 0 1 
+
+State Machine - |DE10BLDAQ_TOP|BLDAQ_Module:DUT|DetectorSimulator:DS|FrameSimulator:\Sens:2:FS|present_state
+Name present_state.footer present_state.sequence present_state.frame present_state.header present_state.lengthDeclaration present_state.idle 
+present_state.idle 0 0 0 0 0 0 
+present_state.lengthDeclaration 0 0 0 0 1 1 
+present_state.header 0 0 0 1 0 1 
+present_state.frame 0 0 1 0 0 1 
+present_state.sequence 0 1 0 0 0 1 
+present_state.footer 1 0 0 0 0 1 
+
+State Machine - |DE10BLDAQ_TOP|BLDAQ_Module:DUT|DetectorSimulator:DS|FrameSimulator:\Sens:1:FS|present_state
+Name present_state.footer present_state.sequence present_state.frame present_state.header present_state.lengthDeclaration present_state.idle 
+present_state.idle 0 0 0 0 0 0 
+present_state.lengthDeclaration 0 0 0 0 1 1 
+present_state.header 0 0 0 1 0 1 
+present_state.frame 0 0 1 0 0 1 
+present_state.sequence 0 1 0 0 0 1 
+present_state.footer 1 0 0 0 0 1 
+
+State Machine - |DE10BLDAQ_TOP|BLDAQ_Module:DUT|DetectorSimulator:DS|FrameSimulator:\Sens:0:FS|present_state
+Name present_state.footer present_state.sequence present_state.frame present_state.header present_state.lengthDeclaration present_state.idle 
+present_state.idle 0 0 0 0 0 0 
+present_state.lengthDeclaration 0 0 0 0 1 1 
+present_state.header 0 0 0 1 0 1 
+present_state.frame 0 0 1 0 0 1 
+present_state.sequence 0 1 0 0 0 1 
+present_state.footer 1 0 0 0 0 1 
+
+State Machine - |DE10BLDAQ_TOP|soc_system:u0|interrupt_latency_counter:ilc|state_machine_counter:state_machine[2].state_machine_counter|state
+Name state.STORE state.STOP state.START state.IDLE 
+state.IDLE 0 0 0 0 
+state.START 0 0 1 1 
+state.STOP 0 1 0 1 
+state.STORE 1 0 0 1 
+
+State Machine - |DE10BLDAQ_TOP|soc_system:u0|interrupt_latency_counter:ilc|state_machine_counter:state_machine[1].state_machine_counter|state
+Name state.STORE state.STOP state.START state.IDLE 
+state.IDLE 0 0 0 0 
+state.START 0 0 1 1 
+state.STOP 0 1 0 1 
+state.STORE 1 0 0 1 
+
+State Machine - |DE10BLDAQ_TOP|soc_system:u0|interrupt_latency_counter:ilc|state_machine_counter:state_machine[0].state_machine_counter|state
+Name state.STORE state.STOP state.START state.IDLE 
+state.IDLE 0 0 0 0 
+state.START 0 0 1 1 
+state.STOP 0 1 0 1 
+state.STORE 1 0 0 1 
+
+State Machine - |DE10BLDAQ_TOP|soc_system:u0|soc_system_mm_interconnect_1:mm_interconnect_1|altera_merlin_burst_adapter:iofifocontrol_0_avalon_slave_0_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE10BLDAQ_TOP|DataTransfer:DT|current_state
+Name current_state.ending current_state.transferring current_state.startTransfer current_state.waitstart 
+current_state.waitstart 0 0 0 0 
+current_state.startTransfer 0 0 1 1 
+current_state.transferring 0 1 0 1 
+current_state.ending 1 0 0 1 
+
+State Machine - |DE10BLDAQ_TOP|BLDAQ_Module:DUT|EventBuilder:EB|FourFrameReceiver:FR|currentState
+Name currentState.ending currentState.transferring currentState.idle 
+currentState.idle 0 0 0 
+currentState.transferring 0 1 1 
+currentState.ending 1 0 1 
+
+State Machine - |DE10BLDAQ_TOP|BLDAQ_Module:DUT|EventBuilder:EB|FourFrameReceiver:FR|FrameReceiver:\Sens:3:FS|currentState
+Name currentState.endingSt currentState.countingSt currentState.msbClkCountSt currentState.lsbClkCountSt currentState.timeStampSt currentState.sizeSt currentState.idleSt 
+currentState.idleSt 0 0 0 0 0 0 0 
+currentState.sizeSt 0 0 0 0 0 1 1 
+currentState.timeStampSt 0 0 0 0 1 0 1 
+currentState.lsbClkCountSt 0 0 0 1 0 0 1 
+currentState.msbClkCountSt 0 0 1 0 0 0 1 
+currentState.countingSt 0 1 0 0 0 0 1 
+currentState.endingSt 1 0 0 0 0 0 1 
+
+State Machine - |DE10BLDAQ_TOP|BLDAQ_Module:DUT|EventBuilder:EB|FourFrameReceiver:FR|FrameReceiver:\Sens:2:FS|currentState
+Name currentState.endingSt currentState.countingSt currentState.msbClkCountSt currentState.lsbClkCountSt currentState.timeStampSt currentState.sizeSt currentState.idleSt 
+currentState.idleSt 0 0 0 0 0 0 0 
+currentState.sizeSt 0 0 0 0 0 1 1 
+currentState.timeStampSt 0 0 0 0 1 0 1 
+currentState.lsbClkCountSt 0 0 0 1 0 0 1 
+currentState.msbClkCountSt 0 0 1 0 0 0 1 
+currentState.countingSt 0 1 0 0 0 0 1 
+currentState.endingSt 1 0 0 0 0 0 1 
+
+State Machine - |DE10BLDAQ_TOP|BLDAQ_Module:DUT|EventBuilder:EB|FourFrameReceiver:FR|FrameReceiver:\Sens:1:FS|currentState
+Name currentState.endingSt currentState.countingSt currentState.msbClkCountSt currentState.lsbClkCountSt currentState.timeStampSt currentState.sizeSt currentState.idleSt 
+currentState.idleSt 0 0 0 0 0 0 0 
+currentState.sizeSt 0 0 0 0 0 1 1 
+currentState.timeStampSt 0 0 0 0 1 0 1 
+currentState.lsbClkCountSt 0 0 0 1 0 0 1 
+currentState.msbClkCountSt 0 0 1 0 0 0 1 
+currentState.countingSt 0 1 0 0 0 0 1 
+currentState.endingSt 1 0 0 0 0 0 1 
+
+State Machine - |DE10BLDAQ_TOP|BLDAQ_Module:DUT|EventBuilder:EB|FourFrameReceiver:FR|FrameReceiver:\Sens:0:FS|currentState
+Name currentState.endingSt currentState.countingSt currentState.msbClkCountSt currentState.lsbClkCountSt currentState.timeStampSt currentState.sizeSt currentState.idleSt 
+currentState.idleSt 0 0 0 0 0 0 0 
+currentState.sizeSt 0 0 0 0 0 1 1 
+currentState.timeStampSt 0 0 0 0 1 0 1 
+currentState.lsbClkCountSt 0 0 0 1 0 0 1 
+currentState.msbClkCountSt 0 0 1 0 0 0 1 
+currentState.countingSt 0 1 0 0 0 0 1 
+currentState.endingSt 1 0 0 0 0 0 1 
+
+State Machine - |DE10BLDAQ_TOP|soc_system:u0|soc_system_mm_interconnect_1:mm_interconnect_1|altera_merlin_burst_adapter:version_pio_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE10BLDAQ_TOP|BLDAQ_Module:DUT|CommunicationModule:ComMod|Local_RXTX:LocalCommRXTX|present_state
+Name present_state.erase present_state.readFooter present_state.resetRegister present_state.writing present_state.dataToWrite present_state.addressToWrite present_state.footer2 present_state.footer1 present_state.readRegister present_state.waitToread present_state.addressToRead present_state.header2 present_state.header1 present_state.writeLength present_state.changeState present_state.catchState present_state.decode present_state.lengthCapture present_state.waiting present_state.idle 
+present_state.idle 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+present_state.waiting 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+present_state.lengthCapture 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+present_state.decode 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+present_state.catchState 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+present_state.changeState 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+present_state.writeLength 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+present_state.header1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+present_state.header2 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+present_state.addressToRead 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+present_state.waitToread 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+present_state.readRegister 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+present_state.footer1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+present_state.footer2 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+present_state.addressToWrite 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+present_state.dataToWrite 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+present_state.writing 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+present_state.resetRegister 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+present_state.readFooter 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+present_state.erase 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |DE10BLDAQ_TOP|soc_system:u0|soc_system_mm_interconnect_1:mm_interconnect_1|altera_merlin_burst_adapter:button_pio_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE10BLDAQ_TOP|soc_system:u0|soc_system_fpga_only_master:hps_only_master|altera_avalon_packets_to_master:transacto|packets_to_master:p2m|state
+Name state.READ_SEND_WAIT state.READ_SEND_ISSUE state.READ_DATA_WAIT state.READ_CMD_WAIT state.READ_ASSERT state.RETURN_PACKET state.WRITE_WAIT state.GET_WRITE_DATA state.GET_ADDR4 state.GET_ADDR3 state.GET_ADDR2 state.GET_ADDR1 state.GET_SIZE2 state.GET_SIZE1 state.GET_EXTRA state.0000 
+state.0000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.GET_EXTRA 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.GET_SIZE1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.GET_SIZE2 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.GET_ADDR1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.GET_ADDR2 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.GET_ADDR3 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.GET_ADDR4 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.GET_WRITE_DATA 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.WRITE_WAIT 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.RETURN_PACKET 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.READ_ASSERT 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_CMD_WAIT 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_DATA_WAIT 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_SEND_ISSUE 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_SEND_WAIT 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |DE10BLDAQ_TOP|soc_system:u0|soc_system_mm_interconnect_1:mm_interconnect_1|altera_merlin_burst_adapter:dipsw_pio_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE10BLDAQ_TOP|soc_system:u0|soc_system_mm_interconnect_1:mm_interconnect_1|altera_merlin_burst_adapter:led_pio_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE10BLDAQ_TOP|soc_system:u0|soc_system_mm_interconnect_1:mm_interconnect_1|altera_merlin_burst_adapter:sysid_qsys_control_slave_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE10BLDAQ_TOP|ADC_controller_IP:adc_0|ADC_controller_IP_adc_mega_0:adc_mega_0|altera_up_avalon_adv_adc:ADC_CTRL|currState
+Name currState.pauseStateNoAddrIncr currState.initCtrlRegState currState.pauseState currState.doneState currState.transState currState.waitState currState.resetState 
+currState.resetState 0 0 0 0 0 0 0 
+currState.waitState 0 0 0 0 0 1 1 
+currState.transState 0 0 0 0 1 0 1 
+currState.doneState 0 0 0 1 0 0 1 
+currState.pauseState 0 0 1 0 0 0 1 
+currState.initCtrlRegState 0 1 0 0 0 0 1 
+currState.pauseStateNoAddrIncr 1 0 0 0 0 0 1 
+
+State Machine - |DE10BLDAQ_TOP|soc_system:u0|soc_system_fpga_only_master:hps_only_master|altera_avalon_st_jtag_interface:jtag_phy_embedded_in_jtag_master|altera_jtag_dc_streaming:normal.jtag_dc_streaming|altera_jtag_streaming:jtag_streaming|read_state
+Name read_state.ST_HEADER read_state.ST_READ_DATA read_state.ST_PADDED 
+read_state.ST_HEADER 0 0 0 
+read_state.ST_PADDED 1 0 1 
+read_state.ST_READ_DATA 1 1 0 
+
+State Machine - |DE10BLDAQ_TOP|soc_system:u0|soc_system_fpga_only_master:hps_only_master|altera_avalon_st_jtag_interface:jtag_phy_embedded_in_jtag_master|altera_jtag_dc_streaming:normal.jtag_dc_streaming|altera_jtag_streaming:jtag_streaming|write_state
+Name write_state.ST_WRITE_DATA write_state.ST_HEADER_2 write_state.ST_HEADER_1 write_state.ST_BYPASS 
+write_state.ST_BYPASS 0 0 0 0 
+write_state.ST_HEADER_1 0 0 1 1 
+write_state.ST_HEADER_2 0 1 0 1 
+write_state.ST_WRITE_DATA 1 0 0 1 
+
+State Machine - |DE10BLDAQ_TOP|soc_system:u0|soc_system_fpga_only_master:fpga_only_master|altera_avalon_st_jtag_interface:jtag_phy_embedded_in_jtag_master|altera_jtag_dc_streaming:normal.jtag_dc_streaming|altera_jtag_streaming:jtag_streaming|read_state
+Name read_state.ST_HEADER read_state.ST_READ_DATA read_state.ST_PADDED 
+read_state.ST_HEADER 0 0 0 
+read_state.ST_PADDED 1 0 1 
+read_state.ST_READ_DATA 1 1 0 
+
+State Machine - |DE10BLDAQ_TOP|soc_system:u0|soc_system_fpga_only_master:fpga_only_master|altera_avalon_st_jtag_interface:jtag_phy_embedded_in_jtag_master|altera_jtag_dc_streaming:normal.jtag_dc_streaming|altera_jtag_streaming:jtag_streaming|write_state
+Name write_state.ST_WRITE_DATA write_state.ST_HEADER_2 write_state.ST_HEADER_1 write_state.ST_BYPASS 
+write_state.ST_BYPASS 0 0 0 0 
+write_state.ST_HEADER_1 0 0 1 1 
+write_state.ST_HEADER_2 0 1 0 1 
+write_state.ST_WRITE_DATA 1 0 0 1 

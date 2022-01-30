@@ -1,0 +1,13 @@
+
+
+BLDAQ_Module
+- DetectorSimulator  (should be outside...)
+  -  4x FrameSimulator
+  
+- InSigCtrl: InSignControl      (external HW signal control)
+  - MainTriggerCounter : RisingEdge_Counter (counter of the received triggers)
+  - BCO_Counter : RisingEdge_Counter
+
+- TSBX: Counter_nbit (global BX timestamp)
+- Finite_State_Machine: Main_FSM
+- C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/soc_system/synthesis/submodules/Event_data_to_DDR3.vhd

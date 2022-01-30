@@ -1,0 +1,693 @@
+# Loading project FrameSim
+# reading /home/giacomo/intelFPGA/16.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project simulator
+# Window cannot be closed because the modal window "Add file to Project" is still open.
+# Compile of TBSimulator.vhd was successful.
+# Compile of FrameSimulator.vhd was successful.
+# Compile of Random_generator.vhd was successful.
+# Compile of RandomBit.vhd was successful.
+# Compile of clockgen.vhd was successful.
+# Compile of Counter_nbit.vhd was successful.
+# Compile of FrameReceiver.vhd was successful.
+# Compile of Trigger_Candidate.vhd was successful.
+# Compile of FrameFifo.vhd was successful.
+# Compile of FrameSizeFifo.vhd was successful.
+# 10 compiles, 0 failed with no errors.
+# Compile of TBSimulator.vhd was successful.
+# Compile of FrameSimulator.vhd was successful.
+# Compile of Random_generator.vhd was successful.
+# Compile of RandomBit.vhd was successful.
+# Compile of clockgen.vhd was successful.
+# Compile of Counter_nbit.vhd was successful.
+# Compile of FrameReceiver.vhd was successful.
+# Compile of Trigger_Candidate.vhd was successful.
+# Compile of FrameFifo.vhd was successful.
+# Compile of FrameSizeFifo.vhd was successful.
+# 10 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of TBSimulator.vhd failed with 1 errors.
+# Compile of FrameSimulator.vhd failed with 1 errors.
+# Compile of Random_generator.vhd failed with 1 errors.
+# Compile of RandomBit.vhd failed with 1 errors.
+# Compile of clockgen.vhd failed with 1 errors.
+# Compile of Counter_nbit.vhd failed with 1 errors.
+# Compile of FrameReceiver.vhd failed with 1 errors.
+# Compile of Trigger_Candidate.vhd failed with 1 errors.
+# Compile of FrameFifo.vhd failed with 1 errors.
+# Compile of FrameSizeFifo.vhd failed with 1 errors.
+# 10 compiles, 10 failed with 10 errors.
+# Load canceled
+# Compile of TBSimulator.vhd was successful.
+# Compile of FrameSimulator.vhd was successful.
+# Compile of Random_generator.vhd was successful.
+# Compile of RandomBit.vhd was successful.
+# Compile of clockgen.vhd was successful.
+# Compile of Counter_nbit.vhd was successful.
+# Compile of FrameReceiver.vhd was successful.
+# Compile of Trigger_Candidate.vhd was successful.
+# Compile of FrameFifo.vhd was successful.
+# Compile of FrameSizeFifo.vhd was successful.
+# 10 compiles, 0 failed with no errors.
+# Load canceled
+do simu.do
+# vsim -t 1ns work.tb 
+# Start time: 17:49:24 on Jan 25,2022
+# ** Error: (vsim-3170) Could not find 'tb'.
+#         Searched libraries:
+#             /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/simu/Simulator/work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./simu.do PAUSED at line 1
+# Compile of TBSimulator.vhd was successful.
+# Compile of FrameSimulator.vhd was successful.
+# Compile of Random_generator.vhd was successful.
+# Compile of RandomBit.vhd was successful.
+# Compile of clockgen.vhd was successful.
+# Compile of Counter_nbit.vhd was successful.
+# Compile of FrameReceiver.vhd was successful.
+# Compile of Trigger_Candidate.vhd was successful.
+# Compile of FrameFifo.vhd was successful.
+# Compile of FrameSizeFifo.vhd was successful.
+# 10 compiles, 0 failed with no errors.
+# Break key hit
+do simu.do
+# vsim -t 1ns work.tbs 
+# Start time: 17:49:24 on Jan 25,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tbs(bench)
+# Loading work.clockgen(behavioral)
+# Loading work.counter_nbit(behavior)
+# ** Warning: (vsim-3473) Component instance "BCO_Counter : RisingEdge_Counter" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /tbs File: /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/simu/Simulator/TBSimulator.vhd
+# Loading work.randombit(a)
+# Loading work.framesimulator(algorithm)
+# Loading work.random_generator(behavior)
+# Loading work.framereceiver(algorithm)
+# Loading work.framefifo(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.scfifo(behavior)
+# Loading work.framesizefifo(syn)
+# Loading work.trigger_candidate(algo)
+# WARNING: No extended dataflow license exists
+# ** Error: (vish-4014) No objects found matching '/tb/*'.
+# Error in macro ./simu.do line 3
+# (vish-4014) No objects found matching '/tb/*'.
+#     while executing
+# "add wave -hexadecimal /tb/*"
+quit -sim
+# End time: 17:53:43 on Jan 25,2022, Elapsed time: 0:04:19
+# Errors: 4, Warnings: 2
+# Compile of TBSimulator.vhd was successful.
+# Compile of FrameSimulator.vhd was successful.
+# Compile of Random_generator.vhd was successful.
+# Compile of RandomBit.vhd was successful.
+# Compile of clockgen.vhd was successful.
+# Compile of Counter_nbit.vhd was successful.
+# Compile of FrameReceiver.vhd was successful.
+# Compile of Trigger_Candidate.vhd was successful.
+# Compile of FrameFifo.vhd was successful.
+# Compile of FrameSizeFifo.vhd was successful.
+# 10 compiles, 0 failed with no errors.
+# Load canceled
+do simu.do
+# vsim -t 1ns work.tbs 
+# Start time: 17:53:56 on Jan 25,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tbs(bench)
+# Loading work.clockgen(behavioral)
+# Loading work.counter_nbit(behavior)
+# ** Warning: (vsim-3473) Component instance "BCO_Counter : RisingEdge_Counter" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /tbs File: /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/simu/Simulator/TBSimulator.vhd
+# Loading work.randombit(a)
+# Loading work.framesimulator(algorithm)
+# Loading work.random_generator(behavior)
+# Loading work.framereceiver(algorithm)
+# Loading work.framefifo(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.scfifo(behavior)
+# Loading work.framesizefifo(syn)
+# Loading work.trigger_candidate(algo)
+# WARNING: No extended dataflow license exists
+# ** Error: (vish-4014) No objects found matching '/tb/*'.
+# Error in macro ./simu.do line 3
+# (vish-4014) No objects found matching '/tb/*'.
+#     while executing
+# "add wave -hexadecimal /tb/*"
+quit -sim
+# End time: 17:54:29 on Jan 25,2022, Elapsed time: 0:00:33
+# Errors: 3, Warnings: 2
+do simu.do
+# vsim -t 1ns work.tbs 
+# Start time: 17:54:35 on Jan 25,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tbs(bench)
+# Loading work.clockgen(behavioral)
+# Loading work.counter_nbit(behavior)
+# ** Warning: (vsim-3473) Component instance "BCO_Counter : RisingEdge_Counter" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /tbs File: /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/simu/Simulator/TBSimulator.vhd
+# Loading work.randombit(a)
+# Loading work.framesimulator(algorithm)
+# Loading work.random_generator(behavior)
+# Loading work.framereceiver(algorithm)
+# Loading work.framefifo(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.scfifo(behavior)
+# Loading work.framesizefifo(syn)
+# Loading work.trigger_candidate(algo)
+# WARNING: No extended dataflow license exists
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+add wave -position insertpoint sim:/tbs/DUT1/*
+quit -sim
+# End time: 17:55:42 on Jan 25,2022, Elapsed time: 0:01:07
+# Errors: 0, Warnings: 10
+do simu.do
+# vsim -t 1ns work.tbs 
+# Start time: 17:55:47 on Jan 25,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tbs(bench)
+# Loading work.clockgen(behavioral)
+# Loading work.counter_nbit(behavior)
+# ** Warning: (vsim-3473) Component instance "BCO_Counter : RisingEdge_Counter" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /tbs File: /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/simu/Simulator/TBSimulator.vhd
+# Loading work.randombit(a)
+# Loading work.framesimulator(algorithm)
+# Loading work.random_generator(behavior)
+# Loading work.framereceiver(algorithm)
+# Loading work.framefifo(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.scfifo(behavior)
+# Loading work.framesizefifo(syn)
+# Loading work.trigger_candidate(algo)
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+quit -sim
+# End time: 17:56:59 on Jan 25,2022, Elapsed time: 0:01:12
+# Errors: 0, Warnings: 9
+# Compile of TBSimulator.vhd was successful.
+# Compile of FrameSimulator.vhd was successful.
+# Compile of Random_generator.vhd was successful.
+# Compile of RandomBit.vhd was successful.
+# Compile of clockgen.vhd was successful.
+# Compile of Counter_nbit.vhd was successful.
+# Compile of FrameReceiver.vhd was successful.
+# Compile of Trigger_Candidate.vhd was successful.
+# Compile of FrameFifo.vhd was successful.
+# Compile of FrameSizeFifo.vhd was successful.
+# Compile of RisingEdge_Counter.vhd was successful.
+# 11 compiles, 0 failed with no errors.
+do simu.do
+# vsim -t 1ns work.tbs 
+# Start time: 17:57:31 on Jan 25,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tbs(bench)
+# Loading work.clockgen(behavioral)
+# Loading work.counter_nbit(behavior)
+# Loading work.risingedge_counter(behave)
+# Loading work.randombit(a)
+# Loading work.framesimulator(algorithm)
+# Loading work.random_generator(behavior)
+# Loading work.framereceiver(algorithm)
+# Loading work.framefifo(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.scfifo(behavior)
+# Loading work.framesizefifo(syn)
+# Loading work.trigger_candidate(algo)
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+quit -sim
+# End time: 17:59:38 on Jan 25,2022, Elapsed time: 0:02:07
+# Errors: 0, Warnings: 8
+do simu.do
+# vsim -t 1ns work.tbs 
+# Start time: 17:59:45 on Jan 25,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tbs(bench)
+# Loading work.clockgen(behavioral)
+# Loading work.counter_nbit(behavior)
+# Loading work.risingedge_counter(behave)
+# Loading work.randombit(a)
+# Loading work.framesimulator(algorithm)
+# Loading work.random_generator(behavior)
+# Loading work.framereceiver(algorithm)
+# Loading work.framefifo(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.scfifo(behavior)
+# Loading work.framesizefifo(syn)
+# Loading work.trigger_candidate(algo)
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+quit -sim
+# End time: 18:03:03 on Jan 25,2022, Elapsed time: 0:03:18
+# Errors: 0, Warnings: 8
+do simu.do
+# vsim -t 1ns work.tbs 
+# Start time: 18:03:12 on Jan 25,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tbs(bench)
+# Loading work.clockgen(behavioral)
+# Loading work.counter_nbit(behavior)
+# Loading work.risingedge_counter(behave)
+# Loading work.randombit(a)
+# Loading work.framesimulator(algorithm)
+# Loading work.random_generator(behavior)
+# Loading work.framereceiver(algorithm)
+# Loading work.framefifo(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.scfifo(behavior)
+# Loading work.framesizefifo(syn)
+# Loading work.trigger_candidate(algo)
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+# WARNING: No extended dataflow license exists
+add dataflow sim:/tbs/DUT1
+add dataflow /tbs/DUT1/internalCounter /tbs/DUT1/present_state /tbs/DUT1/Trigger /tbs/DUT1/internalPeriodicCounter /tbs/DUT1/Reset /tbs/DUT1/Clock /tbs/DUT1/counterReset2 /tbs/DUT1/startOfFrame /tbs/DUT1/frameCounter /tbs/DUT1/latchedTrigger /tbs/DUT1/TriggerCounter
+add dataflow /tbs/DUT1/internalCounter /tbs/DUT1/present_state /tbs/DUT1/Trigger /tbs/DUT1/internalPeriodicCounter /tbs/DUT1/Reset /tbs/DUT1/Clock /tbs/DUT1/counterReset2 /tbs/DUT1/startOfFrame /tbs/DUT1/frameCounter /tbs/DUT1/latchedTrigger /tbs/DUT1/TriggerCounter
+add dataflow /tbs/DUT1/internalCounter /tbs/DUT1/present_state /tbs/DUT1/Trigger /tbs/DUT1/internalPeriodicCounter /tbs/DUT1/Reset /tbs/DUT1/Clock /tbs/DUT1/counterReset2 /tbs/DUT1/startOfFrame /tbs/DUT1/frameCounter /tbs/DUT1/latchedTrigger /tbs/DUT1/TriggerCounter
+add dataflow sim:/tbs/DUT2
+add dataflow sim:/tbs/DUT3
+add dataflow sim:/tbs/DUT1/*
+add dataflow sim:/tbs/DUT2/*
+add dataflow /tbs/DUT2/FrFifoFull /tbs/DUT2/Data_ValidIn /tbs/DUT2/DoStore /tbs/DUT2/ClockCounter /tbs/DUT2/TSClock /tbs/DUT2/next_state /tbs/DUT2/Reset /tbs/DUT2/Clock /tbs/DUT2/ClockCounterReg /tbs/DUT2/countsReg /tbs/DUT2/DoStoreSampled /tbs/DUT2/TSClockReg /tbs/DUT2/counts /tbs/DUT2/present_state
+quit -sim
+# End time: 18:07:56 on Jan 25,2022, Elapsed time: 0:04:44
+# Errors: 0, Warnings: 9
+do simu.do
+# vsim -t 1ns work.tbs 
+# Start time: 18:15:49 on Jan 25,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tbs(bench)
+# Loading work.clockgen(behavioral)
+# Loading work.counter_nbit(behavior)
+# Loading work.risingedge_counter(behave)
+# Loading work.randombit(a)
+# Loading work.framesimulator(algorithm)
+# Loading work.random_generator(behavior)
+# Loading work.framereceiver(algorithm)
+# Loading work.framefifo(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.scfifo(behavior)
+# Loading work.framesizefifo(syn)
+# Loading work.trigger_candidate(algo)
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+quit -sim
+# End time: 18:18:19 on Jan 25,2022, Elapsed time: 0:02:30
+# Errors: 0, Warnings: 8
+do simu.do
+# vsim -t 1ns work.tbs 
+# Start time: 18:18:28 on Jan 25,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tbs(bench)
+# Loading work.clockgen(behavioral)
+# Loading work.counter_nbit(behavior)
+# Loading work.risingedge_counter(behave)
+# Loading work.randombit(a)
+# Loading work.framesimulator(algorithm)
+# Loading work.random_generator(behavior)
+# Loading work.framereceiver(algorithm)
+# Loading work.framefifo(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.scfifo(behavior)
+# Loading work.framesizefifo(syn)
+# Loading work.trigger_candidate(algo)
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# status=1
+# invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+quit -sim
+# End time: 18:27:48 on Jan 25,2022, Elapsed time: 0:09:20
+# Errors: 40, Warnings: 8
+do simu.do
+# vsim -t 1ns work.tbs 
+# Start time: 18:27:52 on Jan 25,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tbs(bench)
+# Loading work.clockgen(behavioral)
+# Loading work.counter_nbit(behavior)
+# Loading work.risingedge_counter(behave)
+# Loading work.randombit(a)
+# Loading work.framesimulator(algorithm)
+# Loading work.random_generator(behavior)
+# Loading work.framereceiver(algorithm)
+# Loading work.framefifo(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.scfifo(behavior)
+# Loading work.framesizefifo(syn)
+# Loading work.trigger_candidate(algo)
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+quit -sim
+# End time: 18:33:57 on Jan 25,2022, Elapsed time: 0:06:05
+# Errors: 0, Warnings: 8
+# Compile of TBSimulator.vhd was successful.
+# Compile of FrameSimulator.vhd was successful.
+# Compile of Random_generator.vhd was successful.
+# Compile of RandomBit.vhd was successful.
+# Compile of clockgen.vhd was successful.
+# Compile of Counter_nbit.vhd was successful.
+# Compile of FrameReceiver.vhd was successful.
+# Compile of Trigger_Candidate.vhd was successful.
+# Compile of FrameFifo.vhd was successful.
+# Compile of FrameSizeFifo.vhd was successful.
+# Compile of RisingEdge_Counter.vhd was successful.
+# 11 compiles, 0 failed with no errors.
+do simu.do
+# vsim -t 1ns work.tbs 
+# Start time: 18:34:08 on Jan 25,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tbs(bench)
+# Loading work.clockgen(behavioral)
+# Loading work.counter_nbit(behavior)
+# Loading work.risingedge_counter(behave)
+# Loading work.randombit(a)
+# Loading work.framesimulator(algorithm)
+# Loading work.random_generator(behavior)
+# Loading work.framereceiver(algorithm)
+# Loading work.framefifo(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.scfifo(behavior)
+# Loading work.framesizefifo(syn)
+# Loading work.trigger_candidate(algo)
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+quit -sim
+# End time: 18:38:16 on Jan 25,2022, Elapsed time: 0:04:08
+# Errors: 0, Warnings: 8
+# Compile of TBSimulator.vhd was successful.
+# Compile of FrameSimulator.vhd was successful.
+# Compile of Random_generator.vhd was successful.
+# Compile of RandomBit.vhd was successful.
+# Compile of clockgen.vhd was successful.
+# Compile of Counter_nbit.vhd was successful.
+# Compile of FrameReceiver.vhd was successful.
+# Compile of Trigger_Candidate.vhd was successful.
+# Compile of FrameFifo.vhd was successful.
+# Compile of FrameSizeFifo.vhd was successful.
+# Compile of RisingEdge_Counter.vhd was successful.
+# 11 compiles, 0 failed with no errors.
+do simu.do
+# vsim -t 1ns work.tbs 
+# Start time: 18:39:17 on Jan 25,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tbs(bench)
+# Loading work.clockgen(behavioral)
+# Loading work.counter_nbit(behavior)
+# Loading work.risingedge_counter(behave)
+# Loading work.randombit(a)
+# Loading work.framesimulator(algorithm)
+# Loading work.random_generator(behavior)
+# Loading work.framereceiver(algorithm)
+# Loading work.framefifo(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.scfifo(behavior)
+# Loading work.framesizefifo(syn)
+# Loading work.trigger_candidate(algo)
+# ** Error: (vish-4014) No objects found matching '/tbs/Trigger_Candidate_Counter/Trigger_Candidate_Counter'.
+# Error in macro ./simu.do line 22
+# (vish-4014) No objects found matching '/tbs/Trigger_Candidate_Counter/Trigger_Candidate_Counter'.
+#     while executing
+# "add wave -decimal /tbs/Trigger_Candidate_Counter/Trigger_Candidate_Counter"
+quit -sim
+# End time: 18:39:40 on Jan 25,2022, Elapsed time: 0:00:23
+# Errors: 3, Warnings: 0
+# Compile of TBSimulator.vhd was successful.
+# Compile of FrameSimulator.vhd was successful.
+# Compile of Random_generator.vhd was successful.
+# Compile of RandomBit.vhd was successful.
+# Compile of clockgen.vhd was successful.
+# Compile of Counter_nbit.vhd was successful.
+# Compile of FrameReceiver.vhd was successful.
+# Compile of Trigger_Candidate.vhd was successful.
+# Compile of FrameFifo.vhd was successful.
+# Compile of FrameSizeFifo.vhd was successful.
+# Compile of RisingEdge_Counter.vhd was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -t 1ns work.tbs
+# vsim -t 1ns work.tbs 
+# Start time: 18:40:22 on Jan 25,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tbs(bench)
+# Loading work.clockgen(behavioral)
+# Loading work.counter_nbit(behavior)
+# Loading work.risingedge_counter(behave)
+# Loading work.randombit(a)
+# Loading work.framesimulator(algorithm)
+# Loading work.random_generator(behavior)
+# Loading work.framereceiver(algorithm)
+# Loading work.framefifo(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.scfifo(behavior)
+# Loading work.framesizefifo(syn)
+# Loading work.trigger_candidate(algo)
+quit -sim
+# End time: 18:41:21 on Jan 25,2022, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 0
+# Compile of FrameSimulator.vhd was successful.
+# Compile of Random_generator.vhd was successful.
+# Compile of RandomBit.vhd was successful.
+# Compile of clockgen.vhd was successful.
+# Compile of Counter_nbit.vhd was successful.
+# Compile of FrameReceiver.vhd was successful.
+# Compile of Trigger_Candidate.vhd was successful.
+# Compile of FrameFifo.vhd was successful.
+# Compile of FrameSizeFifo.vhd was successful.
+# Compile of RisingEdge_Counter.vhd was successful.
+# Compile of TBSimulator.vhd was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -t 1ns work.tbs
+# vsim -t 1ns work.tbs 
+# Start time: 18:41:47 on Jan 25,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tbs(bench)
+# Loading work.clockgen(behavioral)
+# Loading work.counter_nbit(behavior)
+# Loading work.risingedge_counter(behave)
+# Loading work.randombit(a)
+# Loading work.framesimulator(algorithm)
+# Loading work.random_generator(behavior)
+# Loading work.framereceiver(algorithm)
+# Loading work.framefifo(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.scfifo(behavior)
+# Loading work.framesizefifo(syn)
+# Loading work.trigger_candidate(algo)
+# End time: 18:42:57 on Jan 25,2022, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 0

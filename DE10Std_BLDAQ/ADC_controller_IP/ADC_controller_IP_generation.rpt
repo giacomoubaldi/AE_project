@@ -1,0 +1,30 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate "C:\Users\villa\OneDrive - Istituto Nazionale di Fisica Nucleare\Sorgenti\FOOT\FootFirmware\DE10STandard\ADC_controller_IP.qsys" --block-symbol-file --output-directory="C:\Users\villa\OneDrive - Istituto Nazionale di Fisica Nucleare\Sorgenti\FOOT\FootFirmware\DE10Standard\ADC_controller_IP" --family="Cyclone V" --part=5CSXFC6D6F31C6
+Progress: Loading DE10STandard/ADC_controller_IP.qsys
+Progress: Reading input file
+Progress: Adding adc_mega_0 [altera_up_avalon_adc_mega 18.0]
+Progress: Parameterizing module adc_mega_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate "C:\Users\villa\OneDrive - Istituto Nazionale di Fisica Nucleare\Sorgenti\FOOT\FootFirmware\DE10STandard\ADC_controller_IP.qsys" --synthesis=VHDL --output-directory="C:\Users\villa\OneDrive - Istituto Nazionale di Fisica Nucleare\Sorgenti\FOOT\FootFirmware\DE10Standard\ADC_controller_IP\synthesis" --family="Cyclone V" --part=5CSXFC6D6F31C6
+Progress: Loading DE10STandard/ADC_controller_IP.qsys
+Progress: Reading input file
+Progress: Adding adc_mega_0 [altera_up_avalon_adc_mega 18.0]
+Progress: Parameterizing module adc_mega_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: ADC_controller_IP: Generating ADC_controller_IP "ADC_controller_IP" for QUARTUS_SYNTH
+Info: adc_mega_0: Starting Generation of ADC Controller for DE-series Board
+Info: adc_mega_0: C:/intelfpga/18.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/altera_up_avalon_adv_adc.v C:/Users/villa/AppData/Local/Temp/alt8774_6104377194464193153.dir/0002_sopcgen/ADC_controller_IP_adc_mega_0.v
+Info: adc_mega_0: "ADC_controller_IP" instantiated altera_up_avalon_adc_mega "adc_mega_0"
+Info: ADC_controller_IP: Done "ADC_controller_IP" with 2 modules, 3 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

@@ -1,0 +1,689 @@
+# Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/simu/FrameDPRam/DPRamAndTrigCtrl.mpf}
+# Loading project DPRamAndTrigCtrl
+do simu.do
+# vsim -t 1ns work.tb 
+# Start time: 19:27:12 on Aug 18,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bldaq_package(body)
+# Loading work.tb(bench)
+# Loading work.clockgen(behavioral)
+# Loading work.counter_nbit(behavior)
+# Loading work.trigger_control(structural)
+# Loading work.risingedge_counter(behave)
+# Loading work.busy_stretch(behave)
+# Loading work.trgfifo(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.scfifo(behavior)
+# Loading work.framepointermemory(algorithm)
+# Loading altera_mf.altera_mf_components
+# Loading work.framedpram(syn)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.random_generator(behavior)
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /tb
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /tb
+run 2500 us
+# Compile of FramePointerMemory.vhd was successful.
+do simu.do
+# End time: 19:35:52 on Aug 18,2021, Elapsed time: 0:08:40
+# Errors: 0, Warnings: 2
+# vsim -t 1ns work.tb 
+# Start time: 19:35:52 on Aug 18,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bldaq_package(body)
+# Loading work.tb(bench)
+# Loading work.clockgen(behavioral)
+# Loading work.counter_nbit(behavior)
+# Loading work.trigger_control(structural)
+# Loading work.risingedge_counter(behave)
+# Loading work.busy_stretch(behave)
+# Loading work.trgfifo(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.scfifo(behavior)
+# Loading work.framepointermemory(algorithm)
+# Loading altera_mf.altera_mf_components
+# Loading work.framedpram(syn)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.random_generator(behavior)
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /tb
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /tb
+run 2500 us
+# Compile of FramePointerMemory.vhd failed with 18 errors.
+# Compile of FramePointerMemory.vhd failed with 14 errors.
+# Compile of FramePointerMemory.vhd failed with 10 errors.
+# Compile of FramePointerMemory.vhd was successful.
+# Compile of TBFrameDPRam.vhd failed with 5 errors.
+# 2 compiles, 1 failed with 5 errors.
+# Compile of TBFrameDPRam.vhd failed with 8 errors.
+# Compile of TBFrameDPRam.vhd was successful.
+do simu.do
+# End time: 21:42:26 on Aug 18,2021, Elapsed time: 2:06:34
+# Errors: 0, Warnings: 2
+# vsim -t 1ns work.tb 
+# Start time: 21:42:26 on Aug 18,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bldaq_package(body)
+# Loading work.tb(bench)
+# Loading work.clockgen(behavioral)
+# Loading work.counter_nbit(behavior)
+# Loading work.trigger_control(structural)
+# Loading work.risingedge_counter(behave)
+# Loading work.busy_stretch(behave)
+# Loading work.trgfifo(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.scfifo(behavior)
+# Loading work.framepointermemory(algorithm)
+# Loading altera_mf.altera_mf_components
+# Loading work.framedpram(syn)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.random_generator(behavior)
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /tb
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /tb
+run 2500 us
+# Compile of FramePointerMemory.vhd failed with 1 errors.
+# Compile of FramePointerMemory.vhd was successful.
+do simu.do
+# End time: 21:49:55 on Aug 18,2021, Elapsed time: 0:07:29
+# Errors: 0, Warnings: 2
+# vsim -t 1ns work.tb 
+# Start time: 21:49:55 on Aug 18,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bldaq_package(body)
+# Loading work.tb(bench)
+# Loading work.clockgen(behavioral)
+# Loading work.counter_nbit(behavior)
+# Loading work.trigger_control(structural)
+# Loading work.risingedge_counter(behave)
+# Loading work.busy_stretch(behave)
+# Loading work.trgfifo(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.scfifo(behavior)
+# Loading work.framepointermemory(algorithm)
+# Loading altera_mf.altera_mf_components
+# Loading work.framedpram(syn)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.random_generator(behavior)
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /tb
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /tb
+run 2500 us
+# Compile of FramePointerMemory.vhd failed with 6 errors.
+# Compile of FramePointerMemory.vhd was successful.
+do simu.do
+# End time: 22:30:50 on Aug 18,2021, Elapsed time: 0:40:55
+# Errors: 0, Warnings: 2
+# vsim -t 1ns work.tb 
+# Start time: 22:30:50 on Aug 18,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bldaq_package(body)
+# Loading work.tb(bench)
+# Loading work.clockgen(behavioral)
+# Loading work.counter_nbit(behavior)
+# Loading work.trigger_control(structural)
+# Loading work.risingedge_counter(behave)
+# Loading work.busy_stretch(behave)
+# Loading work.trgfifo(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.scfifo(behavior)
+# Loading work.framepointermemory(algorithm)
+# Loading altera_mf.altera_mf_components
+# Loading work.framedpram(syn)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.random_generator(behavior)
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /tb
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /tb
+run 2500 us
+# Compile of FramePointerMemory.vhd was successful.
+do simu.do
+# End time: 22:36:21 on Aug 18,2021, Elapsed time: 0:05:31
+# Errors: 0, Warnings: 2
+# vsim -t 1ns work.tb 
+# Start time: 22:36:21 on Aug 18,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bldaq_package(body)
+# Loading work.tb(bench)
+# Loading work.clockgen(behavioral)
+# Loading work.counter_nbit(behavior)
+# Loading work.trigger_control(structural)
+# Loading work.risingedge_counter(behave)
+# Loading work.busy_stretch(behave)
+# Loading work.trgfifo(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.scfifo(behavior)
+# Loading work.framepointermemory(algorithm)
+# Loading altera_mf.altera_mf_components
+# Loading work.framedpram(syn)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.random_generator(behavior)
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /tb
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /tb
+run 2500 us
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 1089320 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1089320 ns  Iteration: 2  Instance: /tb
+# Compile of FramePointerMemory.vhd was successful.
+do simu.do
+# End time: 22:41:17 on Aug 18,2021, Elapsed time: 0:04:56
+# Errors: 0, Warnings: 4
+# vsim -t 1ns work.tb 
+# Start time: 22:41:17 on Aug 18,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bldaq_package(body)
+# Loading work.tb(bench)
+# Loading work.clockgen(behavioral)
+# Loading work.counter_nbit(behavior)
+# Loading work.trigger_control(structural)
+# Loading work.risingedge_counter(behave)
+# Loading work.busy_stretch(behave)
+# Loading work.trgfifo(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.scfifo(behavior)
+# Loading work.framepointermemory(algorithm)
+# Loading altera_mf.altera_mf_components
+# Loading work.framedpram(syn)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.random_generator(behavior)
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /tb
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /tb
+run 2500 us
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 1089320 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1089320 ns  Iteration: 2  Instance: /tb
+# Compile of FramePointerMemory.vhd failed with 7 errors.
+# Compile of FramePointerMemory.vhd was successful.
+do simu.do
+# End time: 22:52:39 on Aug 18,2021, Elapsed time: 0:11:22
+# Errors: 0, Warnings: 4
+# vsim -t 1ns work.tb 
+# Start time: 22:52:39 on Aug 18,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bldaq_package(body)
+# Loading work.tb(bench)
+# Loading work.clockgen(behavioral)
+# Loading work.counter_nbit(behavior)
+# Loading work.trigger_control(structural)
+# Loading work.risingedge_counter(behave)
+# Loading work.busy_stretch(behave)
+# Loading work.trgfifo(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.scfifo(behavior)
+# Loading work.framepointermemory(algorithm)
+# Loading altera_mf.altera_mf_components
+# Loading work.framedpram(syn)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.random_generator(behavior)
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /tb
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /tb
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 225720 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 225720 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 225720 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 238540 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 238540 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 284540 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 284540 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 336780 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 336780 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 359160 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 359160 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 393440 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 393440 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 455760 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 455760 ns  Iteration: 2  Instance: /tb
+run 2500 us
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 500380 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 500380 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 528920 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 528920 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 570420 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 570420 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 613160 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 613160 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 613160 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 647480 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 647480 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 656600 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 656600 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 685820 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 685820 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 687020 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 687020 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 735460 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 735460 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 770540 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 770540 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 783440 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 783440 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 842480 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 842480 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 842480 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 881120 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 881120 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 960280 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 960280 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 975400 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 975400 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1012780 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1012780 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1043860 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1043860 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1081380 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1081380 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 1089320 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1089320 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1089320 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1112080 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1112080 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 1188 us  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1188 us  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1188 us  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1259340 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1259340 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1339120 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1339120 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1404420 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1404420 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 1433240 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1433240 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1433240 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1495420 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1495420 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1541600 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1541600 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1581820 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1581820 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1635760 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1635760 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 1696240 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1696240 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1696240 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1747360 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1747360 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1808540 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1808540 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1863240 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1863240 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1868160 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1868160 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 1887140 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1887140 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1887140 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1891260 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1891260 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1938520 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1938520 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1962 us  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1962 us  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1964660 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1964660 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2023780 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2023780 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2064640 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2064640 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2123920 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2123920 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2141360 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2141360 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2220020 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2220020 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2247120 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2247120 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 2300240 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2300240 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2300240 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 2347420 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2347420 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2347420 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2417920 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2417920 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2467880 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2467880 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2539120 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2539120 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2594320 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2594320 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2621 us  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2621 us  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2693300 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2693300 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 2729620 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2729620 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2729620 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2773560 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2773560 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2833960 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2833960 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2883 us  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2883 us  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2928040 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2928040 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 2938240 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2938240 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2938240 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 2998440 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2998440 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2998440 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 2999360 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2999360 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2999360 ns  Iteration: 2  Instance: /tb
+# Compile of FramePointerMemory.vhd was successful.
+do simu.do
+# End time: 22:55:05 on Aug 18,2021, Elapsed time: 0:02:26
+# Errors: 0, Warnings: 152
+# vsim -t 1ns work.tb 
+# Start time: 22:55:05 on Aug 18,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bldaq_package(body)
+# Loading work.tb(bench)
+# Loading work.clockgen(behavioral)
+# Loading work.counter_nbit(behavior)
+# Loading work.trigger_control(structural)
+# Loading work.risingedge_counter(behave)
+# Loading work.busy_stretch(behave)
+# Loading work.trgfifo(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.scfifo(behavior)
+# Loading work.framepointermemory(algorithm)
+# Loading altera_mf.altera_mf_components
+# Loading work.framedpram(syn)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.random_generator(behavior)
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /tb
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /tb
+run 2500 us
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 1089320 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1089320 ns  Iteration: 2  Instance: /tb
+# Compile of FramePointerMemory.vhd was successful.
+do simu.do
+# End time: 23:02:10 on Aug 18,2021, Elapsed time: 0:07:05
+# Errors: 0, Warnings: 4
+# vsim -t 1ns work.tb 
+# Start time: 23:02:10 on Aug 18,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bldaq_package(body)
+# Loading work.tb(bench)
+# Loading work.clockgen(behavioral)
+# Loading work.counter_nbit(behavior)
+# Loading work.trigger_control(structural)
+# Loading work.risingedge_counter(behave)
+# Loading work.busy_stretch(behave)
+# Loading work.trgfifo(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.scfifo(behavior)
+# Loading work.framepointermemory(algorithm)
+# Loading altera_mf.altera_mf_components
+# Loading work.framedpram(syn)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.random_generator(behavior)
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /tb
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /tb
+run 2500 us
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 1089320 ns  Iteration: 2  Instance: /tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1089320 ns  Iteration: 2  Instance: /tb
+# Compile of FramePointerMemory.vhd was successful.
+do simu.do
+# End time: 23:05:15 on Aug 18,2021, Elapsed time: 0:03:05
+# Errors: 0, Warnings: 4
+# vsim -t 1ns work.tb 
+# Start time: 23:05:15 on Aug 18,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bldaq_package(body)
+# Loading work.tb(bench)
+# Loading work.clockgen(behavioral)
+# Loading work.counter_nbit(behavior)
+# Loading work.trigger_control(structural)
+# Loading work.risingedge_counter(behave)
+# Loading work.busy_stretch(behave)
+# Loading work.trgfifo(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.scfifo(behavior)
+# Loading work.framepointermemory(algorithm)
+# Loading altera_mf.altera_mf_components
+# Loading work.framedpram(syn)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.random_generator(behavior)
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /tb
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /tb
+run 2500 us

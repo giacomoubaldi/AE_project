@@ -1,0 +1,329 @@
+{C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/simulation/FullCode/TB_BLDAQ_Module.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/simulation/FullCode/TB_BLDAQ_Module.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package BLDAQ_Package
+-- Compiling entity TB
+-- Compiling architecture bench of TB
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/RisingEdge_Counter.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/RisingEdge_Counter.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity RisingEdge_Counter
+-- Compiling architecture behave of RisingEdge_Counter
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/LongerPulse.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/LongerPulse.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity LongerPulse
+-- Compiling architecture logic of LongerPulse
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FrameReceiver.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FrameReceiver.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity FrameReceiver
+-- Compiling architecture algorithm of FrameReceiver
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FifoTX.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FifoTX.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FifoTX
+-- Compiling architecture SYN of fifotx
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/VHDLSimulationLibrary/clockgen.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/VHDLSimulationLibrary/clockgen.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity clockgen
+-- Compiling architecture behavioral of clockgen
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/TrgFifo.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/TrgFifo.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity TrgFifo
+-- Compiling architecture SYN of trgfifo
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/InSignControl.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/InSignControl.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity InSignControl
+-- Compiling architecture Structural of InSignControl
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/TimeStampGenerator.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/TimeStampGenerator.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity TimeStampGenerator
+-- Compiling architecture behavioural of TimeStampGenerator
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Register_File.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Register_File.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package BLDAQ_Package
+-- Compiling entity Register_File
+-- Compiling architecture behavior of Register_File
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/IOFifosControl.v} {1 {vlog -work work -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/IOFifosControl.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module IOFifosControl
+
+Top level modules:
+	IOFifosControl
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FourFrameReceiver.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FourFrameReceiver.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package BLDAQ_Package
+-- Compiling entity FourFrameReceiver
+-- Compiling architecture structural of FourFrameReceiver
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/CommunicationModule.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/CommunicationModule.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package BLDAQ_Package
+-- Compiling entity CommunicationModule
+-- Compiling architecture behavior of CommunicationModule
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Counter_nbit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Counter_nbit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Counter_nbit
+-- Compiling architecture behavior of Counter_nbit
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/StreamSelector.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/StreamSelector.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity StreamSelector
+-- Compiling architecture behavior of StreamSelector
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FramePointerMemory.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FramePointerMemory.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package BLDAQ_Package
+-- Compiling entity FramePointerMemory
+-- Compiling architecture algorithm of FramePointerMemory
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Debounce.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Debounce.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity debounce
+-- Compiling architecture logic of debounce
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/EventFifo.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/EventFifo.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity EventFifo
+-- Compiling architecture SYN of eventfifo
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Random_generator.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Random_generator.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Random_generator
+-- Compiling architecture behavior of Random_generator
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FrameFifo.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FrameFifo.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FrameFifo
+-- Compiling architecture SYN of framefifo
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FrameDPRam.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FrameDPRam.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity FrameDPRam
+-- Compiling architecture SYN of framedpram
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/BLDAQ_Package.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/BLDAQ_Package.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package BLDAQ_Package
+-- Compiling package body BLDAQ_Package
+-- Loading package BLDAQ_Package
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/DataTransfer.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/DataTransfer.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package BLDAQ_Package
+-- Compiling entity DataTransfer
+-- Compiling architecture behavioural of DataTransfer
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Local_RXTX.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Local_RXTX.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package BLDAQ_Package
+-- Compiling entity Local_RXTX
+-- Compiling architecture description of Local_RXTX
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/EventBuilder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/EventBuilder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package BLDAQ_Package
+-- Compiling entity EventBuilder
+-- Compiling architecture algorithm of EventBuilder
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/BLDAQ_Module.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/BLDAQ_Module.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package BLDAQ_Package
+-- Compiling entity BLDAQ_Module
+-- Compiling architecture Structural of BLDAQ_Module
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Event_data_to_DDR3.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Event_data_to_DDR3.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Event_data_to_DDR3
+-- Compiling architecture structural of Event_data_to_DDR3
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Main_FSM.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Main_FSM.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package BLDAQ_Package
+-- Compiling entity Main_FSM
+-- Compiling architecture behavioral of Main_FSM
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FrameSizeFifo.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FrameSizeFifo.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FrameSizeFifo
+-- Compiling architecture SYN of framesizefifo
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/DetectorSimulator.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/DetectorSimulator.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package BLDAQ_Package
+-- Compiling entity DetectorSimulator
+-- Compiling architecture algorithm of DetectorSimulator
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FrameSimulator.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FrameSimulator.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity FrameSimulator
+-- Compiling architecture algorithm of FrameSimulator
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Trigger_Control.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Trigger_Control.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Trigger_Control
+-- Compiling architecture Structural of Trigger_Control
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FifoRX.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FifoRX.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FifoRX
+-- Compiling architecture SYN of fiforx
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/TransferBuffer.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/TransferBuffer.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity TransferBuffer
+-- Compiling architecture SYN of transferbuffer
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Busy_Stretch.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Busy_Stretch.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Busy_Stretch
+-- Compiling architecture behave of Busy_Stretch
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Counter_nbitEN.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Counter_nbitEN.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Counter_nbitEN
+-- Compiling architecture behavior of Counter_nbitEN
+
+} {} {}}

@@ -1,0 +1,183 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/tdaq/Firmware/BusyLessDAQ/simu/ClockTest
+Eclockgen
+Z0 w1495695990
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 65
+Z3 d/home/tdaq/Firmware/Ubaldi/BusyLessDAQ/simu/ClockTest
+Z4 8/home/tdaq/Firmware/Ubaldi/BusyLessDAQ/simu/clockgen.vhd
+Z5 F/home/tdaq/Firmware/Ubaldi/BusyLessDAQ/simu/clockgen.vhd
+l0
+L18 1
+V]7e3eFMdP4bNehWmAcg291
+!s100 j2Xk0f?G_NJTRjCM0<68f3
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1641465939
+!i10b 1
+Z8 !s108 1641465939.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/tdaq/Firmware/Ubaldi/BusyLessDAQ/simu/clockgen.vhd|
+Z10 !s107 /home/tdaq/Firmware/Ubaldi/BusyLessDAQ/simu/clockgen.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+DEx4 work 8 clockgen 0 22 ]7e3eFMdP4bNehWmAcg291
+!i122 65
+l26
+L25 21
+VIB=F_W>37?@<EDPA:BX^W0
+!s100 EBNBF;@X>GdLK0LonB>JL3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Erandombit
+Z13 w1248800192
+Z14 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R1
+R2
+!i122 67
+R3
+Z15 8/home/tdaq/Firmware/VHDLSimulationLibrary/RandomBit.vhd
+Z16 F/home/tdaq/Firmware/VHDLSimulationLibrary/RandomBit.vhd
+l0
+L17 1
+VhSjC7F9P0mcI>LLf=j`F=1
+!s100 AAf1iH^[6CdIOilQ91b6G3
+R6
+32
+Z17 !s110 1641465940
+!i10b 1
+Z18 !s108 1641465940.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/tdaq/Firmware/VHDLSimulationLibrary/RandomBit.vhd|
+Z20 !s107 /home/tdaq/Firmware/VHDLSimulationLibrary/RandomBit.vhd|
+!i113 1
+R11
+R12
+Aa
+R14
+R1
+R2
+DEx4 work 9 randombit 0 22 hSjC7F9P0mcI>LLf=j`F=1
+!i122 67
+l30
+L27 43
+VRZbT`UhEbV61aeCb81GHN2
+!s100 dWWccM3V1JdBFak0fDXd93
+R6
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R11
+R12
+Erisingedge_counter
+Z21 w1639067141
+R14
+R1
+R2
+!i122 66
+R3
+Z22 8/home/tdaq/Firmware/Ubaldi/BusyLessDAQ/src/RisingEdge_Counter.vhd
+Z23 F/home/tdaq/Firmware/Ubaldi/BusyLessDAQ/src/RisingEdge_Counter.vhd
+l0
+L8 1
+VhHQZj;TWiDdi?[MPBCc?d2
+!s100 WF]4jYkBL1hiGAO<AK6KW0
+R6
+32
+R17
+!i10b 1
+R18
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/tdaq/Firmware/Ubaldi/BusyLessDAQ/src/RisingEdge_Counter.vhd|
+Z25 !s107 /home/tdaq/Firmware/Ubaldi/BusyLessDAQ/src/RisingEdge_Counter.vhd|
+!i113 1
+R11
+R12
+Abehave
+R14
+R1
+R2
+DEx4 work 18 risingedge_counter 0 22 hHQZj;TWiDdi?[MPBCc?d2
+!i122 66
+l28
+L21 29
+V@FI4cX0?I3a>JUDiXn4cF0
+!s100 KkAGLo=l@kTJWSGo]QQK@0
+R6
+32
+R17
+!i10b 1
+R18
+R24
+R25
+!i113 1
+R11
+R12
+Etb
+Z26 w1641465351
+R14
+Z27 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+R1
+R2
+!i122 68
+R3
+Z28 8/home/tdaq/Firmware/Ubaldi/BusyLessDAQ/simu/ClockTest/TBClockTestprova.vhd
+Z29 F/home/tdaq/Firmware/Ubaldi/BusyLessDAQ/simu/ClockTest/TBClockTestprova.vhd
+l0
+L10 1
+VKP^Jo`;VE`80QB5Yzi8dX0
+!s100 nOBzAfBojGI7eH4IDlVc20
+R6
+32
+R17
+!i10b 1
+R18
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/tdaq/Firmware/Ubaldi/BusyLessDAQ/simu/ClockTest/TBClockTestprova.vhd|
+!s107 /home/tdaq/Firmware/Ubaldi/BusyLessDAQ/simu/ClockTest/TBClockTestprova.vhd|
+!i113 1
+R11
+R12
+Abench
+R14
+R27
+R1
+R2
+Z31 DEx4 work 2 tb 0 22 KP^Jo`;VE`80QB5Yzi8dX0
+!i122 68
+l56
+Z32 L13 109
+VEeaPe_IfPT`9THlL]SZNn1
+!s100 QD_nO]Eo:zmne2[BAPTTk2
+R6
+32
+R17
+!i10b 1
+R18
+R30
+Z33 !s107 /home/tdaq/Firmware/Ubaldi/BusyLessDAQ/simu/ClockTest/TBClockTestprova.vhd|
+!i113 1
+R11
+R12

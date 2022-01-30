@@ -1,0 +1,32 @@
+
+
+Classi per la memorizzazione dei dati
+	circular -> circular_buffer
+	EventCircularBuffer : public circular_buffer
+
+Classi di basso livello per parlare con l'FPGA
+	FpgaIOBase -> classe base per le routine di basso livello sull'FPGA
+	FpgaInterface : public FPGAIOBase -> classe di alto livello sull'FPGA
+
+
+Classi generiche per rivelatori
+	DAQServerInterface -> generic DAQ interface
+		Interfaccia generica
+	SOCServerInterface  : public DAQServerInterface 
+		Interfaccia per l'FPGA. Usa la FpgaInterface
+	SOCSimuServerInterface  : public DAQServerInterface	
+		Simulatore di dati per l'FPGA
+		
+Classe SERVER principale
+	TDAQServerBase
+		Usa un DAQServerInterface per interagire con la rete e con il dispositivo da leggere
+		Può essere usata come base in una classe derivata
+		Per costruzione gestisce solo una richiesta alla volta (ho tolto il fork)
+		Ha due threads corrispondenti a due metodi della classe. I dati comuni sono i membri della classe
+		
+MainTDAQServer 	
+	programma main.
+	Istanzia la TDAQServerBase e una classe derivata da DAQServerInterface
+
+
+

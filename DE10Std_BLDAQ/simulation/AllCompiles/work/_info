@@ -1,0 +1,1320 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1
+Ebldaq_module
+Z0 w1630267363
+Z1 DPx4 work 13 bldaq_package 0 22 W7@S_6QiYIHZRoZBH9]Li1
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 dC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/simulation/AllCompiles
+Z6 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/BLDAQ_Module.vhd
+Z7 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/BLDAQ_Module.vhd
+l0
+L6
+V<;8lKDENVKMoV1bIn:R582
+!s100 3Sz_ZaG_?e;;8a7Vd>BLn2
+Z8 OV;C;10.5b;63
+32
+Z9 !s110 1630267775
+!i10b 1
+Z10 !s108 1630267774.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/BLDAQ_Module.vhd|
+Z12 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/BLDAQ_Module.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Astructural
+R1
+R2
+R3
+R4
+DEx4 work 12 bldaq_module 0 22 <;8lKDENVKMoV1bIn:R582
+l281
+L52
+VFi<H95BHMzz]EO;@fznR72
+!s100 1cNk0>3QjE[QFD7S40kli0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Pbldaq_package
+R2
+R3
+R4
+Z15 w1630149612
+R5
+Z16 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/BLDAQ_Package.vhd
+Z17 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/BLDAQ_Package.vhd
+l0
+L6
+VW7@S_6QiYIHZRoZBH9]Li1
+!s100 7e;Yg7`iR@@8^M2ezm4471
+R8
+32
+b1
+R9
+!i10b 1
+Z18 !s108 1630267775.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/BLDAQ_Package.vhd|
+Z20 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/BLDAQ_Package.vhd|
+!i113 1
+R13
+R14
+Bbody
+R1
+R2
+R3
+R4
+l0
+L210
+VH?04_k@8zkU>OgQzSWz1X1
+!s100 hENBZOR>UWcL:Gib?BoR60
+R8
+32
+R9
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R13
+R14
+Ebusy_stretch
+Z21 w1629194596
+R2
+R3
+R4
+R5
+Z22 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Busy_Stretch.vhd
+Z23 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Busy_Stretch.vhd
+l0
+L7
+VH:;V6fm[__YjnOK`ARS4b0
+!s100 LdFSJ]egV`jRJ2DGNOV[b2
+R8
+32
+R9
+!i10b 1
+R18
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Busy_Stretch.vhd|
+Z25 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Busy_Stretch.vhd|
+!i113 1
+R13
+R14
+Abehave
+R2
+R3
+R4
+DEx4 work 12 busy_stretch 0 22 H:;V6fm[__YjnOK`ARS4b0
+l27
+L22
+VkSo_lU:L<1ziSTYA`BA630
+!s100 cQXI^^dloCoLMH7bKkkBH1
+R8
+32
+R9
+!i10b 1
+R18
+R24
+R25
+!i113 1
+R13
+R14
+Ecommunicationmodule
+Z26 w1630153149
+R1
+R2
+R3
+R4
+R5
+Z27 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/CommunicationModule.vhd
+Z28 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/CommunicationModule.vhd
+l0
+L6
+VKYmifA:oCSF7[@S0fISTH1
+!s100 XXZk=6;mXN;US>ZWLgPAg3
+R8
+32
+R9
+!i10b 1
+R18
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/CommunicationModule.vhd|
+Z30 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/CommunicationModule.vhd|
+!i113 1
+R13
+R14
+Abehavior
+R1
+R2
+R3
+R4
+DEx4 work 19 communicationmodule 0 22 KYmifA:oCSF7[@S0fISTH1
+l101
+L37
+V0@l83k7G;O`LaV?A9K@:c0
+!s100 IdC9i>;He5=EhC0:UFNj`3
+R8
+32
+R9
+!i10b 1
+R18
+R29
+R30
+!i113 1
+R13
+R14
+Ecounter_nbit
+Z31 w1629915744
+R2
+R3
+R4
+R5
+Z32 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Counter_nbit.vhd
+Z33 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Counter_nbit.vhd
+l0
+L5
+VB[LaeT>Kmf?YJ4BAaFX9F1
+!s100 1`6oMKXU?97PW:jMk>Z>31
+R8
+32
+R9
+!i10b 1
+R18
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Counter_nbit.vhd|
+Z35 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Counter_nbit.vhd|
+!i113 1
+R13
+R14
+Abehavior
+R2
+R3
+R4
+DEx4 work 12 counter_nbit 0 22 B[LaeT>Kmf?YJ4BAaFX9F1
+l19
+L15
+VdO6mSW9HTAKG6:EO]2N6a0
+!s100 JB?An3KbDg@9H`T9151f32
+R8
+32
+R9
+!i10b 1
+R18
+R34
+R35
+!i113 1
+R13
+R14
+Ecounter_nbiten
+Z36 w1629886259
+R2
+R3
+R4
+R5
+Z37 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Counter_nbitEN.vhd
+Z38 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Counter_nbitEN.vhd
+l0
+L5
+VCmoASST>;m5n9X^G]dTAm3
+!s100 MFl]nMk<Vm[8d9>ZONUl23
+R8
+32
+R9
+!i10b 1
+R18
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Counter_nbitEN.vhd|
+Z40 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Counter_nbitEN.vhd|
+!i113 1
+R13
+R14
+Abehavior
+R2
+R3
+R4
+DEx4 work 14 counter_nbiten 0 22 CmoASST>;m5n9X^G]dTAm3
+l20
+L16
+VDEg=7^LgN8`?DLf:Oa^?l0
+!s100 @nlXH]fHHUk1oDONZk>4e2
+R8
+32
+R9
+!i10b 1
+R18
+R39
+R40
+!i113 1
+R13
+R14
+Ede10bldaq_top
+Z41 w1630268115
+R1
+R2
+R3
+R4
+R5
+Z42 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/DE10BLDAQ_TOP.vhd
+Z43 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/DE10BLDAQ_TOP.vhd
+l0
+L11
+VV:4AP1ghkld^1?N5]i:k]0
+!s100 mQGcg_cgbTWe:CCnGc^i:1
+R8
+32
+Z44 !s110 1630270792
+!i10b 1
+Z45 !s108 1630270792.000000
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/DE10BLDAQ_TOP.vhd|
+Z47 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/DE10BLDAQ_TOP.vhd|
+!i113 1
+R13
+R14
+Astructural
+Z48 DEx4 work 11 longerpulse 0 22 3ZPJ10jB1JH`<ZoR2zHNb0
+Z49 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z50 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z51 DEx4 work 8 debounce 0 22 0dJ<WhcW@dmTzMmcL0ig11
+R1
+R2
+R3
+R4
+DEx4 work 13 de10bldaq_top 0 22 V:4AP1ghkld^1?N5]i:k]0
+l347
+L122
+VUK07ChK55Mg2;1UX^HV:=3
+!s100 2cJ3ed^U]CJn?SSCo_P<o3
+R8
+32
+R44
+!i10b 1
+R45
+R46
+R47
+!i113 1
+R13
+R14
+Edebounce
+Z52 w1591361586
+R49
+R50
+R3
+R4
+R5
+Z53 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Debounce.vhd
+Z54 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Debounce.vhd
+l0
+L9
+V0dJ<WhcW@dmTzMmcL0ig11
+!s100 Znlz_5b5ga;aV9@Xo4=TR1
+R8
+32
+Z55 !s110 1630267776
+!i10b 1
+Z56 !s108 1630267776.000000
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Debounce.vhd|
+Z58 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Debounce.vhd|
+!i113 1
+R13
+R14
+Alogic
+R49
+R50
+R3
+R4
+R51
+l23
+L19
+VR3YH[RY4iWE`FHCJHc=g43
+!s100 1eOQ7NkTCVX<Z6hj2_lES0
+R8
+32
+R55
+!i10b 1
+R56
+R57
+R58
+!i113 1
+R13
+R14
+Edetectorsimulator
+Z59 w1628928840
+R1
+R2
+R3
+R4
+R5
+Z60 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/DetectorSimulator.vhd
+Z61 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/DetectorSimulator.vhd
+l0
+L13
+VnoNLR11zZ=bNcFOFgo^`53
+!s100 a^UZGN];6?adedjE2bX:[1
+R8
+32
+R55
+!i10b 1
+R56
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/DetectorSimulator.vhd|
+Z63 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/DetectorSimulator.vhd|
+!i113 1
+R13
+R14
+Aalgorithm
+R1
+R2
+R3
+R4
+DEx4 work 17 detectorsimulator 0 22 noNLR11zZ=bNcFOFgo^`53
+l53
+L27
+VOEbS@M5jW0jWioDz@8?>R1
+!s100 @j:SBMA4M5o4PA2G[hZjU3
+R8
+32
+R55
+!i10b 1
+R56
+R62
+R63
+!i113 1
+R13
+R14
+Eevent_data_to_ddr3
+Z64 w1630222887
+R2
+R3
+R4
+R5
+Z65 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Event_data_to_DDR3.vhd
+Z66 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Event_data_to_DDR3.vhd
+l0
+L10
+VU5UME6Ooea37HmlfP0:jc3
+!s100 VUlWdThAOi7z;zne9`LB?2
+R8
+32
+R55
+!i10b 1
+R56
+Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Event_data_to_DDR3.vhd|
+Z68 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Event_data_to_DDR3.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R3
+R4
+DEx4 work 18 event_data_to_ddr3 0 22 U5UME6Ooea37HmlfP0:jc3
+l58
+L40
+VQE<EebS1TKhGa?LRBmnN60
+!s100 8Jl5NdBM>16;V4UmB0RAA3
+R8
+32
+R55
+!i10b 1
+R56
+R67
+R68
+!i113 1
+R13
+R14
+Eeventbuilder
+Z69 w1629970048
+R1
+R2
+R3
+R4
+R5
+Z70 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/EventBuilder.vhd
+Z71 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/EventBuilder.vhd
+l0
+L23
+V]6EcGY8Rl7I3X1ZZ37Z>E2
+!s100 RBAY?jnM?=C=?0OQ]dko`1
+R8
+32
+R55
+!i10b 1
+R56
+Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/EventBuilder.vhd|
+Z73 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/EventBuilder.vhd|
+!i113 1
+R13
+R14
+Aalgorithm
+R1
+R2
+R3
+R4
+DEx4 work 12 eventbuilder 0 22 ]6EcGY8Rl7I3X1ZZ37Z>E2
+l175
+L70
+Vi?eL9bge>mT7:h1XoIGBN0
+!s100 j<7h<9Qe[am:a4JQjUI>n0
+R8
+32
+R55
+!i10b 1
+R56
+R72
+R73
+!i113 1
+R13
+R14
+Eeventfifo
+Z74 w1629886055
+R3
+R4
+R5
+Z75 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/EventFifo.vhd
+Z76 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/EventFifo.vhd
+l0
+L42
+VolBPKV8@LbC=dlX2hgV<o1
+!s100 IgE6>QVO[l5GDbhljWn<i2
+R8
+32
+R55
+!i10b 1
+R56
+Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/EventFifo.vhd|
+Z78 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/EventFifo.vhd|
+!i113 1
+R13
+R14
+Asyn
+R3
+R4
+DEx4 work 9 eventfifo 0 22 olBPKV8@LbC=dlX2hgV<o1
+l97
+L59
+Vz4BHLFZF?6mmL9kWzFG?F0
+!s100 B9?Kd9D@N4^iI_mCYB4`00
+R8
+32
+R55
+!i10b 1
+R56
+R77
+R78
+!i113 1
+R13
+R14
+Efiforx
+Z79 w1630136358
+R3
+R4
+R5
+Z80 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FifoRX.vhd
+Z81 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FifoRX.vhd
+l0
+L42
+V0CWaTaeUMZhhR0MmXYk5R1
+!s100 :a6iXk2ZX<RimJDS13Ufo3
+R8
+32
+Z82 !s110 1630267777
+!i10b 1
+Z83 !s108 1630267777.000000
+Z84 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FifoRX.vhd|
+Z85 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FifoRX.vhd|
+!i113 1
+R13
+R14
+Asyn
+R3
+R4
+DEx4 work 6 fiforx 0 22 0CWaTaeUMZhhR0MmXYk5R1
+l97
+L59
+VVd0S7Qk8Q>7@W<FF7QlaW0
+!s100 i52B@o?3iGJBYhIRFnWKQ2
+R8
+32
+R82
+!i10b 1
+R83
+R84
+R85
+!i113 1
+R13
+R14
+Efifotx
+Z86 w1630136178
+R3
+R4
+R5
+Z87 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FifoTX.vhd
+Z88 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FifoTX.vhd
+l0
+L42
+V9R@WccFEPE7gACGe6:k1l1
+!s100 5zjm:IN_2_UHVzdMF46P_3
+R8
+32
+R82
+!i10b 1
+R83
+Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FifoTX.vhd|
+Z90 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FifoTX.vhd|
+!i113 1
+R13
+R14
+Asyn
+R3
+R4
+DEx4 work 6 fifotx 0 22 9R@WccFEPE7gACGe6:k1l1
+l97
+L59
+V6PRzcW`DZENQF3BM5L[CS0
+!s100 6@L8eH=5i1fOXfiR[j9k>3
+R8
+32
+R82
+!i10b 1
+R83
+R89
+R90
+!i113 1
+R13
+R14
+Efourframereceiver
+Z91 w1629971036
+R1
+R2
+R3
+R4
+R5
+Z92 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FourFrameReceiver.vhd
+Z93 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FourFrameReceiver.vhd
+l0
+L6
+VDA4;mbk?l^2f6`G;=@5zi3
+!s100 AhG@WJkK`S8l1LFRUgA^W0
+R8
+32
+R82
+!i10b 1
+R83
+Z94 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FourFrameReceiver.vhd|
+Z95 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FourFrameReceiver.vhd|
+!i113 1
+R13
+R14
+Astructural
+R1
+R2
+R3
+R4
+DEx4 work 17 fourframereceiver 0 22 DA4;mbk?l^2f6`G;=@5zi3
+l111
+L40
+V]lGNBk8lOCHZYIn2ZBK_;1
+!s100 zzA@UPljDRT=PBde7=@f70
+R8
+32
+R82
+!i10b 1
+R83
+R94
+R95
+!i113 1
+R13
+R14
+Eframedpram
+Z96 w1629098652
+Z97 DPx9 altera_mf 20 altera_mf_components 0 22 gV:l9C^?PSb6]b5V?_jR@3
+R3
+R4
+R5
+Z98 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FrameDPRam.vhd
+Z99 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FrameDPRam.vhd
+l0
+L42
+V^N63BC[Cl7G]BDE7@PTAD1
+!s100 8C4PgOO=FElki9m9nMQCT3
+R8
+32
+R82
+!i10b 1
+R83
+Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FrameDPRam.vhd|
+Z101 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FrameDPRam.vhd|
+!i113 1
+R13
+R14
+Asyn
+R97
+R3
+R4
+DEx4 work 10 framedpram 0 22 ^N63BC[Cl7G]BDE7@PTAD1
+l59
+L55
+VYNilO0:XZ=LG61MSdhJZ?3
+!s100 kM;o:kFA8lHgZ2_D]>C1:3
+R8
+32
+R82
+!i10b 1
+R83
+R100
+R101
+!i113 1
+R13
+R14
+Eframefifo
+Z102 w1628840092
+R3
+R4
+R5
+Z103 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FrameFifo.vhd
+Z104 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FrameFifo.vhd
+l0
+L42
+V28KBHL`7ZaI@c>JQ@m7X22
+!s100 mW_;AiZ>mF2X>Vc@VQiNH2
+R8
+32
+R82
+!i10b 1
+R83
+Z105 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FrameFifo.vhd|
+Z106 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FrameFifo.vhd|
+!i113 1
+R13
+R14
+Asyn
+R3
+R4
+DEx4 work 9 framefifo 0 22 28KBHL`7ZaI@c>JQ@m7X22
+l97
+L59
+V_O2Ane_ZPKcDVn[Q4mMD^0
+!s100 Fi2WQ?GUAW3^fKJ]O6d4M1
+R8
+32
+R82
+!i10b 1
+R83
+R105
+R106
+!i113 1
+R13
+R14
+Eframepointermemory
+Z107 w1629878485
+R1
+R2
+R3
+R4
+R5
+Z108 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FramePointerMemory.vhd
+Z109 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FramePointerMemory.vhd
+l0
+L21
+VY@FPlN;YbHh[ILSJ@6JG00
+!s100 =;id:8G32]^TNbG3cb8if3
+R8
+32
+R82
+!i10b 1
+R83
+Z110 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FramePointerMemory.vhd|
+Z111 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FramePointerMemory.vhd|
+!i113 1
+R13
+R14
+Aalgorithm
+R1
+R2
+R3
+R4
+DEx4 work 18 framepointermemory 0 22 Y@FPlN;YbHh[ILSJ@6JG00
+l85
+L48
+V@cBL]^1U[;1L?:JFgZc243
+!s100 0_9TPgN_dkQDGAl`d]i?M1
+R8
+32
+R82
+!i10b 1
+R83
+R110
+R111
+!i113 1
+R13
+R14
+Eframereceiver
+Z112 w1630057421
+R2
+R3
+R4
+R5
+Z113 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FrameReceiver.vhd
+Z114 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FrameReceiver.vhd
+l0
+L6
+V4dXE5UIJ[0[X]eEScR3Xj3
+!s100 2E?lKKKdN0L[NK1K@>W9@0
+R8
+32
+Z115 !s110 1630267778
+!i10b 1
+R83
+Z116 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FrameReceiver.vhd|
+Z117 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FrameReceiver.vhd|
+!i113 1
+R13
+R14
+Aalgorithm
+R2
+R3
+R4
+DEx4 work 13 framereceiver 0 22 4dXE5UIJ[0[X]eEScR3Xj3
+l90
+L37
+VPT`j9^=NMkPF`gbEf<5JD0
+!s100 c:I2_4l41:iDOk_KLoaGE1
+R8
+32
+R115
+!i10b 1
+R83
+R116
+R117
+!i113 1
+R13
+R14
+Eframesimulator
+Z118 w1630268521
+R2
+R3
+R4
+R5
+Z119 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FrameSimulator.vhd
+Z120 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FrameSimulator.vhd
+l0
+L12
+VJn3I[NQ8DNZSFYQ0Vc<OE0
+!s100 31RRV<IIHo[[MAMC]URoV2
+R8
+32
+R44
+!i10b 1
+R45
+Z121 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FrameSimulator.vhd|
+Z122 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FrameSimulator.vhd|
+!i113 1
+R13
+R14
+Aalgorithm
+R2
+R3
+R4
+DEx4 work 14 framesimulator 0 22 Jn3I[NQ8DNZSFYQ0Vc<OE0
+l84
+L34
+VCV[mN<2G=ik:O2jW`7Jjf0
+!s100 eW7cQH5HPHUb:h`eF]Mh@3
+R8
+32
+R44
+!i10b 1
+R45
+R121
+R122
+!i113 1
+R13
+R14
+Eframesizefifo
+Z123 w1628840263
+R3
+R4
+R5
+Z124 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FrameSizeFifo.vhd
+Z125 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FrameSizeFifo.vhd
+l0
+L42
+VKC8TH`9gL2S<HU3`6M;[F3
+!s100 E13=WSVP=WnFocFGF:6@a2
+R8
+32
+R115
+!i10b 1
+Z126 !s108 1630267778.000000
+Z127 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FrameSizeFifo.vhd|
+Z128 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/FrameSizeFifo.vhd|
+!i113 1
+R13
+R14
+Asyn
+R3
+R4
+DEx4 work 13 framesizefifo 0 22 KC8TH`9gL2S<HU3`6M;[F3
+l93
+L58
+V1P8D:<<T7NY`1f@<WD4c?0
+!s100 7EbPFKTo>PT6ALa4GLdZM2
+R8
+32
+R115
+!i10b 1
+R126
+R127
+R128
+!i113 1
+R13
+R14
+Einsigncontrol
+Z129 w1630268543
+R2
+R3
+R4
+R5
+Z130 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/InSignControl.vhd
+Z131 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/InSignControl.vhd
+l0
+L7
+VXelich]_f=JFozCdP5`dW1
+!s100 ]<8l4UQ@k3[XQmAM<oIO12
+R8
+32
+R44
+!i10b 1
+R45
+Z132 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/InSignControl.vhd|
+Z133 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/InSignControl.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R3
+R4
+DEx4 work 13 insigncontrol 0 22 Xelich]_f=JFozCdP5`dW1
+l54
+L30
+VK`GLGJV^RO_HdQMJe3PkR1
+!s100 D@1Ch4C2eP]NA@F>aKZcE1
+R8
+32
+R44
+!i10b 1
+R45
+R132
+R133
+!i113 1
+R13
+R14
+vIOFifosControl
+R115
+!i10b 1
+!s100 X@<KD1E[]Cc8k]OjZoGd_2
+IWgDHRz;RVb<3CkYH6Dg[Z0
+VDg1SIo80bB@j0V0VzS_@n1
+R5
+w1629704321
+8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/IOFifosControl.v
+FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/IOFifosControl.v
+L0 2
+OV;L;10.5b;63
+r1
+!s85 0
+31
+R126
+!s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/IOFifosControl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/IOFifosControl.v|
+!i113 1
+o-work work
+tCvgOpt 0
+n@i@o@fifos@control
+Elocal_rxtx
+Z134 w1630267881
+R1
+R2
+R3
+R4
+R5
+Z135 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Local_RXTX.vhd
+Z136 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Local_RXTX.vhd
+l0
+L6
+VYz4TK@:=A=m0CH?]K8n3]2
+!s100 U1i=:j7oX?=41@6DnA;L>0
+R8
+32
+Z137 !s110 1630270793
+!i10b 1
+Z138 !s108 1630270793.000000
+Z139 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Local_RXTX.vhd|
+Z140 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Local_RXTX.vhd|
+!i113 1
+R13
+R14
+Adescription
+R1
+R2
+R3
+R4
+DEx4 work 10 local_rxtx 0 22 Yz4TK@:=A=m0CH?]K8n3]2
+l113
+L34
+V]7aJFhQ@@1Q6FGcDIgBRW3
+!s100 R6UGK3fL;8XSVKzMoD:;T0
+R8
+32
+R137
+!i10b 1
+R138
+R139
+R140
+!i113 1
+R13
+R14
+Elongerpulse
+Z141 w1591361580
+R49
+R50
+R3
+R4
+R5
+Z142 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/LongerPulse.vhd
+Z143 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/LongerPulse.vhd
+l0
+L9
+V3ZPJ10jB1JH`<ZoR2zHNb0
+!s100 ;CPdFnFQCKJ_hNI?f4gan0
+R8
+32
+Z144 !s110 1630267779
+!i10b 1
+R126
+Z145 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/LongerPulse.vhd|
+Z146 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/LongerPulse.vhd|
+!i113 1
+R13
+R14
+Alogic
+R49
+R50
+R3
+R4
+R48
+l22
+L20
+V?F@2fcX4lJ<@4mjPzAa7k2
+!s100 1Cm8VYl2d<E_HhT^m37M;1
+R8
+32
+R144
+!i10b 1
+R126
+R145
+R146
+!i113 1
+R13
+R14
+Emain_fsm
+Z147 w1629915970
+R1
+R2
+R3
+R4
+R5
+Z148 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Main_FSM.vhd
+Z149 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Main_FSM.vhd
+l0
+L7
+V>PiHc0i?;[25`f3[Ea48W0
+!s100 kRQB0DaV7IMCdY2a76jJg2
+R8
+32
+R144
+!i10b 1
+Z150 !s108 1630267779.000000
+Z151 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Main_FSM.vhd|
+Z152 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Main_FSM.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R1
+R2
+R3
+R4
+DEx4 work 8 main_fsm 0 22 >PiHc0i?;[25`f3[Ea48W0
+l49
+L31
+VE2D0JL6dk>mlk70a@`4OZ1
+!s100 W?Q<X;[>e3TgEfk]@0fdQ0
+R8
+32
+R144
+!i10b 1
+R150
+R151
+R152
+!i113 1
+R13
+R14
+Erandom_generator
+Z153 w1629187085
+R2
+R3
+R4
+R5
+Z154 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Random_generator.vhd
+Z155 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Random_generator.vhd
+l0
+L5
+VR;QhMC]loL^YJ>S@Do;283
+!s100 oN2A;1dW?Fkcf1?j4G:EQ1
+R8
+32
+R144
+!i10b 1
+R150
+Z156 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Random_generator.vhd|
+Z157 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Random_generator.vhd|
+!i113 1
+R13
+R14
+Abehavior
+R2
+R3
+R4
+DEx4 work 16 random_generator 0 22 R;QhMC]loL^YJ>S@Do;283
+l17
+L16
+Vze5Gj9l;7F:ag5aSMej:73
+!s100 7<>ZceA5Z_>GgcDBDcG443
+R8
+32
+R144
+!i10b 1
+R150
+R156
+R157
+!i113 1
+R13
+R14
+Eregister_file
+Z158 w1629788230
+R1
+R2
+R3
+R4
+R5
+Z159 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Register_File.vhd
+Z160 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Register_File.vhd
+l0
+L6
+V_`P`RZ>H`bPRJ0<N<NgZd1
+!s100 V03MYEcVHQJEdQMlMeD0m0
+R8
+32
+R144
+!i10b 1
+R150
+Z161 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Register_File.vhd|
+Z162 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Register_File.vhd|
+!i113 1
+R13
+R14
+Abehavior
+R1
+R2
+R3
+R4
+DEx4 work 13 register_file 0 22 _`P`RZ>H`bPRJ0<N<NgZd1
+l34
+L29
+V]g^nM?]@XBD_Nm2`WaYLH1
+!s100 NdGLSJ`ONY;8=;mVU7[lF2
+R8
+32
+R144
+!i10b 1
+R150
+R161
+R162
+!i113 1
+R13
+R14
+Erisingedge_counter
+Z163 w1628590011
+R2
+R3
+R4
+R5
+Z164 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/RisingEdge_Counter.vhd
+Z165 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/RisingEdge_Counter.vhd
+l0
+L8
+VhHQZj;TWiDdi?[MPBCc?d2
+!s100 WF]4jYkBL1hiGAO<AK6KW0
+R8
+32
+R144
+!i10b 1
+R150
+Z166 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/RisingEdge_Counter.vhd|
+Z167 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/RisingEdge_Counter.vhd|
+!i113 1
+R13
+R14
+Abehave
+R2
+R3
+R4
+DEx4 work 18 risingedge_counter 0 22 hHQZj;TWiDdi?[MPBCc?d2
+l28
+L21
+VWk7F4FEKXV1?LD0Mn1XEN1
+!s100 AaUd`JN6Q>SR=EGB64TfC2
+R8
+32
+R144
+!i10b 1
+R150
+R166
+R167
+!i113 1
+R13
+R14
+Estreamselector
+Z168 w1628930530
+R2
+R3
+R4
+R5
+Z169 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/StreamSelector.vhd
+Z170 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/StreamSelector.vhd
+l0
+L5
+V=:>oZTK_zKe;B>L_nYC9n0
+!s100 g8TH?7]O:Aj0?MPd6N9jK3
+R8
+32
+R144
+!i10b 1
+R150
+Z171 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/StreamSelector.vhd|
+Z172 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/StreamSelector.vhd|
+!i113 1
+R13
+R14
+Abehavior
+R2
+R3
+R4
+DEx4 work 14 streamselector 0 22 =:>oZTK_zKe;B>L_nYC9n0
+l29
+L23
+VkQXY]5<@dZl>7OZo4N>4`2
+!s100 ^gW<E=2X=U;3ec5hG5QR[0
+R8
+32
+R144
+!i10b 1
+R150
+R171
+R172
+!i113 1
+R13
+R14
+Etrgfifo
+Z173 w1628801295
+R3
+R4
+R5
+Z174 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/TrgFifo.vhd
+Z175 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/TrgFifo.vhd
+l0
+L42
+VN:6EHD`MQ?j>HgOQMOMCJ2
+!s100 `ZNVC2HSaLBz^^5Z>UUFQ0
+R8
+32
+R144
+!i10b 1
+R150
+Z176 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/TrgFifo.vhd|
+Z177 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/TrgFifo.vhd|
+!i113 1
+R13
+R14
+Asyn
+R3
+R4
+DEx4 work 7 trgfifo 0 22 N:6EHD`MQ?j>HgOQMOMCJ2
+l97
+L59
+Vmm9zgIfje1DRldIaOZXVK1
+!s100 ilQ`G1gN2V3R9X=M9O]X53
+R8
+32
+R144
+!i10b 1
+R150
+R176
+R177
+!i113 1
+R13
+R14
+Etrigger_control
+Z178 w1630153068
+R2
+R3
+R4
+R5
+Z179 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Trigger_Control.vhd
+Z180 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Trigger_Control.vhd
+l0
+L5
+V;DNKPGNfE0k1zAJ0MS`^L1
+!s100 SFkdTAUYdbF5XG<Wa8ddg2
+R8
+32
+Z181 !s110 1630267774
+!i10b 1
+R10
+Z182 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Trigger_Control.vhd|
+Z183 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/FOOT/FootFirmware/DE10Std_BLDAQ/src/Trigger_Control.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R3
+R4
+DEx4 work 15 trigger_control 0 22 ;DNKPGNfE0k1zAJ0MS`^L1
+l110
+L48
+VYk@_LB13Jf[N@3_<ZnEf02
+!s100 4PH`>kTT=^`8fC8SWgJkV2
+R8
+32
+R181
+!i10b 1
+R10
+R182
+R183
+!i113 1
+R13
+R14

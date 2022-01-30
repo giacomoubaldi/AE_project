@@ -1,0 +1,174 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1
+Eclockgen
+Z0 w1495695990
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/simu/InSignControl
+Z4 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/simu/clockgen.vhd
+Z5 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/simu/clockgen.vhd
+l0
+L18
+V]7e3eFMdP4bNehWmAcg291
+!s100 j2Xk0f?G_NJTRjCM0<68f3
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1628590037
+!i10b 1
+Z8 !s108 1628590037.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/simu/clockgen.vhd|
+Z10 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/simu/clockgen.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+DEx4 work 8 clockgen 0 22 ]7e3eFMdP4bNehWmAcg291
+l26
+L25
+VIB=F_W>37?@<EDPA:BX^W0
+!s100 EBNBF;@X>GdLK0LonB>JL3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Einsigncontrol
+Z13 w1628590264
+Z14 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R1
+R2
+R3
+Z15 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/InSignControl.vhd
+Z16 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/InSignControl.vhd
+l0
+L7
+VRQm:RhSMjjK_0MA?`:hb20
+!s100 haWGYi;Ic7zeM=_8ccRY32
+R6
+32
+Z17 !s110 1628590283
+!i10b 1
+Z18 !s108 1628590283.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/InSignControl.vhd|
+Z20 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/InSignControl.vhd|
+!i113 1
+R11
+R12
+Astructural
+R14
+R1
+R2
+Z21 DEx4 work 13 insigncontrol 0 22 RQm:RhSMjjK_0MA?`:hb20
+l62
+L35
+VSWNA0KfM5eOJdg2af^zX<0
+!s100 `Oko@]YYAbfe2TkQbSIaY2
+R6
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R11
+R12
+Erisingedge_counter
+Z22 w1628590011
+R14
+R1
+R2
+R3
+Z23 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/RisingEdge_Counter.vhd
+Z24 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/RisingEdge_Counter.vhd
+l0
+L8
+VhHQZj;TWiDdi?[MPBCc?d2
+!s100 WF]4jYkBL1hiGAO<AK6KW0
+R6
+32
+R7
+!i10b 1
+R8
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/RisingEdge_Counter.vhd|
+Z26 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/RisingEdge_Counter.vhd|
+!i113 1
+R11
+R12
+Abehave
+R14
+R1
+R2
+DEx4 work 18 risingedge_counter 0 22 hHQZj;TWiDdi?[MPBCc?d2
+l28
+L21
+VWk7F4FEKXV1?LD0Mn1XEN1
+!s100 AaUd`JN6Q>SR=EGB64TfC2
+R6
+32
+R7
+!i10b 1
+R8
+R25
+R26
+!i113 1
+R11
+R12
+Etb
+Z27 w1628589424
+R14
+Z28 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R1
+R2
+R3
+Z29 8C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/simu/InSignControl/TBInSignControl.vhd
+Z30 FC:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/simu/InSignControl/TBInSignControl.vhd
+l0
+L10
+VKP^Jo`;VE`80QB5Yzi8dX0
+!s100 nOBzAfBojGI7eH4IDlVc20
+R6
+32
+R7
+!i10b 1
+R8
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/simu/InSignControl/TBInSignControl.vhd|
+Z32 !s107 C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/simu/InSignControl/TBInSignControl.vhd|
+!i113 1
+R11
+R12
+Abench
+R14
+R28
+R1
+R2
+DEx4 work 2 tb 0 22 KP^Jo`;VE`80QB5Yzi8dX0
+l68
+L13
+Vo_6Q4W`oRGQSOF=O^:L7g2
+!s100 PW7CHTC@f5]hAJ6NelB2D1
+R6
+32
+R7
+!i10b 1
+R8
+R31
+R32
+!i113 1
+R11
+R12

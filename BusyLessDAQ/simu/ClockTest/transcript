@@ -1,0 +1,25 @@
+# Loading project test_prova
+# Compile of clockgen.vhd was successful.
+# Compile of RisingEdge_Counter.vhd was successful.
+# Compile of RandomBit.vhd was successful.
+# Compile of TBClockTestprova.vhd was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.tb
+# vsim work.tb 
+# Start time: 11:45:55 on Jan 06,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb(bench)
+# Loading work.clockgen(behavioral)
+# Loading work.risingedge_counter(behave)
+# Loading work.randombit(a)
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/tb/*
+run -all
+# Break key hit
+# Simulation stop requested.
+# End time: 11:50:31 on Jan 06,2022, Elapsed time: 0:04:36
+# Errors: 0, Warnings: 2

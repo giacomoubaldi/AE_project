@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Fri Jan 28 13:50:18 2022
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+Revision Name : DE10Std_BLDAQ
+Top-level Entity Name : DE10BLDAQ_TOP
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 9034
+Total pins : 283
+Total virtual pins : 0
+Total block memory bits : 2,107,712
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 1
