@@ -62,17 +62,25 @@ int main( int argc, char *argv[] ){
   std::cout<<"Check firmware "<<std::endl;
   uint32_t fwver = fpga.ReadReg(16);
   std::cout<<"Firmware version: "<<fwver<<std::endl;
-  // check status and go to CONFIG
+
+
+
+  // check status 
   std::cout<<"Check current status"<<std::endl;
-  uint32_t status = fpga.ReadReg(17) & 7;
+  uint32_t status = fpga.ReadReg(17) & 7;    // bitwise AND
   if( status>7 ){
     std::cout<<"Error reading register 16!!\n"<<std::endl;
     fpga.PrintAllRegs();
     fpga.closeMem();	
     return 1;
   }
-  
-  while( status!=1){
+
+
+  //-----CONFIG
+  //----------------------------
+
+  //go to CONFIG
+  while( status!=1){    //if status is not config
     if( status==0){
 	  fpga.sendGoTo(IdleToConfig);
     } else if( status==3){
@@ -86,6 +94,8 @@ int main( int argc, char *argv[] ){
     usleep(100);
     status = fpga.ReadReg(17) & 0x7;	
   }
+
+
   // here the FPGA FSM is in the CONFIG status
   fpga.printStatus();
   std::cout<<"Printing all registers"<<std::endl;
@@ -103,7 +113,12 @@ int main( int argc, char *argv[] ){
   }
   std::cout<<"------------ "<<std::endl;
 	
-	
+
+
+
+  //-----RUN
+  //----------------------------
+  	
   // now going to run mode	
   status = fpga.ReadReg(17) & 7;
   std::cout<<"Current status "<<status<<std::endl;
@@ -114,7 +129,7 @@ int main( int argc, char *argv[] ){
     return 3;
   }
   
-  while( status!=3){
+  while( status!=3){    //if status is not run
     if( status==0){
 	  fpga.sendGoTo(IdleToConfig);
     } else if( status==1){
@@ -129,6 +144,8 @@ int main( int argc, char *argv[] ){
     status = fpga.ReadReg(17) & 0x7;	
     std::cout<<"Current status "<<status<<std::endl;
   }
+// here the FPGA FSM is in the RUN status
+
   if( status==3 ) std::cout<<std::endl<<" RUN state reached "<<std::endl;
   std::cout<<"Printing all registers"<<std::endl;
   fpga.PrintAllRegs();
@@ -137,7 +154,6 @@ int main( int argc, char *argv[] ){
   std::cout<<std::endl<<"RAM Offset 1:  "<<fpga.getHPSofs()<<std::endl;
   std::cout<<           "RAM Offset 2:  "<<fpga.getFPGAofs()<<std::endl;
   std::cout<<"waiting 10 seconds for triggers \n"<<std::endl;
-
   sleep(10);
 
   std::cout<<"Printing all registers"<<std::endl;
@@ -145,6 +161,13 @@ int main( int argc, char *argv[] ){
   fpga.printStatus();
   fpga.printRAMStatus(); 
   	
+
+
+
+
+  //-----go back to CONFIG MODE
+  //----------------------------
+  
   // shut down
   std::cout<<"Shutting down"<<std::endl;
   status = fpga.ReadReg(17) & 7;
