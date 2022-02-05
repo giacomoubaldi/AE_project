@@ -335,8 +335,8 @@ signal TriggerCheck : std_logic := '0';
 signal TriggerStream: unsigned (31 downto 0);
 
 -- Event builder
-signal Data_StreamTrg : unsigned (31 downto 0);
-signal Data_ValidTrg : std_logic;
+signal Data_StreamEB : unsigned (31 downto 0);
+signal Data_ValidEB : std_logic;
 
 
     -- Registers signals --
@@ -495,8 +495,8 @@ begin
 	SendPacket => SendPacket,
 	WaitRequest => WaitRequest,
     DataAvailable => DataAvailable,
-	Data_StreamOut => Data_StreamOut,
-	Data_ValidOut => Data_ValidOut,
+	Data_StreamOut => Data_StreamEB,
+	Data_ValidOut => Data_ValidEB,
     EndOfEventOut => EndOfEventOut,
 	Data_Size => Data_Size,
 	DDR3PointerTail => DDR3PointerTail,
@@ -523,8 +523,8 @@ begin
 
 
 
-  --Data_StreamTrg <= Data_StreamOut;   -- out of fourframereceiver and eventbuilder
-  --Data_ValidTrg <= Data_ValidOut;
+  Data_StreamOut <= Data_StreamEB;   -- out of eventbuilder
+  Data_ValidOut <= Data_ValidEB;
 -- --------------------------------------------
   -- Trigger candidate checker
   -- --------------------------------------------
@@ -535,9 +535,9 @@ begin
      Reset => Reset,
   
   --Input stream   -- from event builder 
-  Data_Stream => Data_StreamOut,
+  Data_Stream => Data_StreamEB,
   --Data_Valid: in std_logic;
-  Data_Valid => Data_ValidOut,
+  Data_Valid => Data_ValidEB ,
   
   --Output
   --TriggerCounterOut: out unsigned (11 downto 0)

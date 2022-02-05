@@ -9,7 +9,7 @@ z2
 cModel Technology
 d/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/simu/Simulator
 Ebldaq_module
-Z0 w1644075221
+Z0 w1644077773
 Z1 DPx4 work 13 bldaq_package 0 22 EfComYc0E5X7f[d51nYFo3
 Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
@@ -19,30 +19,30 @@ Z6 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessD
 Z7 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/BLDAQ_Module.vhd
 l0
 L6
-VOh=BFkFc=0l5^XhXoUcQ`0
+V7maY:VZo[mL`E6e`d]OAc3
 !s100 5WK@Kf71[L:V[m;[h_P??2
 Z8 OV;C;10.5b;63
-33
-Z9 !s110 1644075244
+32
+Z9 !s110 1644077799
 !i10b 1
-Z10 !s108 1644075244.000000
-Z11 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/BLDAQ_Module.vhd|
+Z10 !s108 1644077799.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/BLDAQ_Module.vhd|
 Z12 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/BLDAQ_Module.vhd|
 !i113 1
-Z13 o-work work -2008 -explicit
+Z13 o-work work -2002 -explicit
 Z14 tExplicit 1 CvgOpt 0
 Astructural
 R1
 R2
 R3
 R4
-Z15 DEx4 work 12 bldaq_module 0 22 Oh=BFkFc=0l5^XhXoUcQ`0
+Z15 DEx4 work 12 bldaq_module 0 22 7maY:VZo[mL`E6e`d]OAc3
 l369
 L49
-Z16 VdeFdYhV9o?U3b9<NDM2CA3
-Z17 !s100 a1?H2DX1iIDW?1G]b4a232
+Z16 VZ`TGIW5`zY`2=MF18i[2K3
+Z17 !s100 b66R`D=AF46>JHO??SZDZ3
 R8
-33
+32
 R9
 !i10b 1
 R10
@@ -72,7 +72,7 @@ R10
 Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/BLDAQ_Package.vhd|
 Z22 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/BLDAQ_Package.vhd|
 !i113 1
-Z23 o-work work -2002 -explicit
+R13
 R14
 Bbody
 R1
@@ -91,15 +91,15 @@ R10
 R21
 R22
 !i113 1
-R23
+R13
 R14
 Eclockgen
 R18
 R3
 R4
 R5
-Z24 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/simu/clockgen.vhd
-Z25 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/simu/clockgen.vhd
+Z23 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/simu/clockgen.vhd
+Z24 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/simu/clockgen.vhd
 l0
 L18
 V]7e3eFMdP4bNehWmAcg291
@@ -109,10 +109,10 @@ R8
 R9
 !i10b 1
 R10
-Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/simu/clockgen.vhd|
-Z27 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/simu/clockgen.vhd|
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/simu/clockgen.vhd|
+Z26 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/simu/clockgen.vhd|
 !i113 1
-R23
+R13
 R14
 Abehavioral
 R3
@@ -127,19 +127,19 @@ R8
 R9
 !i10b 1
 R10
+R25
 R26
-R27
 !i113 1
-R23
+R13
 R14
 Ecounter_nbit
-Z28 w1642003909
+Z27 w1642003909
 R2
 R3
 R4
 R5
-Z29 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/Counter_nbit.vhd
-Z30 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/Counter_nbit.vhd
+Z28 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/Counter_nbit.vhd
+Z29 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/Counter_nbit.vhd
 l0
 L5
 VB[LaeT>Kmf?YJ4BAaFX9F1
@@ -149,10 +149,10 @@ R8
 R9
 !i10b 1
 R10
-Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/Counter_nbit.vhd|
-Z32 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/Counter_nbit.vhd|
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/Counter_nbit.vhd|
+Z31 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/Counter_nbit.vhd|
 !i113 1
-R23
+R13
 R14
 Abehavior
 R2
@@ -168,20 +168,20 @@ R8
 R9
 !i10b 1
 R10
+R30
 R31
-R32
 !i113 1
-R23
+R13
 R14
 Edetectorsimulator
-Z33 w1644075183
+Z32 w1644075183
 R1
 R2
 R3
 R4
 R5
-Z34 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/DetectorSimulator.vhd
-Z35 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/DetectorSimulator.vhd
+Z33 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/DetectorSimulator.vhd
+Z34 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/DetectorSimulator.vhd
 l0
 L13
 V7F6Km^bR]]YA[gh3OE[f41
@@ -191,10 +191,10 @@ R8
 R9
 !i10b 1
 R10
-Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/DetectorSimulator.vhd|
-Z37 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/DetectorSimulator.vhd|
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/DetectorSimulator.vhd|
+Z36 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/DetectorSimulator.vhd|
 !i113 1
-R23
+R13
 R14
 Aalgorithm
 R1
@@ -211,20 +211,20 @@ R8
 R9
 !i10b 1
 R10
+R35
 R36
-R37
 !i113 1
-R23
+R13
 R14
 Efourframereceiver
-Z38 w1642607143
+Z37 w1642607143
 R1
 R2
 R3
 R4
 R5
-Z39 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FourFrameReceiver.vhd
-Z40 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FourFrameReceiver.vhd
+Z38 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FourFrameReceiver.vhd
+Z39 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FourFrameReceiver.vhd
 l0
 L6
 VQnV6fQK;FBzjHM<z;LYln1
@@ -234,10 +234,10 @@ R8
 R9
 !i10b 1
 R10
-Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FourFrameReceiver.vhd|
-Z42 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FourFrameReceiver.vhd|
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FourFrameReceiver.vhd|
+Z41 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FourFrameReceiver.vhd|
 !i113 1
-R23
+R13
 R14
 Astructural
 R1
@@ -254,18 +254,18 @@ R8
 R9
 !i10b 1
 R10
+R40
 R41
-R42
 !i113 1
-R23
+R13
 R14
 Eframefifo
 R18
 R3
 R4
 R5
-Z43 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameFifo.vhd
-Z44 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameFifo.vhd
+Z42 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameFifo.vhd
+Z43 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameFifo.vhd
 l0
 L42
 V28KBHL`7ZaI@c>JQ@m7X22
@@ -275,10 +275,10 @@ R8
 R9
 !i10b 1
 R10
-Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameFifo.vhd|
-Z46 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameFifo.vhd|
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameFifo.vhd|
+Z45 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameFifo.vhd|
 !i113 1
-R23
+R13
 R14
 Asyn
 R3
@@ -293,32 +293,32 @@ R8
 R9
 !i10b 1
 R10
+R44
 R45
-R46
 !i113 1
-R23
+R13
 R14
 Eframereceiver
-Z47 w1642776422
+Z46 w1642776422
 R2
 R3
 R4
 R5
-Z48 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameReceiver.vhd
-Z49 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameReceiver.vhd
+Z47 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameReceiver.vhd
+Z48 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameReceiver.vhd
 l0
 L6
 V4dXE5UIJ[0[X]eEScR3Xj3
 !s100 2E?lKKKdN0L[NK1K@>W9@0
 R8
 32
-Z50 !s110 1644075243
+Z49 !s110 1644077798
 !i10b 1
-Z51 !s108 1644075243.000000
-Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameReceiver.vhd|
-Z53 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameReceiver.vhd|
+Z50 !s108 1644077798.000000
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameReceiver.vhd|
+Z52 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameReceiver.vhd|
 !i113 1
-R23
+R13
 R14
 Aalgorithm
 R2
@@ -331,35 +331,35 @@ VO1zNgVj20c1UL<>N_D>ZC3
 !s100 `NH3TPYm@PjlH00mZA;j20
 R8
 32
-R50
+R49
 !i10b 1
+R50
 R51
 R52
-R53
 !i113 1
-R23
+R13
 R14
 Eframesimulator
-Z54 w1644075182
+Z53 w1644075182
 R2
 R3
 R4
 R5
-Z55 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameSimulator.vhd
-Z56 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameSimulator.vhd
+Z54 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameSimulator.vhd
+Z55 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameSimulator.vhd
 l0
 L12
 V5[mPG`Ee0Jn@CL_]R1FXY3
 !s100 z`]Y]6KiR1R2ZHAIlO[_]2
 R8
 32
-R50
+R49
 !i10b 1
-R51
-Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameSimulator.vhd|
-Z58 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameSimulator.vhd|
+R50
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameSimulator.vhd|
+Z57 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameSimulator.vhd|
 !i113 1
-R23
+R13
 R14
 Aalgorithm
 R2
@@ -372,21 +372,21 @@ V>ZPHz_Tzb[Sa]G1GDYeCi3
 !s100 h1g`zRP84;B4kS613mD[51
 R8
 32
-R50
+R49
 !i10b 1
-R51
+R50
+R56
 R57
-R58
 !i113 1
-R23
+R13
 R14
 Eframesizefifo
 R18
 R3
 R4
 R5
-Z59 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameSizeFifo.vhd
-Z60 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameSizeFifo.vhd
+Z58 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameSizeFifo.vhd
+Z59 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameSizeFifo.vhd
 l0
 L42
 VKC8TH`9gL2S<HU3`6M;[F3
@@ -396,10 +396,10 @@ R8
 R9
 !i10b 1
 R10
-Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameSizeFifo.vhd|
-Z62 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameSizeFifo.vhd|
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameSizeFifo.vhd|
+Z61 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/FrameSizeFifo.vhd|
 !i113 1
-R23
+R13
 R14
 Asyn
 R3
@@ -414,10 +414,10 @@ R8
 R9
 !i10b 1
 R10
+R60
 R61
-R62
 !i113 1
-R23
+R13
 R14
 Erandom_generator
 R18
@@ -425,21 +425,21 @@ R2
 R3
 R4
 R5
-Z63 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/Random_generator.vhd
-Z64 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/Random_generator.vhd
+Z62 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/Random_generator.vhd
+Z63 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/Random_generator.vhd
 l0
 L5
 V]f@PDE8[;6Yc7H_a^7VRV2
 !s100 iPOOmS_O5O4Ic_;LYcF171
 R8
 32
-R50
+R9
 !i10b 1
-R51
-Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/Random_generator.vhd|
-Z66 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/Random_generator.vhd|
+R50
+Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/Random_generator.vhd|
+Z65 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/Random_generator.vhd|
 !i113 1
-R23
+R13
 R14
 Abehavior
 R2
@@ -452,13 +452,13 @@ V@i@Sz=8@RAGa<gIl?RM013
 !s100 0IWFIM035J43eoUcC5nUk3
 R8
 32
-R50
+R9
 !i10b 1
-R51
+R50
+R64
 R65
-R66
 !i113 1
-R23
+R13
 R14
 Erandombit
 R18
@@ -466,21 +466,21 @@ R2
 R3
 R4
 R5
-Z67 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/RandomBit.vhd
-Z68 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/RandomBit.vhd
+Z66 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/RandomBit.vhd
+Z67 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/RandomBit.vhd
 l0
 L17
 VhSjC7F9P0mcI>LLf=j`F=1
 !s100 AAf1iH^[6CdIOilQ91b6G3
 R8
 32
-R50
+R9
 !i10b 1
-R51
-Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/RandomBit.vhd|
-Z70 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/RandomBit.vhd|
+R10
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/RandomBit.vhd|
+Z69 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/RandomBit.vhd|
 !i113 1
-R23
+R13
 R14
 Aa
 R2
@@ -493,13 +493,13 @@ VRZbT`UhEbV61aeCb81GHN2
 !s100 dWWccM3V1JdBFak0fDXd93
 R8
 32
-R50
+R9
 !i10b 1
-R51
+R10
+R68
 R69
-R70
 !i113 1
-R23
+R13
 R14
 Erisingedge_counter
 R18
@@ -507,8 +507,8 @@ R2
 R3
 R4
 R5
-Z71 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/RisingEdge_Counter.vhd
-Z72 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/RisingEdge_Counter.vhd
+Z70 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/RisingEdge_Counter.vhd
+Z71 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/RisingEdge_Counter.vhd
 l0
 L8
 VhHQZj;TWiDdi?[MPBCc?d2
@@ -517,11 +517,11 @@ R8
 32
 R9
 !i10b 1
-R51
-Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/RisingEdge_Counter.vhd|
-Z74 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/RisingEdge_Counter.vhd|
+R10
+Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/RisingEdge_Counter.vhd|
+Z73 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/RisingEdge_Counter.vhd|
 !i113 1
-R23
+R13
 R14
 Abehave
 R2
@@ -536,11 +536,11 @@ R8
 32
 R9
 !i10b 1
-R51
+R10
+R72
 R73
-R74
 !i113 1
-R23
+R13
 R14
 Estreamselector
 R18
@@ -548,8 +548,8 @@ R2
 R3
 R4
 R5
-Z75 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/StreamSelector.vhd
-Z76 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/StreamSelector.vhd
+Z74 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/StreamSelector.vhd
+Z75 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/StreamSelector.vhd
 l0
 L5
 V=:>oZTK_zKe;B>L_nYC9n0
@@ -559,10 +559,10 @@ R8
 R9
 !i10b 1
 R10
-Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/StreamSelector.vhd|
-Z78 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/StreamSelector.vhd|
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/StreamSelector.vhd|
+Z77 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/StreamSelector.vhd|
 !i113 1
-R23
+R13
 R14
 Abehavior
 R2
@@ -578,20 +578,20 @@ R8
 R9
 !i10b 1
 R10
+R76
 R77
-R78
 !i113 1
-R23
+R13
 R14
 Etb
-Z79 w1644064948
+Z78 w1644064948
 R1
 R2
 R3
 R4
 R5
-Z80 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/simu/FourFrameSimulator/TBFourSimulator.vhd
-Z81 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/simu/FourFrameSimulator/TBFourSimulator.vhd
+Z79 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/simu/FourFrameSimulator/TBFourSimulator.vhd
+Z80 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/simu/FourFrameSimulator/TBFourSimulator.vhd
 l0
 L10
 VZL0KkWGMV`_Vj:iKHSb`21
@@ -601,10 +601,10 @@ R8
 R9
 !i10b 1
 R10
-Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/simu/FourFrameSimulator/TBFourSimulator.vhd|
-Z83 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/simu/FourFrameSimulator/TBFourSimulator.vhd|
+Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/simu/FourFrameSimulator/TBFourSimulator.vhd|
+Z82 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/simu/FourFrameSimulator/TBFourSimulator.vhd|
 !i113 1
-R23
+R13
 R14
 Abench
 R1
@@ -621,19 +621,19 @@ R8
 R9
 !i10b 1
 R10
+R81
 R82
-R83
 !i113 1
-R23
+R13
 R14
 Etrigger_candidate
-Z84 w1644072601
+Z83 w1644072601
 R2
 R3
 R4
 R5
-Z85 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/Trigger_Candidate.vhd
-Z86 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/Trigger_Candidate.vhd
+Z84 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/Trigger_Candidate.vhd
+Z85 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/Trigger_Candidate.vhd
 l0
 L5
 VP`Z0TISANzjD9ZV:iJ_090
@@ -643,10 +643,10 @@ R8
 R9
 !i10b 1
 R10
-Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/Trigger_Candidate.vhd|
-Z88 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/Trigger_Candidate.vhd|
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/Trigger_Candidate.vhd|
+Z87 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/src/Trigger_Candidate.vhd|
 !i113 1
-R23
+R13
 R14
 Aalgo
 R2
@@ -662,8 +662,8 @@ R8
 R9
 !i10b 1
 R10
+R86
 R87
-R88
 !i113 1
-R23
+R13
 R14

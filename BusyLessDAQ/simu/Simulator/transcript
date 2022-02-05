@@ -2656,3 +2656,124 @@ vcom
 # 16 compiles, 0 failed with no errors.
 # reading /home/giacomo/intelFPGA/16.1/modelsim_ase/linuxaloem/../modelsim.ini
 # Loading project BLDAQ
+# reading /home/giacomo/intelFPGA/16.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project 4framesim
+# Compile of FrameReceiver.vhd was successful.
+# Compile of FrameSimulator.vhd was successful.
+# Compile of Random_generator.vhd was successful.
+# Compile of RandomBit.vhd was successful.
+# Compile of RisingEdge_Counter.vhd was successful.
+# Compile of StreamSelector.vhd was successful.
+# Compile of clockgen.vhd was successful.
+# Compile of Counter_nbit.vhd was successful.
+# Compile of FrameFifo.vhd was successful.
+# Compile of FrameSizeFifo.vhd was successful.
+# Compile of BLDAQ_Package.vhd was successful.
+# Compile of TBFourSimulator.vhd was successful.
+# Compile of DetectorSimulator.vhd was successful.
+# Compile of FourFrameReceiver.vhd was successful.
+# Compile of Trigger_Candidate.vhd was successful.
+# Compile of BLDAQ_Module.vhd failed with 3 errors.
+# 16 compiles, 1 failed with 3 errors.
+# Compile of FrameReceiver.vhd was successful.
+# Compile of FrameSimulator.vhd was successful.
+# Compile of Random_generator.vhd was successful.
+# Compile of RandomBit.vhd was successful.
+# Compile of RisingEdge_Counter.vhd was successful.
+# Compile of StreamSelector.vhd was successful.
+# Compile of clockgen.vhd was successful.
+# Compile of Counter_nbit.vhd was successful.
+# Compile of FrameFifo.vhd was successful.
+# Compile of FrameSizeFifo.vhd was successful.
+# Compile of BLDAQ_Package.vhd was successful.
+# Compile of TBFourSimulator.vhd was successful.
+# Compile of DetectorSimulator.vhd was successful.
+# Compile of FourFrameReceiver.vhd was successful.
+# Compile of Trigger_Candidate.vhd was successful.
+# Compile of BLDAQ_Module.vhd failed with 5 errors.
+# 16 compiles, 1 failed with 5 errors.
+# Compile of FrameReceiver.vhd was successful.
+# Compile of FrameSimulator.vhd was successful.
+# Compile of Random_generator.vhd was successful.
+# Compile of RandomBit.vhd was successful.
+# Compile of RisingEdge_Counter.vhd was successful.
+# Compile of StreamSelector.vhd was successful.
+# Compile of clockgen.vhd was successful.
+# Compile of Counter_nbit.vhd was successful.
+# Compile of FrameFifo.vhd was successful.
+# Compile of FrameSizeFifo.vhd was successful.
+# Compile of BLDAQ_Package.vhd was successful.
+# Compile of TBFourSimulator.vhd was successful.
+# Compile of DetectorSimulator.vhd was successful.
+# Compile of FourFrameReceiver.vhd was successful.
+# Compile of Trigger_Candidate.vhd was successful.
+# Compile of BLDAQ_Module.vhd failed with 2 errors.
+# 16 compiles, 1 failed with 2 errors.
+# Compile of FrameReceiver.vhd was successful.
+# Compile of FrameSimulator.vhd was successful.
+# Compile of Random_generator.vhd was successful.
+# Compile of RandomBit.vhd was successful.
+# Compile of RisingEdge_Counter.vhd was successful.
+# Compile of StreamSelector.vhd was successful.
+# Compile of clockgen.vhd was successful.
+# Compile of Counter_nbit.vhd was successful.
+# Compile of FrameFifo.vhd was successful.
+# Compile of FrameSizeFifo.vhd was successful.
+# Compile of BLDAQ_Package.vhd was successful.
+# Compile of TBFourSimulator.vhd was successful.
+# Compile of DetectorSimulator.vhd was successful.
+# Compile of FourFrameReceiver.vhd was successful.
+# Compile of Trigger_Candidate.vhd was successful.
+# Compile of BLDAQ_Module.vhd was successful.
+# 16 compiles, 0 failed with no errors.
+# Compile of FrameReceiver.vhd was successful.
+# Compile of FrameSimulator.vhd was successful.
+# Compile of Random_generator.vhd was successful.
+# Compile of RandomBit.vhd was successful.
+# Compile of RisingEdge_Counter.vhd was successful.
+# Compile of StreamSelector.vhd was successful.
+# Compile of clockgen.vhd was successful.
+# Compile of Counter_nbit.vhd was successful.
+# Compile of FrameFifo.vhd was successful.
+# Compile of FrameSizeFifo.vhd was successful.
+# Compile of BLDAQ_Package.vhd was successful.
+# Compile of TBFourSimulator.vhd was successful.
+# Compile of DetectorSimulator.vhd was successful.
+# Compile of FourFrameReceiver.vhd was successful.
+# Compile of Trigger_Candidate.vhd was successful.
+# Compile of BLDAQ_Module.vhd failed with 7 errors.
+# 16 compiles, 1 failed with 7 errors.
+# Compile of FrameReceiver.vhd was successful.
+# Compile of FrameSimulator.vhd was successful.
+# Compile of Random_generator.vhd was successful.
+# Compile of RandomBit.vhd was successful.
+# Compile of RisingEdge_Counter.vhd was successful.
+# Compile of StreamSelector.vhd was successful.
+# Compile of clockgen.vhd was successful.
+# Compile of Counter_nbit.vhd was successful.
+# Compile of FrameFifo.vhd was successful.
+# Compile of FrameSizeFifo.vhd was successful.
+# Compile of BLDAQ_Package.vhd was successful.
+# Compile of TBFourSimulator.vhd was successful.
+# Compile of DetectorSimulator.vhd was successful.
+# Compile of FourFrameReceiver.vhd was successful.
+# Compile of Trigger_Candidate.vhd was successful.
+# Compile of BLDAQ_Module.vhd was successful.
+# 16 compiles, 0 failed with no errors.
+# Compile of FrameReceiver.vhd was successful.
+# Compile of FrameSimulator.vhd was successful.
+# Compile of Random_generator.vhd was successful.
+# Compile of RandomBit.vhd was successful.
+# Compile of RisingEdge_Counter.vhd was successful.
+# Compile of StreamSelector.vhd was successful.
+# Compile of clockgen.vhd was successful.
+# Compile of Counter_nbit.vhd was successful.
+# Compile of FrameFifo.vhd was successful.
+# Compile of FrameSizeFifo.vhd was successful.
+# Compile of BLDAQ_Package.vhd was successful.
+# Compile of TBFourSimulator.vhd was successful.
+# Compile of DetectorSimulator.vhd was successful.
+# Compile of FourFrameReceiver.vhd was successful.
+# Compile of Trigger_Candidate.vhd was successful.
+# Compile of BLDAQ_Module.vhd was successful.
+# 16 compiles, 0 failed with no errors.

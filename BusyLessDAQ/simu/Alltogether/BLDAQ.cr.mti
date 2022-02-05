@@ -107,15 +107,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity FrameSimulator
 -- Compiling architecture algorithm of FrameSimulator
 
-} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Trigger_Control.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Trigger_Control.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity Trigger_Control
--- Compiling architecture Structural of Trigger_Control
-
 } {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Local_RX.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Local_RX.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -126,23 +117,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity Local_RX
 -- Compiling architecture description of Local_RX
 
-} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/simu/Alltogether/TB_BLDAQ_Module.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/simu/Alltogether/TB_BLDAQ_Module.vhd}
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Trigger_Control.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Trigger_Control.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Loading package BLDAQ_Package
--- Compiling entity TB
--- Compiling architecture bench of TB
-
-} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FifoRX.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FifoRX.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity FifoRX
--- Compiling architecture SYN of fiforx
+-- Compiling entity Trigger_Control
+-- Compiling architecture Structural of Trigger_Control
 
 } {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Local_TX.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Local_TX.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -154,22 +136,23 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity Local_TX
 -- Compiling architecture description of Local_TX
 
-} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Fifo_TX_Regs.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Fifo_TX_Regs.vhd}
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FifoRX.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FifoRX.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity Fifo_TX_Regs
--- Compiling architecture SYN of fifo_tx_regs
+-- Compiling entity FifoRX
+-- Compiling architecture SYN of fiforx
 
-} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Busy_Stretch.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Busy_Stretch.vhd}
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/simu/Alltogether/TB_BLDAQ_Module.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/simu/Alltogether/TB_BLDAQ_Module.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity Busy_Stretch
--- Compiling architecture behave of Busy_Stretch
+-- Loading package BLDAQ_Package
+-- Compiling entity TB
+-- Compiling architecture bench of TB
 
 } {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Counter_nbitEN.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Counter_nbitEN.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -180,14 +163,22 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity Counter_nbitEN
 -- Compiling architecture behavior of Counter_nbitEN
 
-} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FrameReceiver.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FrameReceiver.vhd}
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Busy_Stretch.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Busy_Stretch.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity FrameReceiver
--- Compiling architecture algorithm of FrameReceiver
+-- Compiling entity Busy_Stretch
+-- Compiling architecture behave of Busy_Stretch
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Fifo_TX_Regs.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Fifo_TX_Regs.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Fifo_TX_Regs
+-- Compiling architecture SYN of fifo_tx_regs
 
 } {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/RisingEdge_Counter.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/RisingEdge_Counter.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -198,14 +189,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity RisingEdge_Counter
 -- Compiling architecture behave of RisingEdge_Counter
 
-} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/InSignControl.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/InSignControl.vhd}
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FrameReceiver.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FrameReceiver.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity InSignControl
--- Compiling architecture Structural of InSignControl
+-- Compiling entity FrameReceiver
+-- Compiling architecture algorithm of FrameReceiver
 
 } {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/TrgFifo.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/TrgFifo.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -215,32 +206,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity TrgFifo
 -- Compiling architecture SYN of trgfifo
 
-} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FourFrameReceiver.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FourFrameReceiver.vhd}
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/InSignControl.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/InSignControl.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Loading package BLDAQ_Package
--- Compiling entity FourFrameReceiver
--- Compiling architecture structural of FourFrameReceiver
-
-} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Counter_nbit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Counter_nbit.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity Counter_nbit
--- Compiling architecture behavior of Counter_nbit
-
-} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/simu/clockgen.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/simu/clockgen.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity clockgen
--- Compiling architecture behavioral of clockgen
+-- Compiling entity InSignControl
+-- Compiling architecture Structural of InSignControl
 
 } {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Register_File.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Register_File.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -252,14 +225,41 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity Register_File
 -- Compiling architecture behavior of Register_File
 
-} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FifoControl.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FifoControl.vhd}
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/simu/clockgen.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/simu/clockgen.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity FifoControl
+-- Compiling entity clockgen
+-- Compiling architecture behavioral of clockgen
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Counter_nbit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/Counter_nbit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Counter_nbit
+-- Compiling architecture behavior of Counter_nbit
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FourFrameReceiver.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FourFrameReceiver.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package BLDAQ_Package
+-- Compiling entity FourFrameReceiver
+-- Compiling architecture structural of FourFrameReceiver
+
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/StreamSelector.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/StreamSelector.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity StreamSelector
+-- Compiling architecture behavior of StreamSelector
 
 } {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FramePointerMemory.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FramePointerMemory.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -271,13 +271,13 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity FramePointerMemory
 -- Compiling architecture algorithm of FramePointerMemory
 
-} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/StreamSelector.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/StreamSelector.vhd}
+} {} {}} {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FifoControl.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/villa/OneDrive - Istituto Nazionale di Fisica Nucleare/Sorgenti/vhdl/BusyLessDAQ/src/FifoControl.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity StreamSelector
--- Compiling architecture behavior of StreamSelector
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity FifoControl
 
 } {} {}}
