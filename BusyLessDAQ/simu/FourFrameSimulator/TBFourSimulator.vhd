@@ -17,7 +17,7 @@ architecture bench of TB is
     --Inputs
     Clock : in std_logic;
 	Reset : in std_logic;
-  Trigger : in std_logic;
+  --Trigger : in std_logic;
     --Outputs
 	Data_Streams : out NSensStreamData_t;
 	Data_Valid : out std_logic_vector(N_Sensors-1 downto 0);
@@ -110,16 +110,6 @@ end component;
   );
   end component;
 
-  -- to generate a random trigger inside FrameSimulator
-  component RandomBit is
-    port(
-      clk          : in std_logic;
-      nReset       : in std_logic;
-      seme         : in std_logic_vector(15 downto 0);
-      soglia       : in std_logic_vector(15 downto 0);
-      onoff        : out std_logic
-    );
-  end component RandomBit;
 
 
   signal Clock  : std_logic;
@@ -154,11 +144,7 @@ signal TriggerCheck : std_logic := '0';
 ---signal EndOfEvent : std_logic := '0';
 
 
--- for RandomBit trigger
-  --signal nReset <= not Reset;
 
-  signal seme: std_logic_vector(15 downto 0) := x"CA03";
-  signal soglia: std_logic_vector(15 downto 0):=x"0060";
 
   type state is (idle, waiting, reading, ending);
   signal currentState, nextState : state := idle;
@@ -201,17 +187,6 @@ begin
 
 
 
-             -- --------------------------
-               --  Random_bit: to generate a trigger
-               -- --------------------------
-               RB: RandomBit
-              port map (
-                clk => Clock,
-                nReset => "not"(Reset),
-                seme =>seme,
-                soglia =>soglia,
-                onoff => Trigger);
-
 
   -- --------------------------------------------
   --   DUT1: Detector simulator...
@@ -221,7 +196,7 @@ begin
     --Inputs
     Clock => Clock,
 	Reset => Reset,
-  Trigger => Trigger,
+  --Trigger => Trigger,
     --Outputs
 	Data_Streams => NData_Streams,
 	Data_Valid => NData_Valid,

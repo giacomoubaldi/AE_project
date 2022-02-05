@@ -374,7 +374,7 @@ R60
 R11
 R12
 Etbs
-Z61 w1643128149
+Z61 w1643132472
 R14
 R54
 R1
@@ -388,11 +388,11 @@ ViJE^TX7VaLBklchS6=Y2D2
 !s100 ^E>ao3fRPQQYnkN8QhoRY0
 R6
 32
-Z65 !s110 1643128766
+!s110 1643993370
 !i10b 1
-Z66 !s108 1643128766.000000
-Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/simu/FrameSimulator/TBSimulator.vhd|
-Z68 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/simu/FrameSimulator/TBSimulator.vhd|
+!s108 1643993370.000000
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/simu/FrameSimulator/TBSimulator.vhd|
+!s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/simu/FrameSimulator/TBSimulator.vhd|
 !i113 1
 R11
 R12
@@ -408,11 +408,11 @@ VW[IDY10[hF_6kKWnSAFUY2
 !s100 ^]0LmNc>QlDBi_6;f[M1S0
 R6
 32
-R65
+!s110 1643128766
 !i10b 1
-R66
-R67
-R68
+!s108 1643128766.000000
+R65
+!s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/BusyLessDAQ/simu/FrameSimulator/TBSimulator.vhd|
 !i113 1
 R11
 R12

@@ -209,6 +209,30 @@ architecture Structural of BLDAQ_Module is
   );
   end component;
 
+
+
+  component Trigger_Candidate is
+    --Port declaration
+     port (
+     --Inputs
+     Clock : in std_logic;
+     Reset : in std_logic;
+  
+  --Input stream
+  Data_Stream : in unsigned (31 downto 0);
+  --Data_Valid: in std_logic;
+  Data_Valid : in std_logic;
+  
+  --Output
+  --TriggerCounterOut: out unsigned (11 downto 0)
+  TriggerCheck : out std_logic;
+  TriggerStream: out unsigned (31 downto 0)
+  
+  );
+  end component;
+
+
+
   component Register_File is
   port(
     Clock : in std_logic;
@@ -296,12 +320,24 @@ architecture Structural of BLDAQ_Module is
   signal TrgAcceptedCounter : unsigned (31 downto 0);
   signal TrgTSCounter : unsigned (31 downto 0);
 
+
+  -- Event Builder
   signal EvDataOut : std_logic_vector (223 downto 0);
 --  signal EvAlmost_full	: std_logic;
 --  signal EvEmpty, EvFull : std_logic;
 --  signal EvUsedw : std_logic_vector (10 downto 0);
   signal EVDataOutReady : std_logic;
   signal EVFifoStatus : std_logic_vector (15 downto 0);
+
+
+-- Trigger Candidate
+signal TriggerCheck : std_logic := '0';
+signal TriggerStream: unsigned (31 downto 0);
+
+-- Event builder
+signal Data_StreamTrg : unsigned (31 downto 0);
+signal Data_ValidTrg : std_logic;
+
 
     -- Registers signals --
   signal Register_Address : natural;
@@ -357,7 +393,7 @@ begin
     --External signals
     TSClockIn => TSClockIn,
     TSResetIn => TSResetIn,
-    TriggerIn => TriggerIn,
+    TriggerIn => TriggerCheck,   --- from TriggerCandidate
 
     --Outputs
     TSClockOut => TSClockOut,
@@ -479,10 +515,39 @@ begin
 	-- A memory is Full
 	BusyOut => EB_Busy
   );
+  
   DoStore <= InternalDAQIsRunning and Control_Registers_Bus(Config_reg)(DoStore_Flag);
 
   -- for simulation only
   Comm_EventReady <= EVDataOutReady;
+
+
+
+  --Data_StreamTrg <= Data_StreamOut;   -- out of fourframereceiver and eventbuilder
+  --Data_ValidTrg <= Data_ValidOut;
+-- --------------------------------------------
+  -- Trigger candidate checker
+  -- --------------------------------------------
+  TrgCandidate: Trigger_Candidate 
+     port map (
+     --Inputs
+     Clock => Clock,
+     Reset => Reset,
+  
+  --Input stream   -- from event builder 
+  Data_Stream => Data_StreamOut,
+  --Data_Valid: in std_logic;
+  Data_Valid => Data_ValidOut,
+  
+  --Output
+  --TriggerCounterOut: out unsigned (11 downto 0)
+  TriggerCheck =>  TriggerCheck,
+  TriggerStream =>  TriggerStream
+  
+  );
+
+
+
 
   -- --------------------------------------------
   -- Register file
