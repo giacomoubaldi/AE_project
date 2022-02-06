@@ -1,0 +1,62 @@
+Sintesi
+--------------------
+-Crei progetto su Quartus aggiungendo tutti i sorgendi .vhdl che servono oppure apri file progetto .qpf
+-Fai partire la sintesi: se va tutto bene, in output_files trovi .sof
+-Converti il file .sof in file .rbf lanciando lo scrpit .tcl che trovi su Tool/Tcl Scripts
+
+-Porti file .rbf su macchina:
+	scp file_.rbf tdaq@footbo1:.				(se non collegato a infn, fai questo passaggio una volta che sei già loggato su pcslim con comando eproject)
+-entri nella fpga
+	ssh root@de10nano5
+-sposti file_.rbf dalla home di footbo1 nella cartella rbf della fpga:
+	scp tdaq@footbo1:nome_file rbf/.
+
+- modificihi il file mounth.sh per lanciare la nuova versione firmware:
+	vi mounth.sh    modificando FILE=... con il nome del tuo file_.rbf
+ (N.B.: per usare questo editor prima spingi "i" per poter editare, poi esc quando hai finito di scrivere. a questo punto pigi ":wq" per salvare e chiudere
+- ./mounth.sh per lanciare il nuovo firmware
+
+- il primo check è lanciare ./prinfInfo per vedere se il firmware è aggiornato
+
+
+
+
+codice c++ per interagire con fpga
+---------
+- collegarsi a tdaq@pcslim4.bo.infn.it.
+
+- andare nella dir di compilazione
+
+  cd Firmware/DE10Std_BLDAQ/c_code
+
+- lanciare una sola volta per finestra il comando "ds": questo configura l'ambiente per le successive compilazioni
+
+- la compilazione del codice e la produzione dell'eseguibile è affidata ad un "Makefile" che descrive le varie dipendenze. Quando si cambia qualcosa per ricompilare l'intero progetto eseguire:
+
+    make
+
+- si producono così nella cartella bin tutti gli eseguibili. A questo punto occorre spostarli:
+
+- mettere l'eseguibile di interesse prima su footbo1
+
+  scp bin/ReadEvents tdaq@footbo1.bo.infn.it
+
+- andare su footbo1
+
+  ssh -X tdaq@footbo1.bo.infn.it
+
+- copiare l'eseguibile sulla de10nano5:
+
+  scp ReadEvents root@de10nano5.tdaq.it:.
+
+- attivare il permesso di esecuzione sul file
+
+  chown +x ReadEvents
+
+- mandarlo in esecuzione
+
+ ./ReadEvents
+
+oppure
+
+ ./ReadEvents > output.txt 
