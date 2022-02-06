@@ -220,6 +220,29 @@ architecture Structural of BLDAQ_Module is
   );
   end component;
   
+  -- ---------------------------------- trigger candidate from datastream
+  component Trigger_Candidate is
+    --Port declaration
+     port (
+     --Inputs
+     Clock : in std_logic;
+     Reset : in std_logic;
+  
+  --Input stream
+  Data_Stream : in unsigned (31 downto 0);
+  --Data_Valid: in std_logic;
+  Data_Valid : in std_logic;
+  
+  --Output
+  --TriggerCounterOut: out unsigned (11 downto 0)
+  TriggerCheck : out std_logic;
+  TriggerStream: out unsigned (31 downto 0)
+  
+  );
+  end component;
+
+
+
   component CommunicationModule is
   port(
     Clock : in std_logic;
@@ -282,6 +305,16 @@ architecture Structural of BLDAQ_Module is
   signal TrgFifo_info : std_logic_vector(15 downto 0);
   signal ErrorOnTrg : std_logic;  
 
+
+-- Trigger Candidate
+signal TriggerCheck : std_logic := '0';
+signal TriggerStream: unsigned (31 downto 0);
+
+-- Event builder
+signal Data_StreamEB : unsigned (31 downto 0);
+signal Data_ValidEB : std_logic;
+
+
 begin
 
   -- --------------------------------------------
@@ -325,7 +358,7 @@ begin
     --External signals
     TSClockIn => TSClockIn,      
     TSResetIn => TSResetIn,    
-    TriggerIn => TriggerIn,       
+    TriggerIn => TriggerCheck,   --- from TriggerCandidate    
      
     --Outputs
     TSClockOut => TSClockOut,
@@ -372,7 +405,8 @@ begin
     DAQIsRunning => internalDAQIsRunning, DAQ_Reset => internalDAQ_Reset,
     --External clock 
     TSClock => TSClockOut, TSReset => TSResetOut,
-    --Trigger signal from GPIO
+    --Trigger signal from signal
+    -- (before from GPIO)
     Trigger => TriggerCandidate,     
     --Internal Busy from EventFifo
     Busy => BusyIn,
@@ -430,8 +464,8 @@ begin
 	SendPacket => SendPacket,
 	WaitRequest => WaitRequest,
     DataAvailable => DataAvailableInt,
-	Data_StreamOut => Data_StreamOut,
-	Data_ValidOut => Data_ValidOut,
+	Data_StreamOut => Data_StreamEB,
+	Data_ValidOut => Data_ValidEB,
     EndOfEventOut => EndOfEventOut,
 	Data_Size => Data_Size,
 	DDR3PointerTail => DDR3PointerTailInt,
@@ -457,6 +491,34 @@ begin
   
   -- for simulation only
   Comm_EventReady <= EVDataOutReady;
+
+
+  Data_StreamOut <= Data_StreamEB;   -- out of eventbuilder
+  Data_ValidOut <= Data_ValidEB;
+
+
+  -- --------------------------------------------
+  -- Trigger candidate checker
+  -- --------------------------------------------
+  TrgCandidate: Trigger_Candidate 
+     port map (
+     --Inputs
+     Clock => Clock,
+     Reset => Reset,
+  
+  --Input stream   -- from event builder 
+  Data_Stream => Data_StreamEB,
+  --Data_Valid: in std_logic;
+  Data_Valid => Data_ValidEB ,
+  
+  --Output
+  --TriggerCounterOut: out unsigned (11 downto 0)
+  TriggerCheck =>  TriggerCheck,
+  TriggerStream =>  TriggerStream
+  
+  );
+
+
 
   -- --------------------------------------------
   -- Register file

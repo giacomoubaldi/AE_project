@@ -6,7 +6,7 @@ use IEEE.numeric_std.all;
 package BLDAQ_Package is
 
  -- Contained in monitor register 0  (abs reg 16)
-  constant Firmware_Version : std_logic_vector(31 downto 0) := x"de200001"; 
+  constant Firmware_Version : std_logic_vector(31 downto 0) := x"de200002"; 
   
   constant N_CONTROL_REGS : natural := 16; -- Number of mapped control registers
   constant N_MONITOR_REGS : natural := 32; -- Number of mapped monitor registers

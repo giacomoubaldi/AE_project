@@ -1,12 +1,12 @@
-Fitter Status : Successful - Sun Jan 30 20:27:32 2022
+Fitter Status : Successful - Sun Feb  6 15:04:26 2022
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : DE10Std_BLDAQ
 Top-level Entity Name : DE10BLDAQ_TOP
 Family : Cyclone V
 Device : 5CSXFC6D6F31C6
 Timing Models : Final
-Logic utilization (in ALMs) : 5,956 / 41,910 ( 14 % )
-Total registers : 9422
+Logic utilization (in ALMs) : 6,143 / 41,910 ( 15 % )
+Total registers : 9617
 Total pins : 283 / 499 ( 57 % )
 Total virtual pins : 0
 Total block memory bits : 2,107,712 / 5,662,720 ( 37 % )
