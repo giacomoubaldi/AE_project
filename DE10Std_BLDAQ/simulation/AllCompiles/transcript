@@ -1,0 +1,57 @@
+# Loading project AllCompiles
+# reading /home/giacomo/intelFPGA/16.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project TriggerCheck
+# Compile of BLDAQ_Module.vhd failed with 4 errors.
+# Compile of BLDAQ_Package.vhd was successful.
+# Compile of DetectorSimulator.vhd was successful.
+# Compile of FourFrameReceiver.vhd was successful.
+# Compile of FrameReceiver.vhd was successful.
+# Compile of FrameSimulator.vhd was successful.
+# Compile of Random_generator.vhd was successful.
+# Compile of RandomBit.vhd was successful.
+# Compile of RisingEdge_Counter.vhd was successful.
+# Compile of Trigger_Candidate.vhd was successful.
+# 10 compiles, 1 failed with 4 errors.
+# Compile of BLDAQ_Package.vhd was successful.
+# Compile of DetectorSimulator.vhd was successful.
+# Compile of FourFrameReceiver.vhd was successful.
+# Compile of FrameReceiver.vhd was successful.
+# Compile of FrameSimulator.vhd was successful.
+# Compile of Random_generator.vhd was successful.
+# Compile of RandomBit.vhd was successful.
+# Compile of RisingEdge_Counter.vhd was successful.
+# Compile of Trigger_Candidate.vhd was successful.
+# Compile of BLDAQ_Module.vhd was successful.
+# 10 compiles, 0 failed with no errors.
+do simu.do
+# vsim -t 1ns work.tbs 
+# Start time: 18:41:39 on Feb 06,2022
+# ** Error: (vsim-3170) Could not find 'tbs'.
+#         Searched libraries:
+#             /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/simulation/TriggerCandidate Simulator/work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./simu.do PAUSED at line 1
+do simu.do
+# vsim -t 1ns work.tbs 
+# Start time: 18:41:39 on Feb 06,2022
+# ** Error: (vsim-3170) Could not find 'tbs'.
+#         Searched libraries:
+#             /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/simulation/TriggerCandidate Simulator/work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./simu.do PAUSED at line 1
+do simu.do
+# vsim -t 1ns work.tbs 
+# Start time: 18:41:39 on Feb 06,2022
+# ** Error: (vsim-3170) Could not find 'tbs'.
+#         Searched libraries:
+#             /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/simulation/TriggerCandidate Simulator/work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./simu.do PAUSED at line 1
+# End time: 18:42:36 on Feb 06,2022, Elapsed time: 0:00:57
+# Errors: 3, Warnings: 0

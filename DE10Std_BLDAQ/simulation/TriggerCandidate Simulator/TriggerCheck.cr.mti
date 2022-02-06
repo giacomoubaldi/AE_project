@@ -1,0 +1,61 @@
+{/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/BLDAQ_Package.vhd} {0 {vcom -work work -2002 -explicit -stats=none {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/BLDAQ_Package.vhd}
+** Warning: (vcom-14) Failed to open "/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/simulation/TriggerCandidate Simulator/TriggerCheck.mpf" specified by the MODELSIM environment variable.
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib failed. Please check the error log for more details.
+sh: 1: /home/giacomo/intelFPGA/16.1/modelsim_ase/linuxpe/vlib: not found
+
+} {4.0 5.0} {}} {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameSimulator.vhd} {0 {vcom -work work -2002 -explicit -stats=none {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameSimulator.vhd}
+** Warning: (vcom-14) Failed to open "/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/simulation/TriggerCandidate Simulator/TriggerCheck.mpf" specified by the MODELSIM environment variable.
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib failed. Please check the error log for more details.
+sh: 1: /home/giacomo/intelFPGA/16.1/modelsim_ase/linuxpe/vlib: not found
+
+} {4.0 5.0} {}} {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Random_generator.vhd} {0 {vcom -work work -2002 -explicit -stats=none {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Random_generator.vhd}
+** Warning: (vcom-14) Failed to open "/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/simulation/TriggerCandidate Simulator/TriggerCheck.mpf" specified by the MODELSIM environment variable.
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib failed. Please check the error log for more details.
+sh: 1: /home/giacomo/intelFPGA/16.1/modelsim_ase/linuxpe/vlib: not found
+
+} {4.0 5.0} {}} {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FourFrameReceiver.vhd} {0 {vcom -work work -2002 -explicit -stats=none {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FourFrameReceiver.vhd}
+** Warning: (vcom-14) Failed to open "/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/simulation/TriggerCandidate Simulator/TriggerCheck.mpf" specified by the MODELSIM environment variable.
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib failed. Please check the error log for more details.
+sh: 1: /home/giacomo/intelFPGA/16.1/modelsim_ase/linuxpe/vlib: not found
+
+} {4.0 5.0} {}} {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameReceiver.vhd} {0 {vcom -work work -2002 -explicit -stats=none {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameReceiver.vhd}
+** Warning: (vcom-14) Failed to open "/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/simulation/TriggerCandidate Simulator/TriggerCheck.mpf" specified by the MODELSIM environment variable.
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib failed. Please check the error log for more details.
+sh: 1: /home/giacomo/intelFPGA/16.1/modelsim_ase/linuxpe/vlib: not found
+
+} {4.0 5.0} {}} {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/RandomBit.vhd} {0 {vcom -work work -2002 -explicit -stats=none {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/RandomBit.vhd}
+** Warning: (vcom-14) Failed to open "/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/simulation/TriggerCandidate Simulator/TriggerCheck.mpf" specified by the MODELSIM environment variable.
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib failed. Please check the error log for more details.
+sh: 1: /home/giacomo/intelFPGA/16.1/modelsim_ase/linuxpe/vlib: not found
+
+} {4.0 5.0} {}} {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/RisingEdge_Counter.vhd} {0 {vcom -work work -2002 -explicit -stats=none {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/RisingEdge_Counter.vhd}
+** Warning: (vcom-14) Failed to open "/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/simulation/TriggerCandidate Simulator/TriggerCheck.mpf" specified by the MODELSIM environment variable.
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib failed. Please check the error log for more details.
+sh: 1: /home/giacomo/intelFPGA/16.1/modelsim_ase/linuxpe/vlib: not found
+
+} {4.0 5.0} {}} {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Trigger_Candidate.vhd} {0 {vcom -work work -2002 -explicit -stats=none {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Trigger_Candidate.vhd}
+** Warning: (vcom-14) Failed to open "/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/simulation/TriggerCandidate Simulator/TriggerCheck.mpf" specified by the MODELSIM environment variable.
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib failed. Please check the error log for more details.
+sh: 1: /home/giacomo/intelFPGA/16.1/modelsim_ase/linuxpe/vlib: not found
+
+} {4.0 5.0} {}} {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/BLDAQ_Module.vhd} {0 {vcom -work work -2002 -explicit -stats=none {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/BLDAQ_Module.vhd}
+** Warning: (vcom-14) Failed to open "/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/simulation/TriggerCandidate Simulator/TriggerCheck.mpf" specified by the MODELSIM environment variable.
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib failed. Please check the error log for more details.
+sh: 1: /home/giacomo/intelFPGA/16.1/modelsim_ase/linuxpe/vlib: not found
+
+} {4.0 5.0} {}} {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/DetectorSimulator.vhd} {0 {vcom -work work -2002 -explicit -stats=none {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/DetectorSimulator.vhd}
+** Warning: (vcom-14) Failed to open "/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/simulation/TriggerCandidate Simulator/TriggerCheck.mpf" specified by the MODELSIM environment variable.
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib failed. Please check the error log for more details.
+sh: 1: /home/giacomo/intelFPGA/16.1/modelsim_ase/linuxpe/vlib: not found
+
+} {4.0 5.0} {}}

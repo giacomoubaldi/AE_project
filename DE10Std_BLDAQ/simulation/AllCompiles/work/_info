@@ -23,9 +23,9 @@ VI0WAD`obm>ZY994F>7=a`2
 !s100 H?QR7I0S3CFmc^`I4KkL42
 Z8 OV;C;10.5b;63
 32
-Z9 !s110 1644155429
+Z9 !s110 1644169026
 !i10b 1
-Z10 !s108 1644155429.000000
+Z10 !s108 1644169026.000000
 Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/BLDAQ_Module.vhd|
 Z12 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/BLDAQ_Module.vhd|
 !i113 1
@@ -55,14 +55,14 @@ Pbldaq_package
 R2
 R3
 R4
-Z15 w1644079578
+Z15 w1644155747
 R5
 Z16 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/BLDAQ_Package.vhd
 Z17 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/BLDAQ_Package.vhd
 l0
 L6
-V7GB;L`53lPTKL8^?kekDL1
-!s100 6PJijPYz=Fz]l;E5onW;G0
+VGVnKeoIQX>1LWA4Aj^n3>2
+!s100 Ed8fFmdW3V]3H=a4liWgY0
 R8
 32
 b1
@@ -75,7 +75,7 @@ Z19 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE1
 R13
 R14
 Bbody
-R1
+Z20 DPx4 work 13 bldaq_package 0 22 GVnKeoIQX>1LWA4Aj^n3>2
 R2
 R3
 R4
@@ -94,13 +94,13 @@ R19
 R13
 R14
 Ebusy_stretch
-R15
+Z21 w1644079578
 R2
 R3
 R4
 R5
-Z20 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Busy_Stretch.vhd
-Z21 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Busy_Stretch.vhd
+Z22 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Busy_Stretch.vhd
+Z23 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Busy_Stretch.vhd
 l0
 L7
 VH:;V6fm[__YjnOK`ARS4b0
@@ -110,8 +110,8 @@ R8
 R9
 !i10b 1
 R10
-Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Busy_Stretch.vhd|
-Z23 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Busy_Stretch.vhd|
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Busy_Stretch.vhd|
+Z25 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Busy_Stretch.vhd|
 !i113 1
 R13
 R14
@@ -129,20 +129,20 @@ R8
 R9
 !i10b 1
 R10
-R22
-R23
+R24
+R25
 !i113 1
 R13
 R14
 Ecommunicationmodule
-R15
-R1
+R21
+R20
 R2
 R3
 R4
 R5
-Z24 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/CommunicationModule.vhd
-Z25 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/CommunicationModule.vhd
+Z26 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/CommunicationModule.vhd
+Z27 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/CommunicationModule.vhd
 l0
 L6
 VKYmifA:oCSF7[@S0fISTH1
@@ -152,13 +152,13 @@ R8
 R9
 !i10b 1
 R10
-Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/CommunicationModule.vhd|
-Z27 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/CommunicationModule.vhd|
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/CommunicationModule.vhd|
+Z29 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/CommunicationModule.vhd|
 !i113 1
 R13
 R14
 Abehavior
-R1
+R20
 R2
 R3
 R4
@@ -172,19 +172,19 @@ R8
 R9
 !i10b 1
 R10
-R26
-R27
+R28
+R29
 !i113 1
 R13
 R14
 Ecounter_nbit
-R15
+R21
 R2
 R3
 R4
 R5
-Z28 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Counter_nbit.vhd
-Z29 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Counter_nbit.vhd
+Z30 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Counter_nbit.vhd
+Z31 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Counter_nbit.vhd
 l0
 L5
 VB[LaeT>Kmf?YJ4BAaFX9F1
@@ -194,8 +194,8 @@ R8
 R9
 !i10b 1
 R10
-Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Counter_nbit.vhd|
-Z31 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Counter_nbit.vhd|
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Counter_nbit.vhd|
+Z33 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Counter_nbit.vhd|
 !i113 1
 R13
 R14
@@ -213,19 +213,19 @@ R8
 R9
 !i10b 1
 R10
-R30
-R31
+R32
+R33
 !i113 1
 R13
 R14
 Ecounter_nbiten
-R15
+R21
 R2
 R3
 R4
 R5
-Z32 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Counter_nbitEN.vhd
-Z33 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Counter_nbitEN.vhd
+Z34 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Counter_nbitEN.vhd
+Z35 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Counter_nbitEN.vhd
 l0
 L5
 VCmoASST>;m5n9X^G]dTAm3
@@ -235,8 +235,8 @@ R8
 R9
 !i10b 1
 R10
-Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Counter_nbitEN.vhd|
-Z35 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Counter_nbitEN.vhd|
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Counter_nbitEN.vhd|
+Z37 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Counter_nbitEN.vhd|
 !i113 1
 R13
 R14
@@ -254,20 +254,20 @@ R8
 R9
 !i10b 1
 R10
-R34
-R35
+R36
+R37
 !i113 1
 R13
 R14
 Edatatransfer
-R15
-R1
+R21
+R20
 R2
 R3
 R4
 R5
-Z36 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/DataTransfer.vhd
-Z37 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/DataTransfer.vhd
+Z38 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/DataTransfer.vhd
+Z39 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/DataTransfer.vhd
 l0
 L9
 V5>KDiVnj5hS5i0?C8gzHC3
@@ -277,13 +277,13 @@ R8
 R9
 !i10b 1
 R10
-Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/DataTransfer.vhd|
-Z39 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/DataTransfer.vhd|
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/DataTransfer.vhd|
+Z41 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/DataTransfer.vhd|
 !i113 1
 R13
 R14
 Abehavioural
-R1
+R20
 R2
 R3
 R4
@@ -297,20 +297,20 @@ R8
 R9
 !i10b 1
 R10
-R38
-R39
+R40
+R41
 !i113 1
 R13
 R14
 Ede10bldaq_top
-R15
-R1
+R21
+R20
 R2
 R3
 R4
 R5
-Z40 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/DE10BLDAQ_TOP.vhd
-Z41 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/DE10BLDAQ_TOP.vhd
+Z42 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/DE10BLDAQ_TOP.vhd
+Z43 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/DE10BLDAQ_TOP.vhd
 l0
 L11
 VV:4AP1ghkld^1?N5]i:k]0
@@ -320,17 +320,17 @@ R8
 R9
 !i10b 1
 R10
-Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/DE10BLDAQ_TOP.vhd|
-Z43 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/DE10BLDAQ_TOP.vhd|
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/DE10BLDAQ_TOP.vhd|
+Z45 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/DE10BLDAQ_TOP.vhd|
 !i113 1
 R13
 R14
 Astructural
-Z44 DEx4 work 11 longerpulse 0 22 3ZPJ10jB1JH`<ZoR2zHNb0
-Z45 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z46 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-Z47 DEx4 work 8 debounce 0 22 0dJ<WhcW@dmTzMmcL0ig11
-R1
+Z46 DEx4 work 11 longerpulse 0 22 3ZPJ10jB1JH`<ZoR2zHNb0
+Z47 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z48 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z49 DEx4 work 8 debounce 0 22 0dJ<WhcW@dmTzMmcL0ig11
+R20
 R2
 R3
 R4
@@ -344,20 +344,20 @@ R8
 R9
 !i10b 1
 R10
-R42
-R43
+R44
+R45
 !i113 1
 R13
 R14
 Edebounce
-R15
-R45
-R46
+R21
+R47
+R48
 R3
 R4
 R5
-Z48 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Debounce.vhd
-Z49 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Debounce.vhd
+Z50 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Debounce.vhd
+Z51 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Debounce.vhd
 l0
 L9
 V0dJ<WhcW@dmTzMmcL0ig11
@@ -367,17 +367,17 @@ R8
 R9
 !i10b 1
 R10
-Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Debounce.vhd|
-Z51 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Debounce.vhd|
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Debounce.vhd|
+Z53 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Debounce.vhd|
 !i113 1
 R13
 R14
 Alogic
-R45
-R46
+R47
+R48
 R3
 R4
-R47
+R49
 l23
 L19
 VR3YH[RY4iWE`FHCJHc=g43
@@ -387,20 +387,20 @@ R8
 R9
 !i10b 1
 R10
-R50
-R51
+R52
+R53
 !i113 1
 R13
 R14
 Edetectorsimulator
-Z52 w1644075183
-R1
+Z54 w1644075183
+R20
 R2
 R3
 R4
 R5
-Z53 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/DetectorSimulator.vhd
-Z54 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/DetectorSimulator.vhd
+Z55 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/DetectorSimulator.vhd
+Z56 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/DetectorSimulator.vhd
 l0
 L13
 V7F6Km^bR]]YA[gh3OE[f41
@@ -410,13 +410,13 @@ R8
 R9
 !i10b 1
 R10
-Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/DetectorSimulator.vhd|
-Z56 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/DetectorSimulator.vhd|
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/DetectorSimulator.vhd|
+Z58 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/DetectorSimulator.vhd|
 !i113 1
 R13
 R14
 Aalgorithm
-R1
+R20
 R2
 R3
 R4
@@ -430,19 +430,19 @@ R8
 R9
 !i10b 1
 R10
-R55
-R56
+R57
+R58
 !i113 1
 R13
 R14
 Eevent_data_to_ddr3
-R15
+R21
 R2
 R3
 R4
 R5
-Z57 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Event_data_to_DDR3.vhd
-Z58 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Event_data_to_DDR3.vhd
+Z59 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Event_data_to_DDR3.vhd
+Z60 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Event_data_to_DDR3.vhd
 l0
 L10
 VU5UME6Ooea37HmlfP0:jc3
@@ -452,8 +452,8 @@ R8
 R9
 !i10b 1
 R10
-Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Event_data_to_DDR3.vhd|
-Z60 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Event_data_to_DDR3.vhd|
+Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Event_data_to_DDR3.vhd|
+Z62 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Event_data_to_DDR3.vhd|
 !i113 1
 R13
 R14
@@ -471,20 +471,20 @@ R8
 R9
 !i10b 1
 R10
-R59
-R60
+R61
+R62
 !i113 1
 R13
 R14
 Eeventbuilder
-R15
-R1
+R21
+R20
 R2
 R3
 R4
 R5
-Z61 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/EventBuilder.vhd
-Z62 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/EventBuilder.vhd
+Z63 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/EventBuilder.vhd
+Z64 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/EventBuilder.vhd
 l0
 L23
 VhdniKJz61U;i4FZ=35jf92
@@ -494,13 +494,13 @@ R8
 R9
 !i10b 1
 R10
-Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/EventBuilder.vhd|
-Z64 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/EventBuilder.vhd|
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/EventBuilder.vhd|
+Z66 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/EventBuilder.vhd|
 !i113 1
 R13
 R14
 Aalgorithm
-R1
+R20
 R2
 R3
 R4
@@ -514,18 +514,18 @@ R8
 R9
 !i10b 1
 R10
-R63
-R64
+R65
+R66
 !i113 1
 R13
 R14
 Eeventfifo
-R15
+R21
 R3
 R4
 R5
-Z65 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/EventFifo.vhd
-Z66 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/EventFifo.vhd
+Z67 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/EventFifo.vhd
+Z68 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/EventFifo.vhd
 l0
 L42
 VolBPKV8@LbC=dlX2hgV<o1
@@ -535,8 +535,8 @@ R8
 R9
 !i10b 1
 R10
-Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/EventFifo.vhd|
-Z68 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/EventFifo.vhd|
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/EventFifo.vhd|
+Z70 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/EventFifo.vhd|
 !i113 1
 R13
 R14
@@ -553,18 +553,18 @@ R8
 R9
 !i10b 1
 R10
-R67
-R68
+R69
+R70
 !i113 1
 R13
 R14
 Efiforx
-R15
+R21
 R3
 R4
 R5
-Z69 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FifoRX.vhd
-Z70 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FifoRX.vhd
+Z71 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FifoRX.vhd
+Z72 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FifoRX.vhd
 l0
 L42
 V0CWaTaeUMZhhR0MmXYk5R1
@@ -574,8 +574,8 @@ R8
 R9
 !i10b 1
 R10
-Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FifoRX.vhd|
-Z72 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FifoRX.vhd|
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FifoRX.vhd|
+Z74 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FifoRX.vhd|
 !i113 1
 R13
 R14
@@ -592,18 +592,18 @@ R8
 R9
 !i10b 1
 R10
-R71
-R72
+R73
+R74
 !i113 1
 R13
 R14
 Efifotx
-R15
+R21
 R3
 R4
 R5
-Z73 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FifoTX.vhd
-Z74 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FifoTX.vhd
+Z75 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FifoTX.vhd
+Z76 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FifoTX.vhd
 l0
 L42
 V9R@WccFEPE7gACGe6:k1l1
@@ -613,8 +613,8 @@ R8
 R9
 !i10b 1
 R10
-Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FifoTX.vhd|
-Z76 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FifoTX.vhd|
+Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FifoTX.vhd|
+Z78 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FifoTX.vhd|
 !i113 1
 R13
 R14
@@ -631,20 +631,20 @@ R8
 R9
 !i10b 1
 R10
-R75
-R76
+R77
+R78
 !i113 1
 R13
 R14
 Efourframereceiver
-R15
-R1
+R21
+R20
 R2
 R3
 R4
 R5
-Z77 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FourFrameReceiver.vhd
-Z78 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FourFrameReceiver.vhd
+Z79 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FourFrameReceiver.vhd
+Z80 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FourFrameReceiver.vhd
 l0
 L6
 VDA4;mbk?l^2f6`G;=@5zi3
@@ -654,13 +654,13 @@ R8
 R9
 !i10b 1
 R10
-Z79 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FourFrameReceiver.vhd|
-Z80 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FourFrameReceiver.vhd|
+Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FourFrameReceiver.vhd|
+Z82 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FourFrameReceiver.vhd|
 !i113 1
 R13
 R14
 Astructural
-R1
+R20
 R2
 R3
 R4
@@ -674,19 +674,19 @@ R8
 R9
 !i10b 1
 R10
-R79
-R80
+R81
+R82
 !i113 1
 R13
 R14
 Eframedpram
-R15
-Z81 DPx9 altera_mf 20 altera_mf_components 0 22 m2K6F5NmQKkFhQa^^]15g3
+R21
+Z83 DPx9 altera_mf 20 altera_mf_components 0 22 m2K6F5NmQKkFhQa^^]15g3
 R3
 R4
 R5
-Z82 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameDPRam.vhd
-Z83 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameDPRam.vhd
+Z84 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameDPRam.vhd
+Z85 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameDPRam.vhd
 l0
 L42
 V^N63BC[Cl7G]BDE7@PTAD1
@@ -696,13 +696,13 @@ R8
 R9
 !i10b 1
 R10
-Z84 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameDPRam.vhd|
-Z85 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameDPRam.vhd|
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameDPRam.vhd|
+Z87 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameDPRam.vhd|
 !i113 1
 R13
 R14
 Asyn
-R81
+R83
 R3
 R4
 DEx4 work 10 framedpram 0 22 ^N63BC[Cl7G]BDE7@PTAD1
@@ -715,18 +715,18 @@ R8
 R9
 !i10b 1
 R10
-R84
-R85
+R86
+R87
 !i113 1
 R13
 R14
 Eframefifo
-R15
+R21
 R3
 R4
 R5
-Z86 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameFifo.vhd
-Z87 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameFifo.vhd
+Z88 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameFifo.vhd
+Z89 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameFifo.vhd
 l0
 L42
 V28KBHL`7ZaI@c>JQ@m7X22
@@ -736,8 +736,8 @@ R8
 R9
 !i10b 1
 R10
-Z88 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameFifo.vhd|
-Z89 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameFifo.vhd|
+Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameFifo.vhd|
+Z91 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameFifo.vhd|
 !i113 1
 R13
 R14
@@ -754,20 +754,20 @@ R8
 R9
 !i10b 1
 R10
-R88
-R89
+R90
+R91
 !i113 1
 R13
 R14
 Eframepointermemory
-R15
-R1
+R21
+R20
 R2
 R3
 R4
 R5
-Z90 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FramePointerMemory.vhd
-Z91 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FramePointerMemory.vhd
+Z92 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FramePointerMemory.vhd
+Z93 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FramePointerMemory.vhd
 l0
 L21
 VY4df7XRlg9UE_kM3@B1@S2
@@ -777,13 +777,13 @@ R8
 R9
 !i10b 1
 R10
-Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FramePointerMemory.vhd|
-Z93 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FramePointerMemory.vhd|
+Z94 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FramePointerMemory.vhd|
+Z95 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FramePointerMemory.vhd|
 !i113 1
 R13
 R14
 Aalgorithm
-R1
+R20
 R2
 R3
 R4
@@ -797,30 +797,30 @@ R8
 R9
 !i10b 1
 R10
-R92
-R93
+R94
+R95
 !i113 1
 R13
 R14
 Eframereceiver
-R15
+R21
 R2
 R3
 R4
 R5
-Z94 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameReceiver.vhd
-Z95 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameReceiver.vhd
+Z96 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameReceiver.vhd
+Z97 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameReceiver.vhd
 l0
 L6
 V4dXE5UIJ[0[X]eEScR3Xj3
 !s100 2E?lKKKdN0L[NK1K@>W9@0
 R8
 32
-R9
+Z98 !s110 1644169027
 !i10b 1
 R10
-Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameReceiver.vhd|
-Z97 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameReceiver.vhd|
+Z99 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameReceiver.vhd|
+Z100 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameReceiver.vhd|
 !i113 1
 R13
 R14
@@ -835,33 +835,33 @@ VEPcVYm_`f7gijAXT:06bi1
 !s100 M<8:m0LOL8ML<@6o;X_hT1
 R8
 32
-R9
+R98
 !i10b 1
 R10
-R96
-R97
+R99
+R100
 !i113 1
 R13
 R14
 Eframesimulator
-Z98 w1644075182
+Z101 w1644075182
 R2
 R3
 R4
 R5
-Z99 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameSimulator.vhd
-Z100 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameSimulator.vhd
+Z102 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameSimulator.vhd
+Z103 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameSimulator.vhd
 l0
 L12
 V5[mPG`Ee0Jn@CL_]R1FXY3
 !s100 z`]Y]6KiR1R2ZHAIlO[_]2
 R8
 32
-R9
+R98
 !i10b 1
-R10
-Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameSimulator.vhd|
-Z102 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameSimulator.vhd|
+Z104 !s108 1644169027.000000
+Z105 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameSimulator.vhd|
+Z106 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameSimulator.vhd|
 !i113 1
 R13
 R14
@@ -876,32 +876,32 @@ V>ZPHz_Tzb[Sa]G1GDYeCi3
 !s100 h1g`zRP84;B4kS613mD[51
 R8
 32
-R9
+R98
 !i10b 1
-R10
-R101
-R102
+R104
+R105
+R106
 !i113 1
 R13
 R14
 Eframesizefifo
-R15
+R21
 R3
 R4
 R5
-Z103 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameSizeFifo.vhd
-Z104 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameSizeFifo.vhd
+Z107 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameSizeFifo.vhd
+Z108 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameSizeFifo.vhd
 l0
 L42
 VKC8TH`9gL2S<HU3`6M;[F3
 !s100 E13=WSVP=WnFocFGF:6@a2
 R8
 32
-R9
+R98
 !i10b 1
-R10
-Z105 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameSizeFifo.vhd|
-Z106 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameSizeFifo.vhd|
+R104
+Z109 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameSizeFifo.vhd|
+Z110 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameSizeFifo.vhd|
 !i113 1
 R13
 R14
@@ -915,33 +915,33 @@ V1P8D:<<T7NY`1f@<WD4c?0
 !s100 7EbPFKTo>PT6ALa4GLdZM2
 R8
 32
-R9
+R98
 !i10b 1
-R10
-R105
-R106
+R104
+R109
+R110
 !i113 1
 R13
 R14
 Einsigncontrol
-R15
+R21
 R2
 R3
 R4
 R5
-Z107 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/InSignControl.vhd
-Z108 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/InSignControl.vhd
+Z111 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/InSignControl.vhd
+Z112 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/InSignControl.vhd
 l0
 L7
 VXelich]_f=JFozCdP5`dW1
 !s100 ]<8l4UQ@k3[XQmAM<oIO12
 R8
 32
-R9
+R98
 !i10b 1
-R10
-Z109 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/InSignControl.vhd|
-Z110 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/InSignControl.vhd|
+R104
+Z113 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/InSignControl.vhd|
+Z114 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/InSignControl.vhd|
 !i113 1
 R13
 R14
@@ -956,22 +956,22 @@ VK`GLGJV^RO_HdQMJe3PkR1
 !s100 D@1Ch4C2eP]NA@F>aKZcE1
 R8
 32
-R9
+R98
 !i10b 1
-R10
-R109
-R110
+R104
+R113
+R114
 !i113 1
 R13
 R14
 vIOFifosControl
-R9
+R98
 !i10b 1
 !s100 X@<KD1E[]Cc8k]OjZoGd_2
 Igk?Y:0OHJ_h6HQWg3BF5A1
 VDg1SIo80bB@j0V0VzS_@n1
 R5
-R15
+R21
 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/IOFifosControl.v
 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/IOFifosControl.v
 L0 2
@@ -979,7 +979,7 @@ OV;L;10.5b;63
 r1
 !s85 0
 31
-R10
+R104
 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/IOFifosControl.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/IOFifosControl.v|
 !i113 1
@@ -987,30 +987,30 @@ o-work work
 tCvgOpt 0
 n@i@o@fifos@control
 Elocal_rxtx
-R15
-R1
+R21
+R20
 R2
 R3
 R4
 R5
-Z111 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Local_RXTX.vhd
-Z112 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Local_RXTX.vhd
+Z115 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Local_RXTX.vhd
+Z116 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Local_RXTX.vhd
 l0
 L6
 VYz4TK@:=A=m0CH?]K8n3]2
 !s100 U1i=:j7oX?=41@6DnA;L>0
 R8
 32
-R9
+R98
 !i10b 1
-R10
-Z113 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Local_RXTX.vhd|
-Z114 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Local_RXTX.vhd|
+R104
+Z117 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Local_RXTX.vhd|
+Z118 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Local_RXTX.vhd|
 !i113 1
 R13
 R14
 Adescription
-R1
+R20
 R2
 R3
 R4
@@ -1021,82 +1021,82 @@ VE>L2_DG?:_=COVI^3^3oA2
 !s100 RN;FH;`FZ_SS[<KmnH_J01
 R8
 32
-R9
+R98
 !i10b 1
-R10
-R113
-R114
+R104
+R117
+R118
 !i113 1
 R13
 R14
 Elongerpulse
-R15
-R45
-R46
+R21
+R47
+R48
 R3
 R4
 R5
-Z115 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/LongerPulse.vhd
-Z116 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/LongerPulse.vhd
+Z119 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/LongerPulse.vhd
+Z120 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/LongerPulse.vhd
 l0
 L9
 V3ZPJ10jB1JH`<ZoR2zHNb0
 !s100 ;CPdFnFQCKJ_hNI?f4gan0
 R8
 32
-R9
+R98
 !i10b 1
-R10
-Z117 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/LongerPulse.vhd|
-Z118 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/LongerPulse.vhd|
+R104
+Z121 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/LongerPulse.vhd|
+Z122 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/LongerPulse.vhd|
 !i113 1
 R13
 R14
 Alogic
-R45
-R46
+R47
+R48
 R3
 R4
-R44
+R46
 l22
 L20
 V?F@2fcX4lJ<@4mjPzAa7k2
 !s100 1Cm8VYl2d<E_HhT^m37M;1
 R8
 32
-R9
+R98
 !i10b 1
-R10
-R117
-R118
+R104
+R121
+R122
 !i113 1
 R13
 R14
 Emain_fsm
-R15
-R1
+R21
+R20
 R2
 R3
 R4
 R5
-Z119 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Main_FSM.vhd
-Z120 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Main_FSM.vhd
+Z123 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Main_FSM.vhd
+Z124 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Main_FSM.vhd
 l0
 L7
 V>PiHc0i?;[25`f3[Ea48W0
 !s100 kRQB0DaV7IMCdY2a76jJg2
 R8
 32
-R9
+R98
 !i10b 1
-R10
-Z121 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Main_FSM.vhd|
-Z122 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Main_FSM.vhd|
+R104
+Z125 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Main_FSM.vhd|
+Z126 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Main_FSM.vhd|
 !i113 1
 R13
 R14
 Abehavioral
-R1
+R20
 R2
 R3
 R4
@@ -1107,33 +1107,33 @@ VE2D0JL6dk>mlk70a@`4OZ1
 !s100 W?Q<X;[>e3TgEfk]@0fdQ0
 R8
 32
-R9
+R98
 !i10b 1
-R10
-R121
-R122
+R104
+R125
+R126
 !i113 1
 R13
 R14
 Erandom_generator
-R15
+R21
 R2
 R3
 R4
 R5
-Z123 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Random_generator.vhd
-Z124 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Random_generator.vhd
+Z127 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Random_generator.vhd
+Z128 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Random_generator.vhd
 l0
 L5
 VR;QhMC]loL^YJ>S@Do;283
 !s100 oN2A;1dW?Fkcf1?j4G:EQ1
 R8
 32
-R9
+R98
 !i10b 1
-R10
-Z125 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Random_generator.vhd|
-Z126 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Random_generator.vhd|
+R104
+Z129 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Random_generator.vhd|
+Z130 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Random_generator.vhd|
 !i113 1
 R13
 R14
@@ -1148,39 +1148,39 @@ Vze5Gj9l;7F:ag5aSMej:73
 !s100 7<>ZceA5Z_>GgcDBDcG443
 R8
 32
-R9
+R98
 !i10b 1
-R10
-R125
-R126
+R104
+R129
+R130
 !i113 1
 R13
 R14
 Eregister_file
-R15
-R1
+R21
+R20
 R2
 R3
 R4
 R5
-Z127 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Register_File.vhd
-Z128 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Register_File.vhd
+Z131 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Register_File.vhd
+Z132 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Register_File.vhd
 l0
 L6
 V_`P`RZ>H`bPRJ0<N<NgZd1
 !s100 V03MYEcVHQJEdQMlMeD0m0
 R8
 32
-Z129 !s110 1644155430
+R98
 !i10b 1
-R10
-Z130 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Register_File.vhd|
-Z131 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Register_File.vhd|
+R104
+Z133 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Register_File.vhd|
+Z134 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Register_File.vhd|
 !i113 1
 R13
 R14
 Abehavior
-R1
+R20
 R2
 R3
 R4
@@ -1191,33 +1191,33 @@ V]g^nM?]@XBD_Nm2`WaYLH1
 !s100 NdGLSJ`ONY;8=;mVU7[lF2
 R8
 32
-R129
+R98
 !i10b 1
-R10
-R130
-R131
+R104
+R133
+R134
 !i113 1
 R13
 R14
 Erisingedge_counter
-R15
+R21
 R2
 R3
 R4
 R5
-Z132 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/RisingEdge_Counter.vhd
-Z133 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/RisingEdge_Counter.vhd
+Z135 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/RisingEdge_Counter.vhd
+Z136 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/RisingEdge_Counter.vhd
 l0
 L8
 VhHQZj;TWiDdi?[MPBCc?d2
 !s100 WF]4jYkBL1hiGAO<AK6KW0
 R8
 32
-R129
+R98
 !i10b 1
-Z134 !s108 1644155430.000000
-Z135 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/RisingEdge_Counter.vhd|
-Z136 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/RisingEdge_Counter.vhd|
+R104
+Z137 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/RisingEdge_Counter.vhd|
+Z138 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/RisingEdge_Counter.vhd|
 !i113 1
 R13
 R14
@@ -1232,33 +1232,33 @@ VWk7F4FEKXV1?LD0Mn1XEN1
 !s100 AaUd`JN6Q>SR=EGB64TfC2
 R8
 32
-R129
+R98
 !i10b 1
-R134
-R135
-R136
+R104
+R137
+R138
 !i113 1
 R13
 R14
 Estreamselector
-R15
+R21
 R2
 R3
 R4
 R5
-Z137 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/StreamSelector.vhd
-Z138 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/StreamSelector.vhd
+Z139 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/StreamSelector.vhd
+Z140 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/StreamSelector.vhd
 l0
 L5
 V=:>oZTK_zKe;B>L_nYC9n0
 !s100 g8TH?7]O:Aj0?MPd6N9jK3
 R8
 32
-R129
+R98
 !i10b 1
-R134
-Z139 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/StreamSelector.vhd|
-Z140 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/StreamSelector.vhd|
+R104
+Z141 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/StreamSelector.vhd|
+Z142 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/StreamSelector.vhd|
 !i113 1
 R13
 R14
@@ -1273,33 +1273,33 @@ VkQXY]5<@dZl>7OZo4N>4`2
 !s100 ^gW<E=2X=U;3ec5hG5QR[0
 R8
 32
-R129
+R98
 !i10b 1
-R134
-R139
-R140
+R104
+R141
+R142
 !i113 1
 R13
 R14
 Etimestampgenerator
-R15
+R21
 R2
 R3
 R4
 R5
-Z141 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/TimeStampGenerator.vhd
-Z142 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/TimeStampGenerator.vhd
+Z143 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/TimeStampGenerator.vhd
+Z144 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/TimeStampGenerator.vhd
 l0
 L5
 Vnja?RNYZ`T>7oAdezA8=;3
 !s100 34E9lC?TMA@iS7DP@U99z3
 R8
 32
-R129
+R98
 !i10b 1
-R134
-Z143 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/TimeStampGenerator.vhd|
-Z144 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/TimeStampGenerator.vhd|
+R104
+Z145 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/TimeStampGenerator.vhd|
+Z146 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/TimeStampGenerator.vhd|
 !i113 1
 R13
 R14
@@ -1314,32 +1314,32 @@ VdhCa_h[Km3eQf74bHJn_10
 !s100 gO9;>4gWDgV13]Bh:ahcG2
 R8
 32
-R129
+R98
 !i10b 1
-R134
-R143
-R144
+R104
+R145
+R146
 !i113 1
 R13
 R14
 Etransferbuffer
-R15
+R21
 R3
 R4
 R5
-Z145 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/TransferBuffer.vhd
-Z146 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/TransferBuffer.vhd
+Z147 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/TransferBuffer.vhd
+Z148 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/TransferBuffer.vhd
 l0
 L42
 V3Gk7m[1H2W?C9LVLV3CR70
 !s100 J51b=56Mg@S5PjEon]3762
 R8
 32
-R129
+R98
 !i10b 1
-R134
-Z147 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/TransferBuffer.vhd|
-Z148 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/TransferBuffer.vhd|
+R104
+Z149 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/TransferBuffer.vhd|
+Z150 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/TransferBuffer.vhd|
 !i113 1
 R13
 R14
@@ -1353,32 +1353,32 @@ VTaU6]<003dW@SROcfJ_XO2
 !s100 m?_<@_EzCflDi^AK;[kPc2
 R8
 32
-R129
+R98
 !i10b 1
-R134
-R147
-R148
+R104
+R149
+R150
 !i113 1
 R13
 R14
 Etrgfifo
-R15
+R21
 R3
 R4
 R5
-Z149 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/TrgFifo.vhd
-Z150 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/TrgFifo.vhd
+Z151 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/TrgFifo.vhd
+Z152 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/TrgFifo.vhd
 l0
 L42
 VN:6EHD`MQ?j>HgOQMOMCJ2
 !s100 `ZNVC2HSaLBz^^5Z>UUFQ0
 R8
 32
-R129
+R98
 !i10b 1
-R134
-Z151 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/TrgFifo.vhd|
-Z152 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/TrgFifo.vhd|
+R104
+Z153 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/TrgFifo.vhd|
+Z154 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/TrgFifo.vhd|
 !i113 1
 R13
 R14
@@ -1392,22 +1392,22 @@ Vmm9zgIfje1DRldIaOZXVK1
 !s100 ilQ`G1gN2V3R9X=M9O]X53
 R8
 32
-R129
+R98
 !i10b 1
-R134
-R151
-R152
+R104
+R153
+R154
 !i113 1
 R13
 R14
 Etrigger_candidate
-Z153 w1644072601
+Z155 w1644072601
 R2
 R3
 R4
 R5
-Z154 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Trigger_Candidate.vhd
-Z155 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Trigger_Candidate.vhd
+Z156 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Trigger_Candidate.vhd
+Z157 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Trigger_Candidate.vhd
 l0
 L5
 VP`Z0TISANzjD9ZV:iJ_090
@@ -1417,8 +1417,8 @@ R8
 R9
 !i10b 1
 R10
-Z156 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Trigger_Candidate.vhd|
-Z157 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Trigger_Candidate.vhd|
+Z158 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Trigger_Candidate.vhd|
+Z159 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Trigger_Candidate.vhd|
 !i113 1
 R13
 R14
@@ -1436,30 +1436,30 @@ R8
 R9
 !i10b 1
 R10
-R156
-R157
+R158
+R159
 !i113 1
 R13
 R14
 Etrigger_control
-R15
+R21
 R2
 R3
 R4
 R5
-Z158 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Trigger_Control.vhd
-Z159 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Trigger_Control.vhd
+Z160 8/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Trigger_Control.vhd
+Z161 F/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Trigger_Control.vhd
 l0
 L5
 V;DNKPGNfE0k1zAJ0MS`^L1
 !s100 SFkdTAUYdbF5XG<Wa8ddg2
 R8
 32
-R129
+R98
 !i10b 1
-R134
-Z160 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Trigger_Control.vhd|
-Z161 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Trigger_Control.vhd|
+R104
+Z162 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Trigger_Control.vhd|
+Z163 !s107 /home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Trigger_Control.vhd|
 !i113 1
 R13
 R14
@@ -1467,18 +1467,18 @@ Astructural
 R2
 R3
 R4
-Z162 DEx4 work 15 trigger_control 0 22 ;DNKPGNfE0k1zAJ0MS`^L1
+Z164 DEx4 work 15 trigger_control 0 22 ;DNKPGNfE0k1zAJ0MS`^L1
 l110
 L48
-Z163 VYk@_LB13Jf[N@3_<ZnEf02
-Z164 !s100 4PH`>kTT=^`8fC8SWgJkV2
+Z165 VYk@_LB13Jf[N@3_<ZnEf02
+Z166 !s100 4PH`>kTT=^`8fC8SWgJkV2
 R8
 32
-R129
+R98
 !i10b 1
-R134
-R160
-R161
+R104
+R162
+R163
 !i113 1
 R13
 R14
