@@ -4,7 +4,7 @@
 #include <vector>
 #include <time.h>
 #include <unistd.h>
-#include "FPGAInterface.h"
+#include "FpgaInterface.h"
 
 using namespace std;
 
