@@ -64,7 +64,7 @@ architecture algorithm of DetectorSimulator is
   --signal nReset <= not Reset;
   signal seme: std_logic_vector(15 downto 0) := x"CA03";
   signal soglia: std_logic_vector(15 downto 0):=x"0060";
-  signal Trigger : std_logic := '0';
+  signal Trigger : std_logic_vector(N_Sensors-1 downto 0) :="0000";
 
 
 
@@ -85,7 +85,7 @@ begin
         port map (
 		  Clock => Clock,
 	      Reset => Reset,
-        Trigger => Trigger,
+        Trigger => Trigger(i),
 	      Data_Stream => Data_Streams(i),
 	      Data_Valid => Data_Valid(i),
 	      EndOfEvent => EndOfEvent(i)
@@ -104,8 +104,11 @@ begin
               nReset => "not"(Reset),
               seme =>seme,
               soglia =>soglia,
-              onoff => Trigger);
+              onoff => Trigger(0));
            
 
 
 end architecture;
+
+
+-- in this way, trigger is sent just to 1 sensor
