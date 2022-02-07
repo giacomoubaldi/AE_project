@@ -18,7 +18,7 @@
 # 16 compiles, 0 failed with no errors.
 do simu.do
 # vsim -t 1ns work.tb 
-# Start time: 19:14:21 on Feb 06,2022
+# Start time: 10:34:28 on Feb 07,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -1049,5 +1049,5 @@ do simu.do
 #    Time: 5160 ns  Iteration: 0  Instance: /tb/DUT2/SS
 # ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
 #    Time: 5160 ns  Iteration: 0  Instance: /tb/DUT2/SS
-# End time: 19:15:40 on Feb 06,2022, Elapsed time: 0:01:19
+# End time: 10:47:16 on Feb 07,2022, Elapsed time: 0:12:48
 # Errors: 0, Warnings: 508

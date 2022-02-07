@@ -97,15 +97,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity StreamSelector
 -- Compiling architecture behavior of StreamSelector
 
-} {} {}} {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Random_generator.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Random_generator.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity Random_generator
--- Compiling architecture behavior of Random_generator
-
 } {} {}} {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/simulation/TriggerCandidate Simulator/TBFourSimulator.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/simulation/TriggerCandidate Simulator/TBFourSimulator.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -116,14 +107,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity TB
 -- Compiling architecture bench of TB
 
-} {} {}} {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameReceiver.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameReceiver.vhd}
+} {} {}} {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Random_generator.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Random_generator.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity FrameReceiver
--- Compiling architecture algorithm of FrameReceiver
+-- Compiling entity Random_generator
+-- Compiling architecture behavior of Random_generator
 
 } {} {}} {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Trigger_Candidate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/Trigger_Candidate.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -133,6 +124,15 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package NUMERIC_STD
 -- Compiling entity Trigger_Candidate
 -- Compiling architecture algo of Trigger_Candidate
+
+} {} {}} {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameReceiver.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/FrameReceiver.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity FrameReceiver
+-- Compiling architecture algorithm of FrameReceiver
 
 } {} {}} {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/BLDAQ_Module.vhd} {1 {vcom -work work -2002 -explicit -stats=none {/home/giacomo/Scrivania/progetto elettronica/AE_project/AE_project/DE10Std_BLDAQ/src/BLDAQ_Module.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
